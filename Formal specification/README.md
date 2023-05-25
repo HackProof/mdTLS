@@ -16,5 +16,5 @@ Handshake phase is responsible for establishing a secure connection among entiti
 - MB Server Finished
 - Client Complete
 ### Record phase
-Record phase is responsible for data exchange in secure connection when established in handshake phase. It consists of only 1 step and also specified in forms of "rules"
+Record phase is responsible for data exchange in secure connection when established in handshake phase. It consists of only 1 step and also specified in forms of "rules".
 -MB Server Reply Modification
