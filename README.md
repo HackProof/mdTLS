@@ -19,12 +19,14 @@ Server generates its certificate as in original TLS.
 - Client and server sends request and response with Modification Log, as maTLS, to check whether payload has been changed while being transmission.
 
 ## Security Evaluation
-We verified that our proposal meets newly defined security goals as well as those verified by maTLS.
-We used [Tamarin prover](http://tamarin-prover.github.io/) to evaluate security of mdTLS, and we verified that the mdTLS protocol meets the security goals: *Authentication*, *Secrecy*, and *Integrity*.
+We verified that our proposal meets newly defined security goals as well as those verified by maTLS by using [Tamarin prover](http://tamarin-prover.github.io/).
+Verification results and experiment environment are shown in below.
 
+### Experiment set-up
+- Amazon Elastic Compute Cloud(Amazon EC2)
+  - Ubuntu 22.04 LTS
+  - 96 vCPUs
+  - 192 GiB Memories
 ### Results of verifications
-On AWS EC2 c5a.24xlarge instance, verifying all lemmas takes 96 minutes in command mode.
-- 96 vCPUs, 192 GiB Memories
-- Ubuntu 22.05.2 LTS
-  #### > Command mode
    ![mdTLS_tamarin_verified_command](https://github.com/thyun1121/mdTLS/assets/18222806/2483cdb3-01aa-4cb2-89e0-967197897642)
+
