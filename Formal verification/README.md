@@ -1,6 +1,6 @@
 ## Formal Verification
 We defined nine security lemmas and one source lemma for security verification.
-Six security lemmas are from maTLS and three other security lemmas are newly added to prove the security property of proxy signature. They are defined as first-order logic-based formulas called lemma. If Tamarin failed to verify the lemmas, it would generate a graph showing a trace that leads to the contradiction. After succeeding to verify lemmas, we capture screenshots for each lemmas.  
+Six security lemmas are from maTLS and three other security lemmas are newly added to prove the security property of proxy signature. They are defined as first-order logic-based formulas called lemma. If Tamarin failed to verify the lemmas, it would generate a graph showing a trace that leads to the contradiction. After succeeding to verify lemmas, we capture the results of formal verification for each lemmas.  
 > **※ Commands for verification**
 > > ✓   To prove all lemmas in theory, execute command `$ tamarin-prover --prove mdTLS.spthy` in command mode  
 > > ✓   To prove all lemmas in theory, execute command `$ tamarin-prover interactive mdTLS.spthy` in GUI(interactive) mode, then redirect your browser to http://localhost:3001  
