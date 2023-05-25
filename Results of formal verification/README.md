@@ -1,4 +1,4 @@
-## What we verified in Lemma
+## Formally verified security goals
   ### - Server Authentication
    If the client and server share the same nonce value after the handshake is completed, the client believes the server is authenticated
  
