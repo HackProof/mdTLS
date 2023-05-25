@@ -22,17 +22,6 @@ Server generates its certificate as in original TLS.
 We verified that our proposal meets newly defined security goals as well as those verified by maTLS.
 We used [Tamarin prover](http://tamarin-prover.github.io/) to evaluate security of mdTLS, and we verified that the mdTLS protocol meets the security goals: *Authentication*, *Secrecy*, and *Integrity*.
 
-### Formal Verification
-We defined nine security lemmas and one source lemma for security verification.
-Six security lemmas are from maTLS and three other security lemmas are newly added to prove the security property of proxy signature, which are *Verifiability*, *Strong-Unforgeability*, and *Strong-Identifiability*.  They are defined as first-order logic-based formulas called lemma. If Tamarin failed to verify the lemmas, it would generate a graph showing a trace that leads to the contradiction.
-
-
-### Commands for verification
-- Command mode
-  - To prove all lemmas in theory, execute command `$ tamarin-prover --prove mdTLS.spthy`
-- Interactive mode
-  - For GUI mode, execute command `$ tamarin-prover interactive mdTLS.spthy`  then, point your browser to http://localhost:3001
-
 ### Results of verifications
 On AWS EC2 c5a.24xlarge instance, verifying all lemmas takes 96 minutes in command mode.
 - 96 vCPUs, 192 GiB Memories
