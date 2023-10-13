@@ -9,8 +9,8 @@ Server generates its certificate as in original TLS.
 3. CA issues certificate to the server with SCTs from CT Log servers.
 
 ### Stage 1. Handshake Phase
-![mdTLS_handshake_v0 4_for black background](![mdtls_handshake_ecdsa_v0 2](https://github.com/HackProof/mdTLS/assets/31889026/7437522f-bd02-4133-bc8c-25c5addc26fc)
-)
+![mdTLS_ECDSA](https://github.com/HackProof/mdTLS/assets/31889026/52616e89-3a65-4e33-8b5f-e94eeb34f268)
+
 - In mdTLS, middlebox is a proxy signer of server. Therefore, delegation process is required.
 - Since middlebox, generates its certificate by proxy signing server's certificate, we excluded MT Log server and CA for middlebox which were described in maTLS. This makes certificate generation and verification more efficient.
 - Client has to verify two types of signature, one is original signature and the other is proxy signature. In order to verify proxy signature, client needs proxy public keys, which are generated according to the proxy signature verification method.
@@ -29,5 +29,6 @@ Verification results and experiment environment are shown in below.
   - 96 vCPUs
   - 192 GiB Memories
 ### Results of verifications
-   ![mdTLS_tamarin_verified_command](https://github.com/thyun1121/mdTLS/assets/18222806/2483cdb3-01aa-4cb2-89e0-967197897642)
+![Results](https://github.com/HackProof/mdTLS/assets/31889026/f3afcf8e-26ae-4bd4-a826-31efec3a2ab9)
+
 
