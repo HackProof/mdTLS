@@ -19,6 +19,9 @@ Server generates its certificate as in original TLS.
 ![mdTLS_record_darkmode_v0 2](https://github.com/thyun1121/mdTLS/assets/18222806/f7b48a8e-af9a-4ca2-9450-c4c3857a9556)
 - Client and server sends request and response with Modification Log, as maTLS, to check whether payload has been changed while being transmission.
 
+## Performance Evaluation
+We evaluated the performance of mdTLS by conducting a comparative analysis with maTLS
+
 ## Security Evaluation
 We verified that our proposal meets newly defined security goals as well as those verified by maTLS by using [Tamarin prover](http://tamarin-prover.github.io/).
 Verification results and experiment environment are shown in below.
