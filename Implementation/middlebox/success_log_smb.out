@@ -1,0 +1,850 @@
+[DEBUG] ssl/ssl_lib.c:SSL_CTX_new:3316:: SSL new Gen mb_info 
+[DEBUG] ssl/ssl_lib.c:SSL_CTX_new:3321:: SSL new Gen mb_info 
+[DEBUG] ssl/ssl_lib.c:SSL_CTX_callback_ctrl:2531:Before sni_callback
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 0
+[DEBUG] smb.c:mb_run:229:: is mb_run Execute??
+[DEBUG] ssl/ssl_lib.c:SSL_new:861: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:864: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:871: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:878: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:906: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:909: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:911: s->mb_enabled 1
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5934: SSL_enable_mb 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5925:: Finished make keypair 
+[DEBUG] smb.c:mb_run:260: Before SSL accept
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1704:
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 1
+[DEBUG] mssl.c:sni_callback:45: thread idx: 1
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 2
+[DEBUG] mssl.c:sni_callback:45: thread idx: 2
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 3
+[DEBUG] mssl.c:sni_callback:45: thread idx: 3
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 4
+[DEBUG] mssl.c:sni_callback:45: thread idx: 4
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] ssl/ssl_lib.c:SSL_new:861: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:864: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:871: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:878: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:906: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:909: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:911: s->mb_enabled 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 1
+[DEBUG] mssl.c:run:117: #1 ssl pointer 0x7f8b1c001f00
+[DEBUG] mssl.c:run:118: #1 ssl pair pointer (server) 0x7f8b24000b70
+[DEBUG] mssl.c:run:134: Before SSL connect
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] ssl/ssl_lib.c:SSL_new:861: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:864: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:871: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:878: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:906: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:909: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:911: s->mb_enabled 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 0
+[DEBUG] mssl.c:run:117: #1 ssl pointer 0x7f8b14000ba0
+[DEBUG] mssl.c:run:118: #1 ssl pair pointer (server) 0x7f8b24000b70
+[DEBUG] mssl.c:run:134: Before SSL connect
+[DEBUG] ssl/statem/statem_clnt.c:tls_construct_client_hello:1108:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:833:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:864:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_server_name:350:: 127.0.0.1 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:46:: 
+[ERROR] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:61:: s->pair is NULL? 0
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 5
+[DEBUG] mssl.c:sni_callback:45: thread idx: 5
+[DEBUG] ssl/ssl_lib.c:SSL_new:861: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:864: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:871: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:878: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:906: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:909: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:911: s->mb_enabled 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 0
+[DEBUG] mssl.c:run:117: #1 ssl pointer 0x7f8b20000ba0
+[DEBUG] mssl.c:run:118: #1 ssl pair pointer (server) 0x7f8b24000b70
+[DEBUG] mssl.c:run:134: Before SSL connect
+[DEBUG] ssl/ssl_lib.c:SSL_new:861: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:864: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:871: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:878: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:906: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:909: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:911: s->mb_enabled 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 0
+[DEBUG] mssl.c:run:117: #1 ssl pointer 0x7f8b18000ba0
+[DEBUG] mssl.c:run:118: #1 ssl pair pointer (server) 0x7f8b24000b70
+[DEBUG] mssl.c:run:134: Before SSL connect
+[DEBUG] ssl/statem/statem_clnt.c:tls_construct_client_hello:1108:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:833:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:864:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_server_name:350:: 127.0.0.1 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:46:: 
+[ERROR] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:61:: s->pair is NULL? 0
+[DEBUG] ssl/statem/statem_clnt.c:tls_construct_client_hello:1108:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:833:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:864:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_server_name:350:: 127.0.0.1 
+[DEBUG] ssl/statem/statem_clnt.c:tls_construct_client_hello:1108:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:833:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:864:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_server_name:350:: 127.0.0.1 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:46:: 
+[ERROR] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:61:: s->pair is NULL? 0
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:46:: 
+[ERROR] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:61:: s->pair is NULL? 0
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 6
+[DEBUG] mssl.c:sni_callback:45: thread idx: 6
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 7
+[DEBUG] mssl.c:sni_callback:45: thread idx: 7
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 8
+[DEBUG] mssl.c:sni_callback:45: thread idx: 8
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 9
+[DEBUG] mssl.c:sni_callback:45: thread idx: 9
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 10
+[DEBUG] mssl.c:sni_callback:45: thread idx: 10
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 11
+[DEBUG] mssl.c:sni_callback:45: thread idx: 11
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 12
+[DEBUG] mssl.c:sni_callback:45: thread idx: 12
+[DEBUG] ssl/ssl_lib.c:SSL_new:861: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:864: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:871: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:878: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:906: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:909: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:911: s->mb_enabled 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 0
+[DEBUG] mssl.c:run:117: #1 ssl pointer 0x7f8b0c000ba0
+[DEBUG] mssl.c:run:118: #1 ssl pair pointer (server) 0x7f8b24000b70
+[DEBUG] mssl.c:run:134: Before SSL connect
+[DEBUG] ssl/statem/statem_clnt.c:tls_construct_client_hello:1108:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:833:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:864:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_server_name:350:: 127.0.0.1 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:46:: 
+[ERROR] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:61:: s->pair is NULL? 0
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 13
+[DEBUG] mssl.c:sni_callback:45: thread idx: 13
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] ssl/ssl_lib.c:SSL_new:861: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:864: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:871: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:878: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:906: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:909: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:911: s->mb_enabled 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 0
+[DEBUG] mssl.c:run:117: #1 ssl pointer 0x7f8afc000ba0
+[DEBUG] mssl.c:run:118: #1 ssl pair pointer (server) 0x7f8b24000b70
+[DEBUG] mssl.c:run:134: Before SSL connect
+[DEBUG] ssl/ssl_lib.c:SSL_new:861: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:864: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:871: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:878: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:906: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:909: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:911: s->mb_enabled 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 0
+[DEBUG] mssl.c:run:117: #1 ssl pointer 0x7f8b04000ba0
+[DEBUG] mssl.c:run:118: #1 ssl pair pointer (server) 0x7f8b24000b70
+[DEBUG] mssl.c:run:134: Before SSL connect
+[DEBUG] ssl/statem/statem_clnt.c:tls_construct_client_hello:1108:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:833:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:864:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_server_name:350:: 127.0.0.1 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:46:: 
+[ERROR] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:61:: s->pair is NULL? 0
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 14
+[DEBUG] mssl.c:sni_callback:45: thread idx: 14
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 15
+[DEBUG] mssl.c:sni_callback:45: thread idx: 15
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 16
+[DEBUG] mssl.c:sni_callback:45: thread idx: 16
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 17
+[DEBUG] mssl.c:sni_callback:45: thread idx: 17
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 18
+[DEBUG] mssl.c:sni_callback:45: thread idx: 18
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 19
+[DEBUG] mssl.c:sni_callback:45: thread idx: 19
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 20
+[DEBUG] mssl.c:sni_callback:45: thread idx: 20
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 21
+[DEBUG] mssl.c:sni_callback:45: thread idx: 21
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 22
+[DEBUG] mssl.c:sni_callback:45: thread idx: 22
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 23
+[DEBUG] mssl.c:sni_callback:45: thread idx: 23
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 24
+[DEBUG] mssl.c:sni_callback:45: thread idx: 24
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 25
+[DEBUG] mssl.c:sni_callback:45: thread idx: 25
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 26
+[DEBUG] mssl.c:sni_callback:45: thread idx: 26
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 27
+[DEBUG] mssl.c:sni_callback:45: thread idx: 27
+[DEBUG] ssl/statem/extensions.c:tls_parse_extension:714: server name indicator call back
+[DEBUG] mssl.c:sni_callback:22:
+[DEBUG] mssl.c:get_thread_index:167: ret thread: 28
+[DEBUG] mssl.c:sni_callback:45: thread idx: 28
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:188::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:232:: MB Received CH Ext Data : 
+00 49 00 17 01 01 00 41 04 AA 7D AE 46 76 5B 31 [DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:128:: Final CH ext_data of Middlebox: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+47 05 F1 74 0B FB 40 E2 6C DF E9 9B 1D C9 A4 D1 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:128:: Final CH ext_data of Middlebox: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 8D 00 17 02 01 00 41 04 AA 7D AE 46 76 5B 31 
+47 05 F1 74 0B FB 40 E2 6C DF E9 9B 1D C9 A4 D1 
+B4 CF 31 AB 55 25 83 45 B0 A9 63 2D 7E 31 EF AC 
+A3 68 51 5C 5C 26 88 2C A0 18 4A B4 F8 96 1A 58 
+6D B0 45 5C 36 57 53 DF 4E 02 00 41 04 C5 48 A9 
+26 41 E6 DB DA 0A 07 85 AE 97 31 2D 7A E2 CB 13 
+1A C4 5E F4 57 F6 33 D3 07 4F 53 87 A6 5F 53 6D 
+41 A0 BE 5A D0 7E 2C 96 FD 20 CE 19 F4 6F 10 C6 
+08 0B 29 DF 8B 8D CA 4A 6A DB 1C 2F 71 
+B4 CF 31 AB 55 25 83 45 B0 A9 63 2D 7E 31 EF AC 
+A3 68 51 5C 5C 26 88 2C A0 18 4A B4 F8 96 1A 58 
+6D B0 45 5C 36 57 53 DF 4E 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:269:: s->mb_info->key_length[CLIENT] is 65: 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:271:: s->mb_info->random[CLIENT] is : 
+04 AA 7D AE 46 76 5B 31 47 05 F1 74 0B FB 40 E2 
+6C DF E9 9B 1D C9 A4 D1 B4 CF 31 AB 55 25 83 45 
+B0 A9 63 2D 7E 31 EF AC A3 68 51 5C 5C 26 88 2C 
+A0 18 4A B4 F8 96 1A 58 6D B0 45 5C 36 57 53 DF 
+4E 
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] ssl/statem/statem_clnt.c:tls_construct_client_hello:1108:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:833:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:864:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_server_name:350:: 127.0.0.1 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:46:: 
+[ERROR] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:61:: s->pair is NULL? 0
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:128:: Final CH ext_data of Middlebox: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 8D 00 17 02 01 00 41 04 AA 7D AE 46 76 5B 31 
+47 05 F1 74 0B FB 40 E2 6C DF E9 9B 1D C9 A4 D1 
+B4 CF 31 AB 55 25 83 45 B0 A9 63 2D 7E 31 EF AC 
+A3 68 51 5C 5C 26 88 2C A0 18 4A B4 F8 96 1A 58 
+6D B0 45 5C 36 57 53 DF 4E 02 00 41 04 C5 48 A9 
+26 41 E6 DB DA 0A 07 85 AE 97 31 2D 7A E2 CB 13 
+1A C4 5E F4 57 F6 33 D3 07 4F 53 87 A6 5F 53 6D 
+41 A0 BE 5A D0 7E 2C 96 FD 20 CE 19 F4 6F 10 C6 
+08 0B 29 DF 8B 8D CA 4A 6A DB 1C 2F 71 
+
+00 8D 00 17 02 01 00 41 04 AA 7D AE 46 76 5B 31 
+47 05 F1 74 0B FB 40 E2 6C DF E9 9B 1D C9 A4 D1 
+B4 CF 31 AB 55 25 83 45 B0 A9 63 2D 7E 31 EF AC 
+A3 68 51 5C 5C 26 88 2C A0 18 4A B4 F8 96 1A 58 
+6D B0 45 5C 36 57 53 DF 4E 02 00 41 04 C5 48 A9 
+26 41 E6 DB DA 0A 07 85 AE 97 31 2D 7A E2 CB 13 
+1A C4 5E F4 57 F6 33 D3 07 4F 53 87 A6 5F 53 6D 
+41 A0 BE 5A D0 7E 2C 96 FD 20 CE 19 F4 6F 10 C6 
+08 0B 29 DF 8B 8D CA 4A 6A DB 1C 2F 71 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:128:: Final CH ext_data of Middlebox: 
+00 00 00 [DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:128:: Final CH ext_data of Middlebox: 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:128:: Final CH ext_data of Middlebox: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 8D 00 17 02 01 00 41 04 AA 7D AE 46 76 5B 31 
+47 05 F1 74 0B FB 40 E2 6C DF E9 9B 1D C9 A4 D1 
+B4 CF 31 AB 55 25 83 45 B0 A9 63 2D 7E 31 EF AC 
+A3 68 51 5C 5C 26 88 2C A0 18 4A B4 F8 96 1A 58 
+6D B0 45 5C 36 57 53 DF 4E 02 00 41 04 C5 48 A9 
+26 41 E6 DB DA 0A 07 85 AE 97 31 2D 7A E2 CB 13 
+1A C4 5E 00 F4 57 F6 33 D3 07 4F 53 87 A6 5F 53 6D 
+41 A0 BE 5A D0 7E 00 2C 96 FD 20 CE 19 F4 6F 00 10 00 00 00 00 00 00 00 C6 00 00 00 
+00 8D 00 17 02 01 
+00 41 04 AA 7D AE 46 76 5B 31 
+47 05 08 F1 74 0B FB 40 E2 6C DF E9 9B 1D C9 0B A4 D1 
+B4 CF 31 AB 55 25 83 29 45 DF 8B 8D CA 4A 6A DB 1C 2F 71 
+B0 A9 63 2D 7E 31 EF AC 
+A3 68 51 5C 5C 26 88 2C A0 18 4A B4 F8 96 1A 58 
+6D B0 45 5C 36 57 53 DF 4E 02 00 41 04 C5 48 A9 
+26 41 E6 DB DA 0A 07 85 AE 97 31 2D 7A E2 CB 13 
+1A C4 5E F4 57 F6 33 D3 07 4F [DEBUG] ssl/ssl_lib.c:SSL_new:861: Add for mdTLS 
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] ssl/ssl_lib.c:SSL_new:861: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:864: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:871: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:878: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:906: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:909: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:911: s->mb_enabled 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 0
+[DEBUG] mssl.c:run:117: #1 ssl pointer 0x7f8aec000ba0
+[DEBUG] mssl.c:run:118: #1 ssl pair pointer (server) 0x7f8b24000b70
+[DEBUG] mssl.c:run:134: Before SSL connect
+[DEBUG] ssl/ssl_lib.c:SSL_new:861: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:864: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:871: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:878: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:906: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:909: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:911: s->mb_enabled 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 0
+[DEBUG] mssl.c:run:117: #1 ssl pointer 0x7f8ae0000ba0
+[DEBUG] mssl.c:run:118: #1 ssl pair pointer (server) 0x7f8b24000b70
+[DEBUG] mssl.c:run:134: Before SSL connect
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:864: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:871: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:878: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:906: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:909: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:911: s->mb_enabled 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 0
+[DEBUG] mssl.c:run:117: #1 ssl pointer 0x7f8ae8000ba0
+[DEBUG] mssl.c:run:118: #1 ssl pair pointer (server) 0x7f8b24000b70
+[DEBUG] mssl.c:run:134: Before SSL connect
+[DEBUG] ssl/statem/statem_clnt.c:tls_construct_client_hello:1108:
+[DEBUG] ssl/ssl_lib.c:SSL_new:861: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:864: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:871: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:878: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:906: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:909: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:911: s->mb_enabled 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 0
+[DEBUG] mssl.c:run:117: #1 ssl pointer 0x7f8ae4000ba0
+[DEBUG] mssl.c:run:118: #1 ssl pair pointer (server) 0x7f8b24000b70
+[DEBUG] mssl.c:run:134: Before SSL connect
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] ssl/ssl_lib.c:SSL_new:861: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:864: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:871: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:878: Add for mdTLS 
+[DEBUG] ssl/ssl_lib.c:SSL_new:906: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:909: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_new:911: s->mb_enabled 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 1
+[DEBUG] ssl/ssl_lib.c:SSL_set_pair:4229: s_origin->pair is NULL? 0
+[DEBUG] mssl.c:run:117: #1 ssl pointer 0x7f8af0000ba0
+[DEBUG] mssl.c:run:118: #1 ssl pair pointer (server) 0x7f8b24000b70
+[DEBUG] mssl.c:run:134: Before SSL connect
+[DEBUG] mssl.c:run:90:: is run Execute??
+53 87 A6 5F 53 6D 
+41 A0 BE 5A D0 7E 2C 96 FD 20 CE 19 F4 6F 10 C6 
+08 0B 29 DF 8B 8D CA 4A 6A DB 1C 2F 71 
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:833:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:864:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_server_name:350:: 127.0.0.1 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:128:: Final CH ext_data of Middlebox: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:46:: 
+00 [ERROR] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:61:: s->pair is NULL? 0
+
+00 8D [DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:128:: Final CH ext_data of Middlebox: 
+00 00 00 17 00 02 00 01 00 00 41 00 04 00 00 00 00 AA 00 00 00 7D 00 AE 00 00 
+00 8D 00 46 17 02 01 00 76 41 5B 04 AA 7D AE 31 46 
+47 76 05 5B 31 
+47 05 F1 74 0B FB 40 F1 E2 6C DF E9 9B 1D C9 A4 D1 
+B4 CF 31 AB 74 55 0B FB 25 83 45 B0 A9 63 2D 7E 40 E2 31 6C EF DF E9 9B AC 1D C9 A4 D1 
+B4 CF 31 AB 55 25 83 45 B0 A9 63 2D 7E 31 EF AC 
+A3 68 51 5C 5C 26 88 2C A0 18 4A B4 F8 96 
+1A 58 
+6D B0 A3 45 68 5C 36 57 53 51 DF 4E 02 00 41 04 C5 48 A9 
+26 41 E6 DB DA 0A 07 85 AE 97 31 2D 7A E2 CB 13 
+1A C4 5E F4 57 F6 33 D3 07 4F 53 87 A6 5F 53 6D 
+41 A0 BE 5A D0 7E 2C 96 FD 20 CE 19 F4 6F 10 C6 
+08 0B 29 DF 8B 8D CA 4A 6A DB 1C 2F 71 
+5C 5C 26 88 2C A0 18 4A B4 F8 96 1A 58 
+6D B0 45 5C 36 57 53 DF 4E 02 00 41 04 C5 48 A9 
+26 41 E6 DB DA 0A 07 85 AE 97 31 2D 7A E2 CB 13 
+1A C4 5E F4 57 F6 33 D3 07 4F 53 87 A6 5F 53 6D 
+41 A0 BE 5A D0 7E 2C 96 FD 20 CE 19 F4 6F 10 C6 
+08 0B 29 DF 8B 8D CA 4A 6A DB 1C 2F 71 
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] mssl.c:run:90:: is run Execute??
+★★★ in t1_lib.c, #2598
+00 00 00 00 00 00 00 00 00 00 00 ★★★ in t1_lib.c, #2598
+00 00 00 00 ★★★ in t1_lib.c, #2598
+00 
+00 ★★★ in t1_lib.c, #2598
+8D 00 ★★★ in t1_lib.c, #2677
+17 02 01 00 41 04 AA 7D AE 46 76 5B 31 
+47 05 F1 74 0B FB 40 E2 6C DF E9 9B 1D C9 A4 D1 
+B4 CF 31 AB 55 25 83 45 B0 A9 63 2D 7E 31 EF AC 
+A3 68 51 5C 5C 26 88 2C A0 18 4A B4 F8 96 1A 58 
+6D B0 45 5C 36 57 53 DF 4E 02 00 41 04 C5 48 A9 
+26 41 E6 DB DA 0A 07 85 AE 97 31 ★★★ in t1_lib.c, #2874 
+2D 7A E2 CB 13 
+1A C4 5E F4 57 F6 33 D3 07 4F 53 87 A6 5F 53 6D 
+41 A0 BE [DEBUG] ssl/statem/extensions.c:tls_construct_extensions:833:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1613::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1628:: Before s->pair while loop  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1629:: Before s->pair pointer is 0x7f8b1c001f00 
+[DEBUG] ssl/statem/statem_clnt.c:tls_construct_client_hello:1108:
+5A D0 7E 2C 96 FD 20 CE 19 F4 6F 10 C6 
+08 0B 29 DF 8B 8D CA 4A 6A DB 1C 2F 71 
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] mssl.c:run:90:: is run Execute??
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:833:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:864:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_server_name:350:: 127.0.0.1 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:46:: 
+[ERROR] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:61:: s->pair is NULL? 0
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:128:: Final CH ext_data of Middlebox: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 8D 00 17 02 01 00 41 04 AA 7D AE 46 76 5B 31 
+47 05 F1 74 0B FB 40 E2 6C DF E9 9B 1D C9 A4 D1 
+B4 CF 31 AB 55 25 83 45 B0 A9 63 2D 7E 31 EF AC 
+A3 68 51 5C 5C 26 88 2C A0 18 4A B4 F8 96 1A 58 
+6D B0 45 5C 36 57 53 DF 4E 02 00 41 04 C5 48 A9 
+26 41 E6 DB DA 0A 07 85 AE 97 31 2D 7A E2 CB 13 
+1A C4 5E F4 57 F6 33 D3 07 4F 53 87 A6 5F 53 6D 
+41 A0 BE 5A D0 7E 2C 96 FD 20 CE 19 F4 6F 10 C6 
+08 0B 29 DF 8B 8D CA 4A 6A DB 1C 2F 71 
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1704:
+[DEBUG] ssl/statem/statem_clnt.c:ossl_statem_client_process_message:1039: Client Read Server Hello
+[DEBUG] ssl/statem/extensions_clnt.c:tls_parse_stoc_test_for_mdtls:1683::  
+[DEBUG] ssl/statem/extensions_clnt.c:tls_parse_stoc_test_for_mdtls:1708:: MB Received ServerHello extension : 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 49 00 17 01 01 00 41 04 95 30 1B E5 B9 1F FE 
+B6 3A E9 DC 3E C8 AB 60 8E 32 13 99 2E E1 6A 27 
+27 C8 E9 44 07 B4 B4 3D 49 B0 89 D7 95 70 B5 A2 
+6D BC 8C 9D 3D 97 8B 1B BA 88 F3 A2 15 73 F1 3C 
+0B 77 56 6F FB F8 70 69 7E 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_parse_stoc_test_for_mdtls:1717::s->middlebox?? 1 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_parse_stoc_test_for_mdtls:1723:: temp_len is 73 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_parse_stoc_test_for_mdtls:1740:: s->extension_from_srvr_msg_len pointer is 0x7f8b1c001f00 
+[ERROR] ssl/statem/extensions_clnt.c:tls_parse_stoc_test_for_mdtls:1763:: Segment Fault:: tmp->mb_info->key_lenght is NULL?? 0 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_parse_stoc_test_for_mdtls:1789:: s->mb_info->key_length[SERVER] is 65: 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_parse_stoc_test_for_mdtls:1791:: s->mb_info->random[SERVER] is : 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1636:: After s->pair while loop  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1662:: is middlebox server side? 1  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1693:: Final SH ext_data of Middlebox: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 8D 00 17 02 01 00 41 04 95 30 1B E5 B9 1F FE 
+B6 3A E9 DC 3E C8 AB 60 8E 32 13 99 2E E1 6A 27 
+27 C8 E9 44 07 B4 B4 3D 49 B0 89 D7 95 70 B5 A2 
+6D BC 8C 9D 3D 97 8B 1B BA 88 F3 A2 15 73 F1 3C 
+0B 77 56 6F FB F8 70 69 7E 02 00 41 04 C5 48 A9 
+26 41 E6 DB DA 0A 07 85 AE 97 31 2D 7A E2 CB 13 
+1A C4 5E F4 57 F6 33 D3 07 4F 53 87 A6 5F 53 6D 
+41 A0 BE 5A D0 7E 2C 96 FD 20 CE 19 F4 6F 10 C6 
+08 0B 29 DF 8B 8D CA 4A 6A DB 1C 2F 71 
+04 95 30 1B E5 B9 1F FE B6 3A E9 DC 3E C8 AB 60 
+8E 32 13 99 2E E1 6A 27 27 C8 E9 44 07 B4 B4 3D 
+49 B0 89 D7 95 70 B5 A2 6D BC 8C 9D 3D 97 8B 1B 
+BA 88 F3 A2 15 73 F1 3C 0B 77 56 6F FB F8 70 69 
+7E 
+[DEBUG] ssl/statem/statem_clnt.c:tls_construct_client_hello:1108:
+[DEBUG] ssl/statem/statem_clnt.c:tls_construct_client_hello:1108:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:833:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:864:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_server_name:350:: 127.0.0.1 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:46:: 
+[ERROR] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:61:: s->pair is NULL? 0
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:128:: Final CH ext_data of Middlebox: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 8D 00 17 02 01 00 41 04 AA 7D AE 46 76 5B 31 
+47 05 F1 74 0B FB 40 E2 6C DF E9 9B 1D C9 A4 D1 
+B4 CF 31 AB 55 25 83 45 B0 A9 63 2D 7E 31 EF AC 
+A3 68 51 5C 5C 26 88 2C A0 18 4A B4 F8 96 1A 58 
+6D B0 45 5C 36 57 53 DF 4E 02 00 41 04 C5 48 A9 
+26 41 E6 DB DA 0A 07 85 AE 97 31 2D 7A E2 CB 13 
+1A C4 5E F4 57 F6 33 D3 07 4F 53 87 A6 5F 53 6D 
+41 A0 BE 5A D0 7E 2C 96 FD 20 CE 19 F4 6F 10 C6 
+08 0B 29 DF 8B 8D CA 4A 6A DB 1C 2F 71 
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:833:
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:864:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_server_name:350:: 127.0.0.1 
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:46:: 
+[ERROR] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:61:: s->pair is NULL? 0
+[DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:128:: Final CH ext_data of Middlebox: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 8D 00 17 02 01 00 41 04 AA 7D AE 46 76 5B 31 
+47 05 F1 74 0B FB 40 E2 6C DF E9 9B 1D C9 A4 D1 
+B4 CF 31 AB 55 25 83 45 B0 A9 63 2D 7E 31 EF AC 
+A3 68 51 5C 5C 26 88 2C A0 18 4A B4 F8 96 1A 58 
+6D B0 45 5C 36 57 53 DF 4E 02 00 41 04 C5 48 A9 
+26 41 E6 DB DA 0A 07 85 AE 97 31 2D 7A E2 CB 13 
+1A C4 5E F4 57 F6 33 D3 07 4F 53 87 A6 5F 53 6D 
+41 A0 BE 5A D0 7E 2C 96 FD 20 CE 19 F4 6F 10 C6 
+08 0B 29 DF 8B 8D CA 4A 6A DB 1C 2F 71 
+[DEBUG] ssl/statem/statem_clnt.c:tls_construct_client_hello:1108:
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1704:
+[DEBUG] ssl/statem/statem_clnt.c:tls_process_server_certificate:2142:: MB Received Server Certificate Packet Data: 
+00 03 F0 00 03 ED 30 82 03 E9 30 82 02 D1 A0 03 
+02 01 02 02 09 00 D9 29 CB 9B 45 A3 BB 94 30 0D 
+06 09 2A 86 48 86 F7 0D 01 01 0B 05 00 30 81 9F 
+31 0B 30 09 06 03 55 04 06 13 02 55 53 31 13 30 
+11 06 03 55 04 08 0C 0A 43 61 6C 69 66 6F 72 6E 
+69 61 31 13 30 11 06 03 55 04 07 0C 0A 43 61 6C 
+69 [DEBUG] ssl/statem/extensions.c:tls_construct_extensions:833:
+66 [DEBUG] ssl/statem/extensions.c:tls_construct_extensions:864:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+6F [DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_server_name:350:: 127.0.0.1 
+72 6E 69 61 31 16 30 14 06 03 55 04 0A 
+0C 0D 41 6C 69 63 65 20 43 41 20 4C 74 64 2E 31 
+16 30 14 06 03 55 04 0B 0C 0D 41 6C 69 63 65 20 
+43 41 20 4C 74 64 2E 31 [DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:46:: 
+16 [ERROR] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:61:: s->pair is NULL? 0
+30 14 06 [DEBUG] ssl/statem/extensions_clnt.c:tls_construct_ctos_test_for_mdtls:128:: Final CH ext_data of Middlebox: 
+03 00 55 00 04 03 
+0C 0D 41 6C 69 63 65 20 43 41 20 4C 74 64 2E 31 
+1E 30 1C 06 09 2A 86 48 86 F7 0D 01 09 01 16 0F 
+63 61 40 63 61 5F 61 6C 69 63 65 2E 63 6F 6D 30 
+1E 17 0D 31 38 30 34 32 35 30 36 35 34 33 32 5A 
+17 0D 31 39 30 34 32 35 30 36 35 34 33 32 5A 30 
+81 93 31 0B 30 09 06 03 55 04 06 13 02 4B 52 31 
+0E 30 0C 06 03 55 04 08 0C 05 53 65 6F 75 6C 31 
+0E 30 0C 06 03 55 04 07 0C 05 53 65 6F 75 6C 31 
+1C 30 1A 06 03 55 04 0A 0C 13 4D 69 64 64 6C 65 
+62 6F 78 2D 61 77 61 72 65 20 54 4C 53 31 0C 00 30 00 00 00 00 
+00 0A 00 00 00 06 00 03 00 00 00 55 00 04 0B 0C 03 53 4E 55 31 
+18 30 16 06 
+00 03 8D 00 17 55 02 04 01 00 41 04 AA 03 7D AE 46 76 5B 31 
+47 0C 05 F1 74 0B FB 40 E2 6C DF E9 0F 9B 6D 61 74 6C 73 1D C9 A4 D1 
+40 6D 61 74 B4 6C CF 31 AB 55 25 
+83 73 45 B0 2E A9 63 63 6F 2D 7E 31 EF AC 
+A3 6D 31 1E 30 1C 06 09 68 2A 51 5C 5C 26 88 86 48 86 F7 
+0D 01 09 01 16 0F 6D 61 74 6C 73 40 6D 61 74 6C 
+73 2E 63 6F 6D 30 82 01 22 30 0D 06 09 2A 86 48 
+86 F7 0D 01 01 01 05 00 03 82 01 0F 00 30 82 01 
+0A 02 82 01 01 00 D0 8B 41 23 FD 32 78 F8 78 39 
+CE 06 92 F8 ED 80 35 BE 02 3E 56 4F 10 72 46 9E 
+53 F7 07 BC 86 C8 DC 79 3D 25 96 DA 28 DC A0 78 
+1A F2 EC 95 6C A6 73 C8 23 E4 14 9B FF 6A F4 A4 
+93 EF DA 0A 2A DE D4 16 3E 83 40 61 A6 22 3E 26 
+EE F8 2C 95 A0 18 85 4A 25 B4 F8 96 BB 1A 27 AC 58 
+6D 2F B0 45 5C 36 57 65 53 DF 4E 02 00 41 82 D2 59 39 52 7B 
+F0 A3 04 DD C5 48 A9 
+26 41 17 E6 DB DA 0A 07 8A 32 06 85 88 AE 97 31 2D 1A 7A 57 E2 CB 13 
+1A D0 C4 83 F6 5E 73 F4 57 F6 33 8F 07 
+DE D3 A0 07 4F 53 87 15 A6 6E 5F 53 6D 
+DE 41 54 A0 BE 5A D0 7E D6 2C 96 FD 20 68 CE CB 19 F4 6F 10 5B C6 
+08 0B 29 4C 12 7D 87 37 EE 
+44 6E B8 84 DF B6 8B 8D CA 4A E8 6A 83 DB 1C 2F 71 
+64 22 62 AE D2 D9 A9 D9 05 
+A5 D2 1E FF 19 3A 1E 51 8F 10 00 44 46 56 21 C9 
+2E 52 61 3E BF 6D 1E 3A C5 9D 14 43 F4 17 DF DD 
+7F 56 83 F0 F9 BC D8 A6 19 4B 41 8D 36 ED 69 1F 
+EA E2 21 84 50 A0 4B E0 D4 A0 A8 34 1A A9 D0 A8 
+3C 52 98 6C 6E D5 AD B0 13 E3 3B AA 5C C4 21 9E 
+92 97 83 2C 32 29 91 0C 1C 8D 10 DC 64 7A 1F F6 
+78 99 86 34 ED 4D 37 72 DF 53 A3 6D 4D CF 17 3C 
+7D 75 DE 63 81 05 02 03 01 00 01 A3 32 30 30 30 
+09 06 03 55 1D 13 04 02 30 00 30 0B 06 03 55 1D 
+0F 04 04 03 02 05 E0 30 16 06 03 55 1D 11 04 0F 
+30 0D 82 0B 2A 2E 6D 61 74 6C 73 2E 63 6F 6D 30 
+0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05 00 03 82 
+01 01 00 17 68 CF 75 15 BD 78 B7 DF EE C8 7E 04 
+4E 67 EA 69 D8 E3 D3 6F D2 E7 B8 76 B6 93 60 7A 
+48 0A BA BD 4C 00 AC E3 4A 61 DD 57 93 45 C2 81 
+A7 E4 33 C6 80 EB D9 CB E9 9B 97 37 D9 08 4E 03 
+B9 7D 13 CD B3 18 81 88 0C EB 2B DF 37 73 83 7B 
+9E 67 05 6D 95 7E F9 B1 B6 DD CB BE 2A AF 4E 13 
+F5 E0 F1 CD 17 C7 88 8D 95 60 62 4F 32 AA D5 BA 
+E5 66 3E 84 5E A9 17 EE 81 37 58 4F 97 41 9D 84 
+46 15 C5 E6 A7 D3 A9 FD 0C 60 C1 5A F1 69 3A 24 
+B9 67 D3 04 0B C3 DA B8 D4 7E 48 6C A6 9F 91 09 
+CB 9A 14 D0 81 17 19 F3 B4 8C AB 0B E9 12 D8 B8 
+D9 38 EE F6 95 57 95 74 1A 2B F6 ED C6 10 77 B4 
+E0 CE 46 20 1A B1 27 4B 1D 90 30 30 84 7A CC C6 
+51 E6 5C 64 3A D7 F8 85 56 1A 18 6E 39 60 6B F3 
+22 0C E9 D6 56 05 B1 CA A4 2C 2B 97 57 98 3F B8 
+1D 57 BD 46 E8 6E CC AB 30 DC 71 FB CB D5 C6 7D 
+0A 2C 82 
+[DEBUG] ssl/statem/statem_clnt.c:tls_process_server_certificate:2301:: [0] PACKET_remaining(pkt) is 1008 
+[DEBUG] ssl/statem/statem_clnt.c:tls_process_server_certificate:2309:: [0] cert_len is 1005 
+[DEBUG] ssl/statem/statem_clnt.c:tls_process_server_certificate:2317:: [0] After x509 PACKET_remaining(pkt) is 0 
+★★★ in statem_clnt.c, #1895
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4236:: SERVER'S CERTIFICATE s->init_buf->data : 
+0B 00 00 DC 03 03 AB E0 5E 86 36 BE 29 72 F7 AF 
+BA 1E FB 6D 92 D0 D7 C7 9D 36 C7 C2 11 2E 89 08 
+F6 F5 BE 52 CA 7C 00 00 6B 00 00 B4 FF 01 00 01 
+00 00 23 00 00 [DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1704:
+00 16 00 00 00 17 00 00 07 E8 00 
+9F 00 9D 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 8D 00 17 02 01 00 41 04 95 30 1B E5 
+B9 1F FE B6 3A E9 DC 3E C8 AB 60 8E 32 13 99 2E 
+E1 6A 27 27 C8 E9 44 07 B4 B4 3D 49 B0 89 D7 95 
+70 B5 A2 6D BC 8C 9D 3D 97 8B 1B BA 88 F3 A2 15 
+73 F1 3C 0B 77 56 6F FB F8 70 69 7E 02 00 41 04 
+C5 48 A9 26 41 E6 DB DA 0A 07 85 AE 97 31 2D 7A 
+E2 CB 13 1A C4 5E F4 57 F6 33 D3 07 4F 53 87 A6 
+5F 53 6D 41 A0 BE 5A D0 7E 2C 96 FD 20 CE 19 F4 
+6F 10 C6 08 0B 29 DF 8B 8D CA 4A 6A DB 1C 2F 71 
+00 00 00 00 00 00 49 00 17 01 01 00 41 04 AA 7D 
+AE 46 76 5B 31 47 05 F1 74 0B FB 40 E2 6C DF E9 
+9B 1D C9 A4 D1 B4 CF 31 AB 55 25 83 45 B0 A9 63 
+2D 7E 31 EF AC A3 68 51 5C 5C 26 88 2C A0 18 4A 
+B4 F8 96 1A 58 6D B0 45 5C 36 57 53 DF 4E 
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4261:: ★★★★★★★★ 
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4267:: It's Middlebox 
+★★★ in statem_clnt.c, , #2483
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1704:
+[DEBUG] ssl/statem/statem_srvr.c:generate_accountability_keys:2746:: Generate Accountability Keys 
+[DEBUG] ssl/statem/statem_srvr.c:generate_accountability_keys:2757:: s->mb_info is NOT NULL 
+[DEBUG] ssl/statem/statem_srvr.c:generate_accountability_keys:2768:: Generate Accountability Keys 
+[DEBUG] ssl/statem/statem_srvr.c:generate_accountability_keys:2773:: Server Random SERVER:: 1 
+04 95 30 1B E5 B9 1F FE B6 3A E9 DC 3E C8 AB 60 8E 32 13 99 2E E1 6A 27 27 C8 E9 44 07 B4 B4 3D 49 B0 89 D7 95 70 B5 A2 6D BC 8C 9D 3D 97 8B 1B BA 88 F3 A2 15 73 F1 3C 0B 77 56 6F FB F8 70 69 7E 
+[DEBUG] ssl/statem/statem_srvr.c:generate_accountability_keys:2779:: Client Random 
+04 AA 7D AE 46 76 5B 31 47 05 F1 74 0B FB 40 E2 6C DF E9 9B 1D C9 A4 D1 B4 CF 31 AB 55 25 83 45 B0 A9 63 2D 7E 31 EF AC A3 68 51 5C 5C 26 88 2C A0 18 4A B4 F8 96 1A 58 6D B0 45 5C 36 57 53 DF 4E 
+[DEBUG] ssl/statem/statem_srvr.c:generate_accountability_keys:2789:: nk value is 2 
+[DEBUG] ssl/statem/statem_srvr.c:generate_accountability_keys:2802:: klen is 65 
+[DEBUG] ssl/statem/statem_srvr.c:tls1_P_hash:2593:: Segment Fault 
+[ERROR] ssl/statem/statem_srvr.c:tls1_P_hash:2626:: Corrupted Top Size 
+[ERROR] ssl/statem/statem_srvr.c:tls1_P_hash:2630:: Corrupted Top Size 
+[DEBUG] ssl/statem/statem_srvr.c:tls1_P_hash:2653:: Segment Fault 
+[DEBUG] ssl/statem/statem_srvr.c:generate_accountability_keys:2819:: SECRET 
+DA 8E B8 B6 20 2C 02 4D 21 22 0D 5B 83 9A 02 2D FA 08 F8 70 17 2F 1A 47 3E 20 D2 03 E5 33 0C CC 
+[DEBUG] ssl/statem/statem_srvr.c:generate_accountability_keys:2825:: Accountability Key 
+D1 AF BE B9 5E 9C 27 EE 83 57 0C 65 59 21 E8 99 05 55 9C 87 84 BA 35 5A FD 6B 9A 20 35 09 4A D2 
+[DEBUG] ssl/statem/statem_srvr.c:generate_accountability_keys:2802:: klen is 65 
+[DEBUG] ssl/statem/statem_srvr.c:tls1_P_hash:2593:: Segment Fault 
+[ERROR] ssl/statem/statem_srvr.c:tls1_P_hash:2626:: Corrupted Top Size 
+[ERROR] ssl/statem/statem_srvr.c:tls1_P_hash:2630:: Corrupted Top Size 
+[DEBUG] ssl/statem/statem_srvr.c:tls1_P_hash:2653:: Segment Fault 
+[DEBUG] ssl/statem/statem_srvr.c:generate_accountability_keys:2819:: SECRET 
+09 C0 45 07 06 EC C4 AF 8E 9D 70 2C 5D C3 31 9C 8D 6A 4F FC CF 5B AB 5E 87 55 AA 6A 72 39 CB 33 
+[DEBUG] ssl/statem/statem_srvr.c:generate_accountability_keys:2825:: Accountability Key 
+72 C8 8B 30 35 0E 68 D8 2E 90 83 73 52 F5 1F 2E 4D 28 1A F8 14 24 93 BE 3B 96 6F CA 4E CC C2 C1 
+[DEBUG] ssl/statem/statem_srvr.c:generate_accountability_keys:2858:: s->mb_info->id_length[i] :: 32 
+FD 88 36 83 22 90 9B 84 CB EA 65 FB C6 FF FF 5D 51 44 8A C7 3B 10 48 D1 74 9D 88 FB 13 C2 B1 77 
+[DEBUG] ssl/statem/statem_srvr.c:generate_accountability_keys:2858:: s->mb_info->id_length[i] :: 32 
+6F 48 9F CC FF 70 83 38 F3 CD C7 86 A0 B1 18 48 81 27 84 C8 A9 28 1F 38 AD 4B 5B 52 37 6E C8 1E 
+[DEBUG] ssl/t1_enc.c:tls1_final_finish_mac:462:: Related to s->method->ssl3_enc->final_finish_mac(): 12! : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:700:: Before WPACKET_memcpy, s->init_buf  : 
+14 00 00 82 00 80 6D E8 53 35 4C 86 8E 14 14 D1 
+0B C9 70 E9 B1 B7 D0 56 FA 42 67 8C 3B CD 79 6F 
+26 39 D6 CE 88 9C 1A 51 1B D1 7C 6B E8 59 D5 08 
+86 00 19 59 EE 2F C2 5A 94 71 C0 2E AF C1 95 9C 
+B3 1A BC 05 B3 86 98 E0 BA F5 F7 F3 1E E8 C3 8D 
+B8 2D 08 18 B2 1A 46 BA 09 BB D1 07 94 99 A6 BD 
+80 98 AB 91 13 E8 14 3B E1 18 4C 21 DE 1B 12 16 
+9F E1 8F 54 DF 85 9C 41 0C 9D 1C 12 76 54 48 52 
+CF 67 85 A3 C8 35 00 01 05 00 80 27 26 21 6C 5A 
+A0 70 19 75 4F 22 63 6B B1 B3 99 FF 8B 19 E0 88 
+11 1C 45 1D E2 B8 6B 82 96 7D EC 2A 41 C5 41 05 
+B6 00 D3 C1 C5 3B 4B CA F6 EF 59 EF 23 B2 6C D8 
+AA 78 18 91 0A 70 72 9D C2 04 8C 8A 4E 75 A2 1E 
+D5 D4 51 B9 3E 38 75 DD FB 37 39 50 8C 39 C9 DA 
+C3 56 82 0F 6A 8E 29 F6 4E 9D 44 C5 E3 D8 90 1D 
+44 CD D9 D9 80 08 2C 0F E0 EA 97 D5 FC 5E 16 E4 
+5B 87 E7 5B 4A 1B 40 8A 94 E0 13 08 04 01 00 A6 
+35 DE 60 E1 74 E1 32 A0 16 19 0C 9B 39 CA DF AB 
+CA DE D1 B5 B5 D5 A1 FF B7 D8 26 98 0A FC DD BC 
+40 06 7A 0E A7 A0 BE 0D D9 45 F3 C5 C6 91 3E B9 
+4F 30 C2 77 05 91 BE 98 18 14 1B FD 08 AF B2 8B 
+79 FF 54 62 9A 83 55 F0 18 74 83 96 3A 92 39 86 
+99 C0 23 25 56 16 4B 79 B8 ED E6 77 C3 46 9F 53 
+7C 22 77 76 0B 37 7B A5 2A 56 74 55 52 0A C1 73 
+53 E6 F3 B0 AF DA E7 77 4E 57 C2 9E 98 C4 CC DA 
+AC F2 ED 54 19 43 D7 54 9A 96 0C DC 5F E7 39 65 
+48 98 A4 54 0C B6 AD 11 34 09 0E EA FE D3 50 D3 
+D2 1E 67 87 C6 8A 24 DC 4E C9 DA 08 2A 71 61 78 
+4E 78 A4 8D 3A 84 61 13 53 E8 ED 37 BE 7B D5 89 
+2D 19 47 FA F0 75 DE 13 31 80 78 46 14 72 F3 3D 
+BA B1 BB 54 87 AD 55 FA 32 CD 49 A2 5C DB BC 6D 
+9A 7E 35 05 08 4A C9 7F 15 09 06 0D 9B 07 AA 19 
+C4 3A AD 3D 37 D4 3C 14 9F 8A B2 6B 70 BD 1E 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:709:: s->s3->tmp.finish_md length:: 12!! : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:710:: s->s3->tmp.finish_md value!! : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:725:: pkt->written is 16 : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:726:: pkt->curr is 16 : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:727:: pkt->maxsize is -1 : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:791:: Before ServerFinished send Ext MSG
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1704:
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1704:
+[DEBUG] ssl/t1_enc.c:tls1_final_finish_mac:462:: Related to s->method->ssl3_enc->final_finish_mac(): 12! : 
+[DEBUG] ssl/statem/statem_lib.c:tls_process_finished:1170:: md_len is 12 :: 
+[DEBUG] ssl/t1_enc.c:tls1_final_finish_mac:462:: Related to s->method->ssl3_enc->final_finish_mac(): 12! : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:700:: Before WPACKET_memcpy, s->init_buf  : 
+14 00 00 [DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1704:
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1704:
+A6 00 00 1C 20 00 A0 8D 86 FF 7E CC A0 
+09 DF 8A ED E4 CA E3 DF [DEBUG] ssl/t1_enc.c:tls1_final_finish_mac:462:: Related to s->method->ssl3_enc->final_finish_mac(): 12! : 
+[DEBUG] ssl/statem/statem_lib.c:tls_process_finished:1170:: md_len is 12 :: 
+[DEBUG] ssl/statem/statem_lib.c:tls_process_finished:1184:: Received Srvr Finished Extended Messages!! : 
+B8 BB FE 2F E7 8F 6A 4B 70 22 7B 77 00 01 25 01 
+25 ED B8 E7 8C 88 A5 59 48 9F 95 5C 7F 0E 10 98 
+13 13 6A F6 B9 14 DA 26 3D 73 BC 2A 53 D5 3E C6 
+3E 26 0D 0E B9 0F 56 CD A4 9C 7C BC 27 18 C5 E9 
+39 AD 0E 66 69 6C F6 D0 13 B6 EF 9B 40 3D 03 B3 
+B7 F8 43 C6 C9 60 99 03 7F 43 48 13 CE 34 30 11 
+FF BE 92 44 92 13 E5 09 BD 9C A6 DD 8E 64 06 46 
+19 8B 6E C9 BE 4F 8D EC 8D 83 69 51 46 4E B3 D6 
+90 E6 58 C1 1A 07 4F 93 4D F1 3F 73 45 6D 4B 1A 
+86 11 C5 CF FE 33 41 CC 32 E7 4E CC DD 83 1F 70 
+B0 02 98 CB A0 5B E2 50 41 A6 A8 70 E9 9C 88 D2 
+48 A4 84 51 28 C5 E5 DF D8 0F 51 7F EE 87 41 D8 
+79 64 56 3E 72 06 B4 D9 1D 5F F4 A9 65 94 8E CD 
+11 5C 8F 6F 43 D0 72 AD A2 8D 82 B5 60 FD C9 58 1F BA BE 39 C5 EE 52 0A 
+07 
+B3 1F 82 DC 68 CF 52 91 56 AF 1F 59 E3 F4 27 E4 A8 4C CF 9A 1F 
+62 95 B1 91 7A BA 33 85 8E 8D 77 86 BA 57 B5 75 A6 
+10 62 37 66 64 5E 70 52 97 4C 65 EA EA 
+6B DC 00 EF EE 5C 37 85 3D EC AE 1E 17 0B 51 E0 E3 E6 2D 30 D2 17 BA 0F 38 3B 
+DD 45 
+24 D1 98 92 EE 80 0A E7 F9 E0 2D 49 65 72 65 FD 28 DA 06 A8 F8 3B DD FA AE 6E E8 44 9D C0 63 1D 
+
+5C 30 DD 51 D7 73 B5 E8 3E 19 3E 55 15 E5 99 20 32 CF 3A C7 15 37 13 C1 0C 5A 
+C3 
+[DEBUG] ssl/statem/statem_lib.c:tls_process_finished:1193:: s->s3->tmp.peer_finish_md 12 bytes 
+B8 BB FE 2F E7 8F 6A 4B 70 22 7B 77 
+[DEBUG] ssl/statem/statem_lib.c:tls_process_finished:1208:: s->extended_finished_msg!! : 
+00 01 25 01 25 ED B8 E7 8C 88 A5 59 48 9F 95 5C 
+7F 0E 10 98 13 13 6A F6 B9 14 DA 26 3D 73 BC 2A 
+53 D5 3E C6 3E 26 0D 0E B9 0F 56 CD A4 9C 7C BC 
+27 18 C5 E9 39 AD 0E 66 69 6C F6 D0 13 B6 EF 9B 
+40 3D 03 B3 B7 F8 43 C6 C9 60 99 03 7F 43 48 13 
+CE 34 30 11 FF BE 92 44 92 13 E5 09 BD 9C A6 DD 
+8E 64 06 46 19 8B 6E C9 BE 4F 8D EC 8D 83 69 51 
+46 4E B3 D6 90 E6 58 C1 1A 07 4F 93 4D F1 3F 73 
+45 6D 4B 1A 86 11 C5 CF FE 33 41 CC 32 E7 4E CC 
+DD 83 1F 70 B0 02 98 CB A0 5B E2 50 41 A6 A8 70 
+E9 9C 88 D2 48 A4 84 51 28 C5 E5 DF D8 0F 51 7F 
+EE 87 41 D8 79 64 56 3E 72 06 B4 D9 1D 5F F4 A9 
+65 94 8E CD 11 5C 8F 43 AD 8D 82 B5 FD 58 1F BA 
+39 EE 52 0A 07 B3 1F 82 DC 91 AF 1F 59 E3 27 FD E4 CF 9B 50 FA 0A 
+
+2C 34 73 9A A8 44 4C 9A 1F C3 62 85 77 BA 57 7E B5 A6 10 D6 AC E0 62 A1 F3 0F 62 7D 37 64 70 
+52 7B 
+1D 92 CA 8C D3 36 87 89 97 89 63 65 7E EA 32 6B DC EF 5C 37 85 B2 3D 17 51 E3 E6 A4 1F 2D 2A 
+D2 BA 0F 
+38 98 0A EC F9 2D 49 65 FD 81 DA 06 A8 DD E8 1F 
+9D C0 63 1D 79 5C 30 33 51 D9 7D 73 E6 B5 36 3E 2D 19 3E 55 99 3A 32 ED CF 
+3A C7 0C BE 5A DA E8 EF 
+41 98 5D C3 50 
+96 62 28 90 8B E0 85 AA 01 96 85 29 
+CF B9 C8 F5 4A A0 41 AE 21 AF 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 [DEBUG] mssl.c:run:136: After SSL connect
+[DEBUG] mssl.c:run:145: Succeed to connect to 127.0.0.1:8081
+00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:709:: s->s3->tmp.finish_md length:: 12!! : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:710:: s->s3->tmp.finish_md value!! : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:725:: pkt->written is 16 : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:726:: pkt->curr is 16 : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:727:: pkt->maxsize is -1 : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:791:: Before ServerFinished send Ext MSG
+[DEBUG] smb.c:mb_run:262: After SSL accept
+[DEBUG] smb.c:mb_run:266: Handshake Completed
+[DEBUG] smb.c:mb_run:269: DEBUGGING the value? :: 0
+[DEBUG] smb.c:mb_run:291:
+[DEBUG] smb.c:

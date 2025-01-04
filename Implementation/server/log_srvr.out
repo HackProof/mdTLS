@@ -1,0 +1,2826 @@
+[DEBUG] ssl/ssl_lib.c:SSL_CTX_new:3319:: SSL new Gen mb_info 
+[DEBUG] ssl/ssl_lib.c:SSL_CTX_new:3325:: SSL new Gen proxy_info 
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:915: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5947: Set SSL mb_info struct 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5973: Set SSL proxy_info struct 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:6007: make proxy desig key pair 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[TIME] ssl/ssl_lib.c:SSL_enable_mb:6075: Proxy dkey Execution Time 57 µs
+[DEBUG] server.c:main:266: ssl pointer :: 0x557128f794e0
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1949:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:188::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:281:: Server Received CH Ext Data : 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 13 00 17 02 01 00 41 04 40 0D 3E B2 B2 51 95 
+8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 
+A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 
+07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 
+90 43 F7 3F 85 F3 3A 90 3D 00 41 04 DB EB 05 CC 
+9A A2 5B D0 B0 6D 90 03 99 DD 3D 32 29 33 2A 78 
+D2 98 82 F4 97 B7 D8 C6 AE 57 D2 47 82 8F D3 A5 
+FB 35 98 59 77 D2 73 47 C5 D3 FF 9E E5 0A 8A 99 
+3C B4 F3 BE C1 27 A3 DB D3 C0 B3 1E 02 00 41 04 
+D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 2B 
+0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 47 
+2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 62 
+48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 0A 
+00 41 04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 
+A8 7E FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 
+11 59 67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 
+77 E2 81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E 
+F7 4F 84 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:293:: Server Received nk is 2 : 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:324:: Server saved Client pub key : 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 
+A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 
+F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 
+4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 
+3D 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:333:: Server saved MB pub key : 
+04 D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 
+2B 0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 
+47 2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 
+62 48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 
+0A 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:352:: Server's proxy desig pub key: 
+04 DC 15 50 2C 74 59 5C 47 F7 82 45 8C DF D7 9D 
+26 C1 FC 20 1B 8A 75 C2 EB 9E 66 F9 8E 2E 60 E0 
+6A 88 8D DA 69 7A BA C8 27 DC 94 4D 20 F9 9F D1 
+21 7A E7 56 BF F0 C8 B7 A2 20 A5 3E EE 27 94 DF 
+E6 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:372:: Server get Client's proxy desig pub key: 
+04 DB EB 05 CC 9A A2 5B D0 B0 6D 90 03 99 DD 3D 
+32 29 33 2A 78 D2 98 82 F4 97 B7 D8 C6 AE 57 D2 
+47 82 8F D3 A5 FB 35 98 59 77 D2 73 47 C5 D3 FF 
+9E E5 0A 8A 99 3C B4 F3 BE C1 27 A3 DB D3 C0 B3 
+1E 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:388:: Server get MB's proxy desig pub key: 
+04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 A8 7E 
+FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 11 59 
+67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 77 E2 
+81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E F7 4F 
+84 
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:834:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1636::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1792:: Server's SH ext data is : 
+01 10 00 17 01 01 00 41 04 7B 90 C6 6F F0 8F B7 
+EB 4D EB 19 19 32 97 E0 57 70 BD 96 BE FF 8A C9 
+99 0C F9 11 F2 79 30 EE 19 F8 4C C8 77 DC 44 B8 
+D8 F8 89 90 30 10 4A 47 36 32 8D CE B2 78 9F EA 
+06 8C 51 19 DA F8 92 36 15 CB F7 28 71 55 00 00 
+00 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 
+17 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+03 CC F7 28 71 55 00 00 00 00 00 00 00 00 00 00 
+01 00 00 00 01 00 00 00 0D 00 00 00 00 00 00 00 
+04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1809:: Server's proxy desig pub key is : 
+04 DC 15 50 2C 74 59 5C 47 F7 82 45 8C DF D7 9D 
+26 C1 FC 20 1B 8A 75 C2 EB 9E 66 F9 8E 2E 60 E0 
+6A 88 8D DA 69 7A BA C8 27 DC 94 4D 20 F9 9F D1 
+21 7A E7 56 BF F0 C8 B7 A2 20 A5 3E EE 27 94 DF 
+E6 
+plain text in hash_sha256:: 
+51 73 49 44 6D 62 51 6D 62 57 61 72 72 61 6E 74 
+hash length:: 32
+hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+copied hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+binary data of hash in proxy_delegation::: 
+ 2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+====>>>> @@@ ecdsa_sign.c > ECDSA_sign_setup() 
+====>>>> @@@ ecdsa_ossl.c > ecdsa_sign_setup() 
+0 k :: 
+before do-while process :::
+dgst is null
+after do-while process in do-while :::
+407D87B80596EC7E1ADD3DCC48BE25E17A4BB569ECEA6506CAB84AFD8A768EB0 k-2:: 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > success get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > can sign with ec_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > start sign with ec_key 
+3AAF23AAE12831F7AA8C3335744F680F74754DA447056C3BDF1BF1D34EF26BF7 ::x_Y_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1832:: 
+3AAF23AAE12831F7AA8C3335744F680F74754DA447056C3BDF1BF1D34EF26BF7 ::sig_r_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1834:: 
+B43B62DE4A523C20BBC863DAC2E2FAB71899B208C765F119E679E84457BC844A ::sig_s_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1836:: 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1841:: sig_r_d_hex is 3AAF23AAE12831F7AA8C3335744F680F74754DA447056C3BDF1BF1D34EF26BF7 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1842:: sig_s_d_hex is B43B62DE4A523C20BBC863DAC2E2FAB71899B208C765F119E679E84457BC844A 
+[TIME] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1853: Proxy desig Execution Time 254 µs
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1868:: SH Final data: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 10 00 17 01 01 00 41 04 7B 90 C6 6F F0 8F B7 
+EB 4D EB 19 19 32 97 E0 57 70 BD 96 BE FF 8A C9 
+99 0C F9 11 F2 79 30 EE 19 F8 4C C8 77 DC 44 B8 
+D8 F8 89 90 30 10 4A 47 36 32 8D CE B2 78 9F EA 
+06 8C 51 19 DA F8 92 36 15 00 41 04 DC 15 50 2C 
+74 59 5C 47 F7 82 45 8C DF D7 9D 26 C1 FC 20 1B 
+8A 75 C2 EB 9E 66 F9 8E 2E 60 E0 6A 88 8D DA 69 
+7A BA C8 27 DC 94 4D 20 F9 9F D1 21 7A E7 56 BF 
+F0 C8 B7 A2 20 A5 3E EE 27 94 DF E6 00 40 33 41 
+41 46 32 33 41 41 45 31 32 38 33 31 46 37 41 41 
+38 43 33 33 33 35 37 34 34 46 36 38 30 46 37 34 
+37 35 34 44 41 34 34 37 30 35 36 43 33 42 44 46 
+31 42 46 31 44 33 34 45 46 32 36 42 46 37 00 40 
+42 34 33 42 36 32 44 45 34 41 35 32 33 43 32 30 
+42 42 43 38 36 33 44 41 43 32 45 32 46 41 42 37 
+31 38 39 39 42 32 30 38 43 37 36 35 46 31 31 39 
+45 36 37 39 45 38 34 34 35 37 42 43 38 34 34 41 
+
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4483:: SERVER'S CERTIFICATE in HEX data: 
+30 82 03 E9 30 82 02 D1 A0 03 02 01 02 02 09 00
+D9 29 CB 9B 45 A3 BB 94 30 0D 06 09 2A 86 48 86
+F7 0D 01 01 0B 05 00 30 81 9F 31 0B 30 09 06 03
+55 04 06 13 02 55 53 31 13 30 11 06 03 55 04 08
+0C 0A 43 61 6C 69 66 6F 72 6E 69 61 31 13 30 11
+06 03 55 04 07 0C 0A 43 61 6C 69 66 6F 72 6E 69
+61 31 16 30 14 06 03 55 04 0A 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 16 30 14 06 03 55
+04 0B 0C 0D 41 6C 69 63 65 20 43 41 20 4C 74 64
+2E 31 16 30 14 06 03 55 04 03 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 1E 30 1C 06 09 2A
+86 48 86 F7 0D 01 09 01 16 0F 63 61 40 63 61 5F
+61 6C 69 63 65 2E 63 6F 6D 30 1E 17 0D 31 38 30
+34 32 35 30 36 35 34 33 32 5A 17 0D 31 39 30 34
+32 35 30 36 35 34 33 32 5A 30 81 93 31 0B 30 09
+06 03 55 04 06 13 02 4B 52 31 0E 30 0C 06 03 55
+04 08 0C 05 53 65 6F 75 6C 31 0E 30 0C 06 03 55
+04 07 0C 05 53 65 6F 75 6C 31 1C 30 1A 06 03 55
+04 0A 0C 13 4D 69 64 64 6C 65 62 6F 78 2D 61 77
+61 72 65 20 54 4C 53 31 0C 30 0A 06 03 55 04 0B
+0C 03 53 4E 55 31 18 30 16 06 03 55 04 03 0C 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 31
+1E 30 1C 06 09 2A 86 48 86 F7 0D 01 09 01 16 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 30
+82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01 01
+05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01 00
+D0 8B 41 23 FD 32 78 F8 78 39 CE 06 92 F8 ED 80
+35 BE 02 3E 56 4F 10 72 46 9E 53 F7 07 BC 86 C8
+DC 79 3D 25 96 DA 28 DC A0 78 1A F2 EC 95 6C A6
+73 C8 23 E4 14 9B FF 6A F4 A4 93 EF DA 0A 2A DE
+D4 16 3E 83 40 61 A6 22 3E 26 EE F8 95 85 25 BB
+27 AC 2F 65 82 D2 59 39 52 7B F0 A3 DD 17 8A 32
+06 88 1A 57 D0 83 F6 73 8F 07 DE A0 15 6E DE 54
+D6 68 CB 5B 4C 12 7D 87 37 EE 44 6E B8 84 B6 E8
+83 64 22 62 AE D2 D9 A9 D9 05 A5 D2 1E FF 19 3A
+1E 51 8F 10 00 44 46 56 21 C9 2E 52 61 3E BF 6D
+1E 3A C5 9D 14 43 F4 17 DF DD 7F 56 83 F0 F9 BC
+D8 A6 19 4B 41 8D 36 ED 69 1F EA E2 21 84 50 A0
+4B E0 D4 A0 A8 34 1A A9 D0 A8 3C 52 98 6C 6E D5
+AD B0 13 E3 3B AA 5C C4 21 9E 92 97 83 2C 32 29
+91 0C 1C 8D 10 DC 64 7A 1F F6 78 99 86 34 ED 4D
+37 72 DF 53 A3 6D 4D CF 17 3C 7D 75 DE 63 81 05
+02 03 01 00 01 A3 32 30 30 30 09 06 03 55 1D 13
+04 02 30 00 30 0B 06 03 55 1D 0F 04 04 03 02 05
+E0 30 16 06 03 55 1D 11 04 0F 30 0D 82 0B 2A 2E
+6D 61 74 6C 73 2E 63 6F 6D 30 0D 06 09 2A 86 48
+86 F7 0D 01 01 0B 05 00 03 82 01 01 00 17 68 CF
+75 15 BD 78 B7 DF EE C8 7E 04 4E 67 EA 69 D8 E3
+D3 6F D2 E7 B8 76 B6 93 60 7A 48 0A BA BD 4C 00
+AC E3 4A 61 DD 57 93 45 C2 81 A7 E4 33 C6 80 EB
+D9 CB E9 9B 97 37 D9 08 4E 03 B9 7D 13 CD B3 18
+81 88 0C EB 2B DF 37 73 83 7B 9E 67 05 6D 95 7E
+F9 B1 B6 DD CB BE 2A AF 4E 13 F5 E0 F1 CD 17 C7
+88 8D 95 60 62 4F 32 AA D5 BA E5 66 3E 84 5E A9
+17 EE 81 37 58 4F 97 41 9D 84 46 15 C5 E6 A7 D3
+A9 FD 0C 60 C1 5A F1 69 3A 24 B9 67 D3 04 0B C3
+DA B8 D4 7E 48 6C A6 9F 91 09 CB 9A 14 D0 81 17
+19 F3 B4 8C AB 0B E9 12 D8 B8 D9 38 EE F6 95 57
+95 74 1A 2B F6 ED C6 10 77 B4 E0 CE 46 20 1A B1
+27 4B 1D 90 30 30 84 7A CC C6 51 E6 5C 64 3A D7
+F8 85 56 1A 18 6E 39 60 6B F3 22 0C E9 D6 56 05
+B1 CA A4 2C 2B 97 57 98 3F B8 1D 57 BD 46 E8 6E
+CC AB 30 DC 71 FB CB D5 C6 7D 0A 2C 82 
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4509:: Not Middlebox 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2773:: Server Random 
+04 7B 90 C6 6F F0 8F B7 EB 4D EB 19 19 32 97 E0 57 70 BD 96 BE FF 8A C9 99 0C F9 11 F2 79 30 EE 19 F8 4C C8 77 DC 44 B8 D8 F8 89 90 30 10 4A 47 36 32 8D CE B2 78 9F EA 06 8C 51 19 DA F8 92 36 15 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2779:: Client Random 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 3D 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [0] 
+E0 DC 77 DB A3 9C A9 E0 C0 C4 4E 8D 5B 36 72 63 98 2C FE 51 2B 6D 4B ED F6 F3 EC C2 D7 31 D3 4C 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [0] 
+80 66 75 57 D5 02 2C F1 F3 1C 27 B1 89 AC 4B F1 55 9D 9E F0 40 42 0F 31 11 4F 26 D7 71 CE 7D B4 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [1] 
+62 0A A1 9F BB 00 B9 B7 74 4E F0 9F C4 32 1F AE 82 66 CA 40 9C B5 18 74 C0 36 8C 0E 6A FE 21 D2 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [1] 
+7B D8 90 5E EF 6E C4 8C C0 7A 0C CC BF D9 2C 2C 71 FC F5 2D B8 B3 E9 0A 6A 39 30 CD 12 B2 C4 FE 
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1949:
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1949:
+[DEBUG] ssl/t1_enc.c:tls1_final_finish_mac:462:: Related to s->method->ssl3_enc->final_finish_mac(): 12! : 
+[DEBUG] ssl/statem/statem_lib.c:tls_process_finished:1261:: md_len is 12 :: 
+[DEBUG] ssl/t1_enc.c:tls1_final_finish_mac:462:: Related to s->method->ssl3_enc->final_finish_mac(): 12! : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:710:: s->s3->tmp.finish_md length:: 12!! : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:711:: s->s3->tmp.finish_md value!! : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:726:: pkt->written is 16 : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:727:: pkt->curr is 16 : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:728:: pkt->maxsize is -1 : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:792:: Before ServerFinished send Ext MSG
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:793:: s->server??? 1 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:797:: ServerFinished send Ext MSG
+[DEBUG] ssl/statem/statem_lib.c:matls_set_parameters:543:: TLS version: 303 
+[DEBUG] ssl/statem/statem_lib.c:matls_set_parameters:557:: Cipher Suite Info: 300006B 
+[INFO] ssl/statem/statem_lib.c:tls_construct_finished:864:: Server set parameter is 
+03 03 00 6B 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:874:: Server Acckey is 
+80 66 75 57 D5 02 2C F1 F3 1C 27 B1 89 AC 4B F1 
+55 9D 9E F0 40 42 0F 31 11 4F 26 D7 71 CE 7D B4 
+
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:883:: server digest is 
+D7 F9 14 92 DA 60 34 FA 16 98 63 8B F4 86 4F B0 
+2E E8 F7 9E 37 29 ED 5A 90 17 F5 47 16 05 A9 BA 
+
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:893:: PROGRESS: make HASH block 
+[INFO] ssl/statem/statem_lib.c:tls_construct_finished:907:: SPB signature block is 
+B5 D7 91 03 1C B3 3E CD 9C C9 74 53 1D E0 5F 74 
+1E 95 8D B6 EE E7 B4 96 5E 33 4D 82 A8 6E 1A 4F 
+48 5C 55 D4 6C C2 DC 2F FC 47 A8 46 C2 CB 0C 3F 
+F7 08 25 A0 D3 46 17 6E DE 91 1E 67 2E 93 A7 01 
+DB 56 64 99 C6 BA 12 D5 2D 58 EA 30 45 91 6B 1C 
+4A E1 9E CE 8A 5E 23 33 42 AB 76 C3 58 2F FB EF 
+56 9E F2 0E 03 66 4C D4 ED BA 8E DA A5 7F A3 60 
+06 95 DB A8 1F 55 E6 13 F0 65 6C 1B 4D AD BA A6 
+B5 75 3F FD A9 67 2B 79 29 A6 C4 FD 2A B8 53 01 
+41 80 22 B7 44 0B C9 26 5C 0E DB 69 BA 26 19 0A 
+EA 3A BD D3 E3 E3 C3 6F 57 82 8E E3 AF 16 0F 02 
+50 B1 E1 1C AA B7 33 68 6C FB 74 34 32 F3 F2 D0 
+47 2F E2 1C 47 56 E5 2E E2 0B A4 7E A0 14 62 DD 
+A1 2C 9D 19 B5 9B D4 FC 9B 3D F9 68 D5 D1 65 64 
+D3 B7 B5 2F 48 6F 7C 3A 00 4A 66 0B 4B AA 2A 21 
+8D E5 A2 9F FC 00 DD A8 95 50 98 20 A1 F9 06 21 
+
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:930:: PROGRESS: tlen is 293 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:950:: PROGRESS: s->mb_info->id_length[0] is 32 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:955:: PROGRESS: ext_data_length is 34 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:956:: Server Finished Ext Data Before middlebox set parameter is 
+E0 4C BB 01 25 23 C5 ED FC 41 0E 1F 4C 1E 27 69 
+94 AB 05 6D 73 5D CB BB FF 84 31 1F 7A 58 34 B9 
+21 B4 05 BB F9 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:972:: Server Finished Ext Data After middlebox set parameter is 
+E0 4C BB 01 25 23 C5 ED FC 41 0E 1F 4C 1E 27 69 
+94 AB 05 6D 73 5D CB BB FF 84 31 1F 7A 58 34 B9 
+21 B4 05 BB F9 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:987:: PROGRESS: ext_data_length (include sigblk_len) is 290 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:989:: PROGRESS: s->extended_finished_msg_len is 0 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:995:: Server Finished Ext Data is 
+E0 4C BB 01 25 23 C5 ED FC 41 0E 1F 4C 1E 27 69 
+94 AB 05 6D 73 5D CB BB FF 84 31 1F 7A 58 34 B9 
+21 B4 05 BB F9 B5 D7 91 03 1C B3 3E CD 9C C9 74 
+53 1D E0 5F 74 1E 95 8D B6 EE E7 B4 96 5E 33 4D 
+82 A8 6E 1A 4F 48 5C 55 D4 6C C2 DC 2F FC 47 A8 
+46 C2 CB 0C 3F F7 08 25 A0 D3 46 17 6E DE 91 1E 
+67 2E 93 A7 01 DB 56 64 99 C6 BA 12 D5 2D 58 EA 
+30 45 91 6B 1C 4A E1 9E CE 8A 5E 23 33 42 AB 76 
+C3 58 2F FB EF 56 9E F2 0E 03 66 4C D4 ED BA 8E 
+DA A5 7F A3 60 06 95 DB A8 1F 55 E6 13 F0 65 6C 
+1B 4D AD BA A6 B5 75 3F FD A9 67 2B 79 29 A6 C4 
+FD 2A B8 53 01 41 80 22 B7 44 0B C9 26 5C 0E DB 
+69 BA 26 19 0A EA 3A BD D3 E3 E3 C3 6F 57 82 8E 
+E3 AF 16 0F 02 50 B1 E1 1C AA B7 33 68 6C FB 74 
+34 32 F3 F2 D0 47 2F E2 1C 47 56 E5 2E E2 0B A4 
+7E A0 14 62 DD A1 2C 9D 19 B5 9B D4 FC 9B 3D F9 
+68 D5 D1 65 64 D3 B7 B5 2F 48 6F 7C 3A 00 4A 66 
+0B 4B AA 2A 21 8D E5 A2 9F FC 00 DD A8 95 50 98 
+20 A1 F9 06 21 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:1007:: PROGRESS: ext_data_length (include extended_finished_msg_len) is 293 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:1009:: Server Finished Final Ext Data is 
+00 01 25 01 25 23 C5 ED FC 41 0E 1F 4C 1E 27 69 
+94 AB 05 6D 73 5D CB BB FF 84 31 1F 7A 58 34 B9 
+21 B4 05 BB F9 B5 D7 91 03 1C B3 3E CD 9C C9 74 
+53 1D E0 5F 74 1E 95 8D B6 EE E7 B4 96 5E 33 4D 
+82 A8 6E 1A 4F 48 5C 55 D4 6C C2 DC 2F FC 47 A8 
+46 C2 CB 0C 3F F7 08 25 A0 D3 46 17 6E DE 91 1E 
+67 2E 93 A7 01 DB 56 64 99 C6 BA 12 D5 2D 58 EA 
+30 45 91 6B 1C 4A E1 9E CE 8A 5E 23 33 42 AB 76 
+C3 58 2F FB EF 56 9E F2 0E 03 66 4C D4 ED BA 8E 
+DA A5 7F A3 60 06 95 DB A8 1F 55 E6 13 F0 65 6C 
+1B 4D AD BA A6 B5 75 3F FD A9 67 2B 79 29 A6 C4 
+FD 2A B8 53 01 41 80 22 B7 44 0B C9 26 5C 0E DB 
+69 BA 26 19 0A EA 3A BD D3 E3 E3 C3 6F 57 82 8E 
+E3 AF 16 0F 02 50 B1 E1 1C AA B7 33 68 6C FB 74 
+34 32 F3 F2 D0 47 2F E2 1C 47 56 E5 2E E2 0B A4 
+7E A0 14 62 DD A1 2C 9D 19 B5 9B D4 FC 9B 3D F9 
+68 D5 D1 65 64 D3 B7 B5 2F 48 6F 7C 3A 00 4A 66 
+0B 4B AA 2A 21 8D E5 A2 9F FC 00 DD A8 95 50 98 
+20 A1 F9 06 21 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:1026:: pkt->written is 309 : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:1027:: pkt->curr is 309 : 
+[DEBUG] ssl/statem/statem_lib.c:tls_construct_finished:1028:: pkt->maxsize is -1 : 
+[DEBUG] server.c:main:271:
+[mdtls] server.c:main:274: Msg from Middlebox: GET / HTTP/1.2
+Host: www.mdtls_thyun.com
+
+
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:915: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5947: Set SSL mb_info struct 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5973: Set SSL proxy_info struct 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:6007: make proxy desig key pair 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[TIME] ssl/ssl_lib.c:SSL_enable_mb:6075: Proxy dkey Execution Time 54 µs
+[DEBUG] server.c:main:266: ssl pointer :: 0x557128f794e0
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1949:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:188::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:281:: Server Received CH Ext Data : 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 13 00 17 02 01 00 41 04 40 0D 3E B2 B2 51 95 
+8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 
+A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 
+07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 
+90 43 F7 3F 85 F3 3A 90 3D 00 41 04 DB EB 05 CC 
+9A A2 5B D0 B0 6D 90 03 99 DD 3D 32 29 33 2A 78 
+D2 98 82 F4 97 B7 D8 C6 AE 57 D2 47 82 8F D3 A5 
+FB 35 98 59 77 D2 73 47 C5 D3 FF 9E E5 0A 8A 99 
+3C B4 F3 BE C1 27 A3 DB D3 C0 B3 1E 02 00 41 04 
+D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 2B 
+0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 47 
+2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 62 
+48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 0A 
+00 41 04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 
+A8 7E FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 
+11 59 67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 
+77 E2 81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E 
+F7 4F 84 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:293:: Server Received nk is 2 : 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:324:: Server saved Client pub key : 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 
+A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 
+F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 
+4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 
+3D 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:333:: Server saved MB pub key : 
+04 D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 
+2B 0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 
+47 2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 
+62 48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 
+0A 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:352:: Server's proxy desig pub key: 
+04 DC E7 1D 96 8B 8F A7 07 74 D1 D2 93 10 12 0F 
+60 1A A3 9D A2 87 EC 4F D3 56 16 47 71 31 BA 22 
+33 13 A9 6F A2 28 2E C2 57 56 58 07 76 1B C6 82 
+EE 6C 00 6E 1D CF AF 23 89 73 CE FB B1 3C 70 85 
+7B 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:372:: Server get Client's proxy desig pub key: 
+04 DB EB 05 CC 9A A2 5B D0 B0 6D 90 03 99 DD 3D 
+32 29 33 2A 78 D2 98 82 F4 97 B7 D8 C6 AE 57 D2 
+47 82 8F D3 A5 FB 35 98 59 77 D2 73 47 C5 D3 FF 
+9E E5 0A 8A 99 3C B4 F3 BE C1 27 A3 DB D3 C0 B3 
+1E 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:388:: Server get MB's proxy desig pub key: 
+04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 A8 7E 
+FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 11 59 
+67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 77 E2 
+81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E F7 4F 
+84 
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:834:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1636::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1792:: Server's SH ext data is : 
+01 10 00 17 01 01 00 41 04 74 7B CF 0F 5A 0D 15 
+58 B6 5E 89 15 57 34 95 90 9B 07 22 0A 78 5D A1 
+75 65 15 EC 90 2F ED C5 7D D7 68 6B 50 27 14 AE 
+D7 83 10 CC 98 F2 5E 90 98 DA D3 66 D4 92 FC DA 
+45 D6 51 F1 0A FD AA 31 6D 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1809:: Server's proxy desig pub key is : 
+04 DC E7 1D 96 8B 8F A7 07 74 D1 D2 93 10 12 0F 
+60 1A A3 9D A2 87 EC 4F D3 56 16 47 71 31 BA 22 
+33 13 A9 6F A2 28 2E C2 57 56 58 07 76 1B C6 82 
+EE 6C 00 6E 1D CF AF 23 89 73 CE FB B1 3C 70 85 
+7B 
+plain text in hash_sha256:: 
+51 73 49 44 6D 62 51 6D 62 57 61 72 72 61 6E 74 
+hash length:: 32
+hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+copied hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+binary data of hash in proxy_delegation::: 
+ 2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+====>>>> @@@ ecdsa_sign.c > ECDSA_sign_setup() 
+====>>>> @@@ ecdsa_ossl.c > ecdsa_sign_setup() 
+0 k :: 
+before do-while process :::
+dgst is null
+after do-while process in do-while :::
+38CDB859A86CC31756A602587C886AEA7EFA89EC8D9694ADA3674BF0A06839E7 k-2:: 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > success get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > can sign with ec_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > start sign with ec_key 
+E29DB907EC3E26A646C53069170CF73B6CE0324160C3F508491052E6DB7D9D50 ::x_Y_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1832:: 
+E29DB907EC3E26A646C53069170CF73B6CE0324160C3F508491052E6DB7D9D50 ::sig_r_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1834:: 
+DCDE09DC86C9522865A22FFC59610A73092500F2F1F0D606AB1354BA9BA698E9 ::sig_s_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1836:: 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1841:: sig_r_d_hex is E29DB907EC3E26A646C53069170CF73B6CE0324160C3F508491052E6DB7D9D50 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1842:: sig_s_d_hex is DCDE09DC86C9522865A22FFC59610A73092500F2F1F0D606AB1354BA9BA698E9 
+[TIME] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1853: Proxy desig Execution Time 117 µs
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1868:: SH Final data: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 10 00 17 01 01 00 41 04 74 7B CF 0F 5A 0D 15 
+58 B6 5E 89 15 57 34 95 90 9B 07 22 0A 78 5D A1 
+75 65 15 EC 90 2F ED C5 7D D7 68 6B 50 27 14 AE 
+D7 83 10 CC 98 F2 5E 90 98 DA D3 66 D4 92 FC DA 
+45 D6 51 F1 0A FD AA 31 6D 00 41 04 DC E7 1D 96 
+8B 8F A7 07 74 D1 D2 93 10 12 0F 60 1A A3 9D A2 
+87 EC 4F D3 56 16 47 71 31 BA 22 33 13 A9 6F A2 
+28 2E C2 57 56 58 07 76 1B C6 82 EE 6C 00 6E 1D 
+CF AF 23 89 73 CE FB B1 3C 70 85 7B 00 40 45 32 
+39 44 42 39 30 37 45 43 33 45 32 36 41 36 34 36 
+43 35 33 30 36 39 31 37 30 43 46 37 33 42 36 43 
+45 30 33 32 34 31 36 30 43 33 46 35 30 38 34 39 
+31 30 35 32 45 36 44 42 37 44 39 44 35 30 00 40 
+44 43 44 45 30 39 44 43 38 36 43 39 35 32 32 38 
+36 35 41 32 32 46 46 43 35 39 36 31 30 41 37 33 
+30 39 32 35 30 30 46 32 46 31 46 30 44 36 30 36 
+41 42 31 33 35 34 42 41 39 42 41 36 39 38 45 39 
+
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4483:: SERVER'S CERTIFICATE in HEX data: 
+30 82 03 E9 30 82 02 D1 A0 03 02 01 02 02 09 00
+D9 29 CB 9B 45 A3 BB 94 30 0D 06 09 2A 86 48 86
+F7 0D 01 01 0B 05 00 30 81 9F 31 0B 30 09 06 03
+55 04 06 13 02 55 53 31 13 30 11 06 03 55 04 08
+0C 0A 43 61 6C 69 66 6F 72 6E 69 61 31 13 30 11
+06 03 55 04 07 0C 0A 43 61 6C 69 66 6F 72 6E 69
+61 31 16 30 14 06 03 55 04 0A 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 16 30 14 06 03 55
+04 0B 0C 0D 41 6C 69 63 65 20 43 41 20 4C 74 64
+2E 31 16 30 14 06 03 55 04 03 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 1E 30 1C 06 09 2A
+86 48 86 F7 0D 01 09 01 16 0F 63 61 40 63 61 5F
+61 6C 69 63 65 2E 63 6F 6D 30 1E 17 0D 31 38 30
+34 32 35 30 36 35 34 33 32 5A 17 0D 31 39 30 34
+32 35 30 36 35 34 33 32 5A 30 81 93 31 0B 30 09
+06 03 55 04 06 13 02 4B 52 31 0E 30 0C 06 03 55
+04 08 0C 05 53 65 6F 75 6C 31 0E 30 0C 06 03 55
+04 07 0C 05 53 65 6F 75 6C 31 1C 30 1A 06 03 55
+04 0A 0C 13 4D 69 64 64 6C 65 62 6F 78 2D 61 77
+61 72 65 20 54 4C 53 31 0C 30 0A 06 03 55 04 0B
+0C 03 53 4E 55 31 18 30 16 06 03 55 04 03 0C 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 31
+1E 30 1C 06 09 2A 86 48 86 F7 0D 01 09 01 16 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 30
+82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01 01
+05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01 00
+D0 8B 41 23 FD 32 78 F8 78 39 CE 06 92 F8 ED 80
+35 BE 02 3E 56 4F 10 72 46 9E 53 F7 07 BC 86 C8
+DC 79 3D 25 96 DA 28 DC A0 78 1A F2 EC 95 6C A6
+73 C8 23 E4 14 9B FF 6A F4 A4 93 EF DA 0A 2A DE
+D4 16 3E 83 40 61 A6 22 3E 26 EE F8 95 85 25 BB
+27 AC 2F 65 82 D2 59 39 52 7B F0 A3 DD 17 8A 32
+06 88 1A 57 D0 83 F6 73 8F 07 DE A0 15 6E DE 54
+D6 68 CB 5B 4C 12 7D 87 37 EE 44 6E B8 84 B6 E8
+83 64 22 62 AE D2 D9 A9 D9 05 A5 D2 1E FF 19 3A
+1E 51 8F 10 00 44 46 56 21 C9 2E 52 61 3E BF 6D
+1E 3A C5 9D 14 43 F4 17 DF DD 7F 56 83 F0 F9 BC
+D8 A6 19 4B 41 8D 36 ED 69 1F EA E2 21 84 50 A0
+4B E0 D4 A0 A8 34 1A A9 D0 A8 3C 52 98 6C 6E D5
+AD B0 13 E3 3B AA 5C C4 21 9E 92 97 83 2C 32 29
+91 0C 1C 8D 10 DC 64 7A 1F F6 78 99 86 34 ED 4D
+37 72 DF 53 A3 6D 4D CF 17 3C 7D 75 DE 63 81 05
+02 03 01 00 01 A3 32 30 30 30 09 06 03 55 1D 13
+04 02 30 00 30 0B 06 03 55 1D 0F 04 04 03 02 05
+E0 30 16 06 03 55 1D 11 04 0F 30 0D 82 0B 2A 2E
+6D 61 74 6C 73 2E 63 6F 6D 30 0D 06 09 2A 86 48
+86 F7 0D 01 01 0B 05 00 03 82 01 01 00 17 68 CF
+75 15 BD 78 B7 DF EE C8 7E 04 4E 67 EA 69 D8 E3
+D3 6F D2 E7 B8 76 B6 93 60 7A 48 0A BA BD 4C 00
+AC E3 4A 61 DD 57 93 45 C2 81 A7 E4 33 C6 80 EB
+D9 CB E9 9B 97 37 D9 08 4E 03 B9 7D 13 CD B3 18
+81 88 0C EB 2B DF 37 73 83 7B 9E 67 05 6D 95 7E
+F9 B1 B6 DD CB BE 2A AF 4E 13 F5 E0 F1 CD 17 C7
+88 8D 95 60 62 4F 32 AA D5 BA E5 66 3E 84 5E A9
+17 EE 81 37 58 4F 97 41 9D 84 46 15 C5 E6 A7 D3
+A9 FD 0C 60 C1 5A F1 69 3A 24 B9 67 D3 04 0B C3
+DA B8 D4 7E 48 6C A6 9F 91 09 CB 9A 14 D0 81 17
+19 F3 B4 8C AB 0B E9 12 D8 B8 D9 38 EE F6 95 57
+95 74 1A 2B F6 ED C6 10 77 B4 E0 CE 46 20 1A B1
+27 4B 1D 90 30 30 84 7A CC C6 51 E6 5C 64 3A D7
+F8 85 56 1A 18 6E 39 60 6B F3 22 0C E9 D6 56 05
+B1 CA A4 2C 2B 97 57 98 3F B8 1D 57 BD 46 E8 6E
+CC AB 30 DC 71 FB CB D5 C6 7D 0A 2C 82 
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4509:: Not Middlebox 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2773:: Server Random 
+04 74 7B CF 0F 5A 0D 15 58 B6 5E 89 15 57 34 95 90 9B 07 22 0A 78 5D A1 75 65 15 EC 90 2F ED C5 7D D7 68 6B 50 27 14 AE D7 83 10 CC 98 F2 5E 90 98 DA D3 66 D4 92 FC DA 45 D6 51 F1 0A FD AA 31 6D 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2779:: Client Random 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 3D 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [0] 
+79 0E 9D 65 D3 BA 3D 08 23 F1 6F 22 C9 41 ED 9E D4 A8 04 43 FE ED 98 23 43 A6 45 F2 06 7E F1 E6 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [0] 
+AC 8F 8C 4D EA C6 38 C0 20 94 4C EB C5 BC 0F 96 D9 49 55 D5 CF 41 54 4F 7D 34 9B 74 17 58 99 28 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [1] 
+47 03 31 0E A4 7E A6 2E D3 8A 0B 1A 5F 76 6B FA F6 E2 BB DE B7 CF EA DA FF 76 88 78 9D A1 AB 96 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [1] 
+16 E9 DE 16 CD AF 0D 8D 4E 68 80 DB 4B C7 35 36 20 BC 3B F6 6C 9E EC BE D7 67 5D C0 D6 C3 BE B8 
+[DEBUG] server.c:main:271:
+[mdtls] server.c:main:274: Msg from Middlebox: GET / HTTP/1.2
+Host: www.mdtls_thyun.com
+
+
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:915: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5947: Set SSL mb_info struct 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5973: Set SSL proxy_info struct 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:6007: make proxy desig key pair 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[TIME] ssl/ssl_lib.c:SSL_enable_mb:6075: Proxy dkey Execution Time 43 µs
+[DEBUG] server.c:main:266: ssl pointer :: 0x557128f794e0
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1949:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:188::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:281:: Server Received CH Ext Data : 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 13 00 17 02 01 00 41 04 40 0D 3E B2 B2 51 95 
+8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 
+A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 
+07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 
+90 43 F7 3F 85 F3 3A 90 3D 00 41 04 DB EB 05 CC 
+9A A2 5B D0 B0 6D 90 03 99 DD 3D 32 29 33 2A 78 
+D2 98 82 F4 97 B7 D8 C6 AE 57 D2 47 82 8F D3 A5 
+FB 35 98 59 77 D2 73 47 C5 D3 FF 9E E5 0A 8A 99 
+3C B4 F3 BE C1 27 A3 DB D3 C0 B3 1E 02 00 41 04 
+D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 2B 
+0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 47 
+2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 62 
+48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 0A 
+00 41 04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 
+A8 7E FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 
+11 59 67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 
+77 E2 81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E 
+F7 4F 84 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:293:: Server Received nk is 2 : 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:324:: Server saved Client pub key : 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 
+A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 
+F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 
+4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 
+3D 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:333:: Server saved MB pub key : 
+04 D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 
+2B 0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 
+47 2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 
+62 48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 
+0A 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:352:: Server's proxy desig pub key: 
+04 ED 95 F5 FE 6F 38 2B DC 31 AB 2A F0 23 97 95 
+88 B8 1F 0D EE 80 11 46 25 30 2C 92 18 F9 D5 35 
+01 A4 12 3F F3 12 78 AA 46 D2 AF B9 3C CB 64 C9 
+C2 E2 80 70 A0 50 EA AF B3 54 35 F9 3B CC 40 68 
+C4 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:372:: Server get Client's proxy desig pub key: 
+04 DB EB 05 CC 9A A2 5B D0 B0 6D 90 03 99 DD 3D 
+32 29 33 2A 78 D2 98 82 F4 97 B7 D8 C6 AE 57 D2 
+47 82 8F D3 A5 FB 35 98 59 77 D2 73 47 C5 D3 FF 
+9E E5 0A 8A 99 3C B4 F3 BE C1 27 A3 DB D3 C0 B3 
+1E 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:388:: Server get MB's proxy desig pub key: 
+04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 A8 7E 
+FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 11 59 
+67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 77 E2 
+81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E F7 4F 
+84 
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:834:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1636::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1792:: Server's SH ext data is : 
+01 10 00 17 01 01 00 41 04 E5 1B 35 91 62 04 B5 
+F6 10 A2 8F 0F D2 BD 97 88 25 03 0E C0 84 07 77 
+D4 B6 E7 CF 7D 0B 7B D3 6A 96 3B F6 7C 45 41 10 
+D0 08 5B 4E 51 34 CE 73 F5 2F 00 82 EB 62 EB 5B 
+9A D5 17 34 A6 85 CA B0 60 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1809:: Server's proxy desig pub key is : 
+04 ED 95 F5 FE 6F 38 2B DC 31 AB 2A F0 23 97 95 
+88 B8 1F 0D EE 80 11 46 25 30 2C 92 18 F9 D5 35 
+01 A4 12 3F F3 12 78 AA 46 D2 AF B9 3C CB 64 C9 
+C2 E2 80 70 A0 50 EA AF B3 54 35 F9 3B CC 40 68 
+C4 
+plain text in hash_sha256:: 
+51 73 49 44 6D 62 51 6D 62 57 61 72 72 61 6E 74 
+hash length:: 32
+hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+copied hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+binary data of hash in proxy_delegation::: 
+ 2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+====>>>> @@@ ecdsa_sign.c > ECDSA_sign_setup() 
+====>>>> @@@ ecdsa_ossl.c > ecdsa_sign_setup() 
+0 k :: 
+before do-while process :::
+dgst is null
+after do-while process in do-while :::
+5CA9B672D017E0CE55EE318BFF1CF030B28C35C3CF1620D70857DBAEC4F9ECC k-2:: 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > success get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > can sign with ec_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > start sign with ec_key 
+BBD970571886DC7CF11A859EA0ADB3B5A88985B96FEDAEDDBE8958A5734276CE ::x_Y_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1832:: 
+BBD970571886DC7CF11A859EA0ADB3B5A88985B96FEDAEDDBE8958A5734276CE ::sig_r_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1834:: 
+D6271CE9B3B1B4B6BF582CF5F101F6A8FDDB86BBDE2C76BF5CA6F483FB596DDC ::sig_s_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1836:: 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1841:: sig_r_d_hex is BBD970571886DC7CF11A859EA0ADB3B5A88985B96FEDAEDDBE8958A5734276CE 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1842:: sig_s_d_hex is D6271CE9B3B1B4B6BF582CF5F101F6A8FDDB86BBDE2C76BF5CA6F483FB596DDC 
+[TIME] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1853: Proxy desig Execution Time 145 µs
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1868:: SH Final data: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 10 00 17 01 01 00 41 04 E5 1B 35 91 62 04 B5 
+F6 10 A2 8F 0F D2 BD 97 88 25 03 0E C0 84 07 77 
+D4 B6 E7 CF 7D 0B 7B D3 6A 96 3B F6 7C 45 41 10 
+D0 08 5B 4E 51 34 CE 73 F5 2F 00 82 EB 62 EB 5B 
+9A D5 17 34 A6 85 CA B0 60 00 41 04 ED 95 F5 FE 
+6F 38 2B DC 31 AB 2A F0 23 97 95 88 B8 1F 0D EE 
+80 11 46 25 30 2C 92 18 F9 D5 35 01 A4 12 3F F3 
+12 78 AA 46 D2 AF B9 3C CB 64 C9 C2 E2 80 70 A0 
+50 EA AF B3 54 35 F9 3B CC 40 68 C4 00 40 42 42 
+44 39 37 30 35 37 31 38 38 36 44 43 37 43 46 31 
+31 41 38 35 39 45 41 30 41 44 42 33 42 35 41 38 
+38 39 38 35 42 39 36 46 45 44 41 45 44 44 42 45 
+38 39 35 38 41 35 37 33 34 32 37 36 43 45 00 40 
+44 36 32 37 31 43 45 39 42 33 42 31 42 34 42 36 
+42 46 35 38 32 43 46 35 46 31 30 31 46 36 41 38 
+46 44 44 42 38 36 42 42 44 45 32 43 37 36 42 46 
+35 43 41 36 46 34 38 33 46 42 35 39 36 44 44 43 
+
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4483:: SERVER'S CERTIFICATE in HEX data: 
+30 82 03 E9 30 82 02 D1 A0 03 02 01 02 02 09 00
+D9 29 CB 9B 45 A3 BB 94 30 0D 06 09 2A 86 48 86
+F7 0D 01 01 0B 05 00 30 81 9F 31 0B 30 09 06 03
+55 04 06 13 02 55 53 31 13 30 11 06 03 55 04 08
+0C 0A 43 61 6C 69 66 6F 72 6E 69 61 31 13 30 11
+06 03 55 04 07 0C 0A 43 61 6C 69 66 6F 72 6E 69
+61 31 16 30 14 06 03 55 04 0A 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 16 30 14 06 03 55
+04 0B 0C 0D 41 6C 69 63 65 20 43 41 20 4C 74 64
+2E 31 16 30 14 06 03 55 04 03 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 1E 30 1C 06 09 2A
+86 48 86 F7 0D 01 09 01 16 0F 63 61 40 63 61 5F
+61 6C 69 63 65 2E 63 6F 6D 30 1E 17 0D 31 38 30
+34 32 35 30 36 35 34 33 32 5A 17 0D 31 39 30 34
+32 35 30 36 35 34 33 32 5A 30 81 93 31 0B 30 09
+06 03 55 04 06 13 02 4B 52 31 0E 30 0C 06 03 55
+04 08 0C 05 53 65 6F 75 6C 31 0E 30 0C 06 03 55
+04 07 0C 05 53 65 6F 75 6C 31 1C 30 1A 06 03 55
+04 0A 0C 13 4D 69 64 64 6C 65 62 6F 78 2D 61 77
+61 72 65 20 54 4C 53 31 0C 30 0A 06 03 55 04 0B
+0C 03 53 4E 55 31 18 30 16 06 03 55 04 03 0C 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 31
+1E 30 1C 06 09 2A 86 48 86 F7 0D 01 09 01 16 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 30
+82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01 01
+05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01 00
+D0 8B 41 23 FD 32 78 F8 78 39 CE 06 92 F8 ED 80
+35 BE 02 3E 56 4F 10 72 46 9E 53 F7 07 BC 86 C8
+DC 79 3D 25 96 DA 28 DC A0 78 1A F2 EC 95 6C A6
+73 C8 23 E4 14 9B FF 6A F4 A4 93 EF DA 0A 2A DE
+D4 16 3E 83 40 61 A6 22 3E 26 EE F8 95 85 25 BB
+27 AC 2F 65 82 D2 59 39 52 7B F0 A3 DD 17 8A 32
+06 88 1A 57 D0 83 F6 73 8F 07 DE A0 15 6E DE 54
+D6 68 CB 5B 4C 12 7D 87 37 EE 44 6E B8 84 B6 E8
+83 64 22 62 AE D2 D9 A9 D9 05 A5 D2 1E FF 19 3A
+1E 51 8F 10 00 44 46 56 21 C9 2E 52 61 3E BF 6D
+1E 3A C5 9D 14 43 F4 17 DF DD 7F 56 83 F0 F9 BC
+D8 A6 19 4B 41 8D 36 ED 69 1F EA E2 21 84 50 A0
+4B E0 D4 A0 A8 34 1A A9 D0 A8 3C 52 98 6C 6E D5
+AD B0 13 E3 3B AA 5C C4 21 9E 92 97 83 2C 32 29
+91 0C 1C 8D 10 DC 64 7A 1F F6 78 99 86 34 ED 4D
+37 72 DF 53 A3 6D 4D CF 17 3C 7D 75 DE 63 81 05
+02 03 01 00 01 A3 32 30 30 30 09 06 03 55 1D 13
+04 02 30 00 30 0B 06 03 55 1D 0F 04 04 03 02 05
+E0 30 16 06 03 55 1D 11 04 0F 30 0D 82 0B 2A 2E
+6D 61 74 6C 73 2E 63 6F 6D 30 0D 06 09 2A 86 48
+86 F7 0D 01 01 0B 05 00 03 82 01 01 00 17 68 CF
+75 15 BD 78 B7 DF EE C8 7E 04 4E 67 EA 69 D8 E3
+D3 6F D2 E7 B8 76 B6 93 60 7A 48 0A BA BD 4C 00
+AC E3 4A 61 DD 57 93 45 C2 81 A7 E4 33 C6 80 EB
+D9 CB E9 9B 97 37 D9 08 4E 03 B9 7D 13 CD B3 18
+81 88 0C EB 2B DF 37 73 83 7B 9E 67 05 6D 95 7E
+F9 B1 B6 DD CB BE 2A AF 4E 13 F5 E0 F1 CD 17 C7
+88 8D 95 60 62 4F 32 AA D5 BA E5 66 3E 84 5E A9
+17 EE 81 37 58 4F 97 41 9D 84 46 15 C5 E6 A7 D3
+A9 FD 0C 60 C1 5A F1 69 3A 24 B9 67 D3 04 0B C3
+DA B8 D4 7E 48 6C A6 9F 91 09 CB 9A 14 D0 81 17
+19 F3 B4 8C AB 0B E9 12 D8 B8 D9 38 EE F6 95 57
+95 74 1A 2B F6 ED C6 10 77 B4 E0 CE 46 20 1A B1
+27 4B 1D 90 30 30 84 7A CC C6 51 E6 5C 64 3A D7
+F8 85 56 1A 18 6E 39 60 6B F3 22 0C E9 D6 56 05
+B1 CA A4 2C 2B 97 57 98 3F B8 1D 57 BD 46 E8 6E
+CC AB 30 DC 71 FB CB D5 C6 7D 0A 2C 82 
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4509:: Not Middlebox 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2773:: Server Random 
+04 E5 1B 35 91 62 04 B5 F6 10 A2 8F 0F D2 BD 97 88 25 03 0E C0 84 07 77 D4 B6 E7 CF 7D 0B 7B D3 6A 96 3B F6 7C 45 41 10 D0 08 5B 4E 51 34 CE 73 F5 2F 00 82 EB 62 EB 5B 9A D5 17 34 A6 85 CA B0 60 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2779:: Client Random 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 3D 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [0] 
+86 16 CA C2 7F 39 3C C7 1F C6 97 5A EC E8 CF CA 0E 8D 9F 93 D8 B1 99 6D 72 DF 73 B9 64 9B 3A 23 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [0] 
+45 F3 AD C3 0A 0B FC DB 01 73 52 C6 C6 DF 1C 53 23 98 E5 68 0C 2E 3D 18 E3 6E 77 51 ED 44 61 2A 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [1] 
+9D 12 A5 D3 2D C0 EB 18 D6 47 75 14 BD A5 8F 7C 86 A2 1E 35 EC 98 4B 54 7D 15 88 BC 1B 13 8A F7 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [1] 
+14 70 67 F5 7B F1 D6 B4 F0 3F D1 D0 20 20 20 26 09 5C A2 09 5D 04 E9 75 B6 16 3C C1 D8 7B 00 E5 
+[DEBUG] server.c:main:271:
+[mdtls] server.c:main:274: Msg from Middlebox: GET / HTTP/1.2
+Host: www.mdtls_thyun.com
+
+
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:915: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5947: Set SSL mb_info struct 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5973: Set SSL proxy_info struct 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:6007: make proxy desig key pair 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[TIME] ssl/ssl_lib.c:SSL_enable_mb:6075: Proxy dkey Execution Time 43 µs
+[DEBUG] server.c:main:266: ssl pointer :: 0x557128f794e0
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1949:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:188::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:281:: Server Received CH Ext Data : 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 13 00 17 02 01 00 41 04 40 0D 3E B2 B2 51 95 
+8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 
+A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 
+07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 
+90 43 F7 3F 85 F3 3A 90 3D 00 41 04 DB EB 05 CC 
+9A A2 5B D0 B0 6D 90 03 99 DD 3D 32 29 33 2A 78 
+D2 98 82 F4 97 B7 D8 C6 AE 57 D2 47 82 8F D3 A5 
+FB 35 98 59 77 D2 73 47 C5 D3 FF 9E E5 0A 8A 99 
+3C B4 F3 BE C1 27 A3 DB D3 C0 B3 1E 02 00 41 04 
+D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 2B 
+0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 47 
+2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 62 
+48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 0A 
+00 41 04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 
+A8 7E FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 
+11 59 67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 
+77 E2 81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E 
+F7 4F 84 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:293:: Server Received nk is 2 : 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:324:: Server saved Client pub key : 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 
+A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 
+F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 
+4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 
+3D 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:333:: Server saved MB pub key : 
+04 D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 
+2B 0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 
+47 2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 
+62 48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 
+0A 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:352:: Server's proxy desig pub key: 
+04 3B B5 DB A0 E3 CF 47 21 2A B5 10 F2 C1 B1 87 
+85 B3 EB 17 47 E4 C6 B4 E0 38 AD 50 97 68 53 6C 
+51 51 13 B5 57 5A B3 1D 72 88 26 7A E0 C3 59 36 
+36 AB C8 D8 ED 9A F2 05 F3 ED AD 41 C5 D9 4E AE 
+D6 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:372:: Server get Client's proxy desig pub key: 
+04 DB EB 05 CC 9A A2 5B D0 B0 6D 90 03 99 DD 3D 
+32 29 33 2A 78 D2 98 82 F4 97 B7 D8 C6 AE 57 D2 
+47 82 8F D3 A5 FB 35 98 59 77 D2 73 47 C5 D3 FF 
+9E E5 0A 8A 99 3C B4 F3 BE C1 27 A3 DB D3 C0 B3 
+1E 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:388:: Server get MB's proxy desig pub key: 
+04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 A8 7E 
+FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 11 59 
+67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 77 E2 
+81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E F7 4F 
+84 
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:834:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1636::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1792:: Server's SH ext data is : 
+01 10 00 17 01 01 00 41 04 81 12 60 94 2F D7 62 
+C0 C2 F6 2D B7 B7 A8 C5 A9 89 68 38 00 68 02 6D 
+49 93 53 5D E8 C3 FD BA 3C 30 86 84 DD D2 8A 87 
+80 43 1D B5 C2 31 66 ED 13 AC 40 EF 17 07 21 25 
+A0 77 39 3F F9 1F A5 23 2F 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1809:: Server's proxy desig pub key is : 
+04 3B B5 DB A0 E3 CF 47 21 2A B5 10 F2 C1 B1 87 
+85 B3 EB 17 47 E4 C6 B4 E0 38 AD 50 97 68 53 6C 
+51 51 13 B5 57 5A B3 1D 72 88 26 7A E0 C3 59 36 
+36 AB C8 D8 ED 9A F2 05 F3 ED AD 41 C5 D9 4E AE 
+D6 
+plain text in hash_sha256:: 
+51 73 49 44 6D 62 51 6D 62 57 61 72 72 61 6E 74 
+hash length:: 32
+hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+copied hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+binary data of hash in proxy_delegation::: 
+ 2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+====>>>> @@@ ecdsa_sign.c > ECDSA_sign_setup() 
+====>>>> @@@ ecdsa_ossl.c > ecdsa_sign_setup() 
+0 k :: 
+before do-while process :::
+dgst is null
+after do-while process in do-while :::
+D09265796E4FE11622D08307135922BDB86DD63BEFCABE435307CDBB2DCBC2B1 k-2:: 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > success get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > can sign with ec_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > start sign with ec_key 
+F7F8A994BDECA3FFC6AA9DC9D6EE78468559514F80F11A21A5333D3F9F523A94 ::x_Y_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1832:: 
+F7F8A994BDECA3FFC6AA9DC9D6EE78468559514F80F11A21A5333D3F9F523A94 ::sig_r_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1834:: 
+9023D242328EC58AEF5BE9D628887228453160BD00EACE3B660788183F62A0B1 ::sig_s_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1836:: 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1841:: sig_r_d_hex is F7F8A994BDECA3FFC6AA9DC9D6EE78468559514F80F11A21A5333D3F9F523A94 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1842:: sig_s_d_hex is 9023D242328EC58AEF5BE9D628887228453160BD00EACE3B660788183F62A0B1 
+[TIME] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1853: Proxy desig Execution Time 116 µs
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1868:: SH Final data: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 10 00 17 01 01 00 41 04 81 12 60 94 2F D7 62 
+C0 C2 F6 2D B7 B7 A8 C5 A9 89 68 38 00 68 02 6D 
+49 93 53 5D E8 C3 FD BA 3C 30 86 84 DD D2 8A 87 
+80 43 1D B5 C2 31 66 ED 13 AC 40 EF 17 07 21 25 
+A0 77 39 3F F9 1F A5 23 2F 00 41 04 3B B5 DB A0 
+E3 CF 47 21 2A B5 10 F2 C1 B1 87 85 B3 EB 17 47 
+E4 C6 B4 E0 38 AD 50 97 68 53 6C 51 51 13 B5 57 
+5A B3 1D 72 88 26 7A E0 C3 59 36 36 AB C8 D8 ED 
+9A F2 05 F3 ED AD 41 C5 D9 4E AE D6 00 40 46 37 
+46 38 41 39 39 34 42 44 45 43 41 33 46 46 43 36 
+41 41 39 44 43 39 44 36 45 45 37 38 34 36 38 35 
+35 39 35 31 34 46 38 30 46 31 31 41 32 31 41 35 
+33 33 33 44 33 46 39 46 35 32 33 41 39 34 00 40 
+39 30 32 33 44 32 34 32 33 32 38 45 43 35 38 41 
+45 46 35 42 45 39 44 36 32 38 38 38 37 32 32 38 
+34 35 33 31 36 30 42 44 30 30 45 41 43 45 33 42 
+36 36 30 37 38 38 31 38 33 46 36 32 41 30 42 31 
+
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4483:: SERVER'S CERTIFICATE in HEX data: 
+30 82 03 E9 30 82 02 D1 A0 03 02 01 02 02 09 00
+D9 29 CB 9B 45 A3 BB 94 30 0D 06 09 2A 86 48 86
+F7 0D 01 01 0B 05 00 30 81 9F 31 0B 30 09 06 03
+55 04 06 13 02 55 53 31 13 30 11 06 03 55 04 08
+0C 0A 43 61 6C 69 66 6F 72 6E 69 61 31 13 30 11
+06 03 55 04 07 0C 0A 43 61 6C 69 66 6F 72 6E 69
+61 31 16 30 14 06 03 55 04 0A 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 16 30 14 06 03 55
+04 0B 0C 0D 41 6C 69 63 65 20 43 41 20 4C 74 64
+2E 31 16 30 14 06 03 55 04 03 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 1E 30 1C 06 09 2A
+86 48 86 F7 0D 01 09 01 16 0F 63 61 40 63 61 5F
+61 6C 69 63 65 2E 63 6F 6D 30 1E 17 0D 31 38 30
+34 32 35 30 36 35 34 33 32 5A 17 0D 31 39 30 34
+32 35 30 36 35 34 33 32 5A 30 81 93 31 0B 30 09
+06 03 55 04 06 13 02 4B 52 31 0E 30 0C 06 03 55
+04 08 0C 05 53 65 6F 75 6C 31 0E 30 0C 06 03 55
+04 07 0C 05 53 65 6F 75 6C 31 1C 30 1A 06 03 55
+04 0A 0C 13 4D 69 64 64 6C 65 62 6F 78 2D 61 77
+61 72 65 20 54 4C 53 31 0C 30 0A 06 03 55 04 0B
+0C 03 53 4E 55 31 18 30 16 06 03 55 04 03 0C 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 31
+1E 30 1C 06 09 2A 86 48 86 F7 0D 01 09 01 16 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 30
+82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01 01
+05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01 00
+D0 8B 41 23 FD 32 78 F8 78 39 CE 06 92 F8 ED 80
+35 BE 02 3E 56 4F 10 72 46 9E 53 F7 07 BC 86 C8
+DC 79 3D 25 96 DA 28 DC A0 78 1A F2 EC 95 6C A6
+73 C8 23 E4 14 9B FF 6A F4 A4 93 EF DA 0A 2A DE
+D4 16 3E 83 40 61 A6 22 3E 26 EE F8 95 85 25 BB
+27 AC 2F 65 82 D2 59 39 52 7B F0 A3 DD 17 8A 32
+06 88 1A 57 D0 83 F6 73 8F 07 DE A0 15 6E DE 54
+D6 68 CB 5B 4C 12 7D 87 37 EE 44 6E B8 84 B6 E8
+83 64 22 62 AE D2 D9 A9 D9 05 A5 D2 1E FF 19 3A
+1E 51 8F 10 00 44 46 56 21 C9 2E 52 61 3E BF 6D
+1E 3A C5 9D 14 43 F4 17 DF DD 7F 56 83 F0 F9 BC
+D8 A6 19 4B 41 8D 36 ED 69 1F EA E2 21 84 50 A0
+4B E0 D4 A0 A8 34 1A A9 D0 A8 3C 52 98 6C 6E D5
+AD B0 13 E3 3B AA 5C C4 21 9E 92 97 83 2C 32 29
+91 0C 1C 8D 10 DC 64 7A 1F F6 78 99 86 34 ED 4D
+37 72 DF 53 A3 6D 4D CF 17 3C 7D 75 DE 63 81 05
+02 03 01 00 01 A3 32 30 30 30 09 06 03 55 1D 13
+04 02 30 00 30 0B 06 03 55 1D 0F 04 04 03 02 05
+E0 30 16 06 03 55 1D 11 04 0F 30 0D 82 0B 2A 2E
+6D 61 74 6C 73 2E 63 6F 6D 30 0D 06 09 2A 86 48
+86 F7 0D 01 01 0B 05 00 03 82 01 01 00 17 68 CF
+75 15 BD 78 B7 DF EE C8 7E 04 4E 67 EA 69 D8 E3
+D3 6F D2 E7 B8 76 B6 93 60 7A 48 0A BA BD 4C 00
+AC E3 4A 61 DD 57 93 45 C2 81 A7 E4 33 C6 80 EB
+D9 CB E9 9B 97 37 D9 08 4E 03 B9 7D 13 CD B3 18
+81 88 0C EB 2B DF 37 73 83 7B 9E 67 05 6D 95 7E
+F9 B1 B6 DD CB BE 2A AF 4E 13 F5 E0 F1 CD 17 C7
+88 8D 95 60 62 4F 32 AA D5 BA E5 66 3E 84 5E A9
+17 EE 81 37 58 4F 97 41 9D 84 46 15 C5 E6 A7 D3
+A9 FD 0C 60 C1 5A F1 69 3A 24 B9 67 D3 04 0B C3
+DA B8 D4 7E 48 6C A6 9F 91 09 CB 9A 14 D0 81 17
+19 F3 B4 8C AB 0B E9 12 D8 B8 D9 38 EE F6 95 57
+95 74 1A 2B F6 ED C6 10 77 B4 E0 CE 46 20 1A B1
+27 4B 1D 90 30 30 84 7A CC C6 51 E6 5C 64 3A D7
+F8 85 56 1A 18 6E 39 60 6B F3 22 0C E9 D6 56 05
+B1 CA A4 2C 2B 97 57 98 3F B8 1D 57 BD 46 E8 6E
+CC AB 30 DC 71 FB CB D5 C6 7D 0A 2C 82 
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4509:: Not Middlebox 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2773:: Server Random 
+04 81 12 60 94 2F D7 62 C0 C2 F6 2D B7 B7 A8 C5 A9 89 68 38 00 68 02 6D 49 93 53 5D E8 C3 FD BA 3C 30 86 84 DD D2 8A 87 80 43 1D B5 C2 31 66 ED 13 AC 40 EF 17 07 21 25 A0 77 39 3F F9 1F A5 23 2F 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2779:: Client Random 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 3D 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [0] 
+51 CA 0D BE 8A 98 51 FF CC 4D 33 18 1E 6B AC E3 C3 F5 88 DE 4F 00 F0 DF E5 3D 6F 24 4C 14 A6 FF 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [0] 
+45 2A 07 FA 9E 52 10 C9 DF F0 6A 0C 01 ED 35 18 F5 EE 5B 86 DB F6 8E 35 AB 94 D3 91 42 8C C4 FE 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [1] 
+3D EA 89 C3 6D D9 30 FA 62 4D A0 E0 9C 85 F4 79 CC 93 36 32 FA 8C F9 A4 FE FD D3 B4 00 89 FB C8 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [1] 
+4D 2F C5 BB 87 FC 90 25 3F 7F 3E 6C 6C DC AD 24 54 9D BC CF 36 D8 AA 30 84 3D AC 91 A0 19 AC 37 
+[DEBUG] server.c:main:271:
+[mdtls] server.c:main:274: Msg from Middlebox: GET / HTTP/1.2
+Host: www.mdtls_thyun.com
+
+
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:915: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5947: Set SSL mb_info struct 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5973: Set SSL proxy_info struct 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:6007: make proxy desig key pair 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[TIME] ssl/ssl_lib.c:SSL_enable_mb:6075: Proxy dkey Execution Time 42 µs
+[DEBUG] server.c:main:266: ssl pointer :: 0x557128f794e0
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1949:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:188::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:281:: Server Received CH Ext Data : 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 13 00 17 02 01 00 41 04 40 0D 3E B2 B2 51 95 
+8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 
+A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 
+07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 
+90 43 F7 3F 85 F3 3A 90 3D 00 41 04 DB EB 05 CC 
+9A A2 5B D0 B0 6D 90 03 99 DD 3D 32 29 33 2A 78 
+D2 98 82 F4 97 B7 D8 C6 AE 57 D2 47 82 8F D3 A5 
+FB 35 98 59 77 D2 73 47 C5 D3 FF 9E E5 0A 8A 99 
+3C B4 F3 BE C1 27 A3 DB D3 C0 B3 1E 02 00 41 04 
+D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 2B 
+0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 47 
+2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 62 
+48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 0A 
+00 41 04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 
+A8 7E FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 
+11 59 67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 
+77 E2 81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E 
+F7 4F 84 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:293:: Server Received nk is 2 : 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:324:: Server saved Client pub key : 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 
+A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 
+F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 
+4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 
+3D 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:333:: Server saved MB pub key : 
+04 D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 
+2B 0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 
+47 2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 
+62 48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 
+0A 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:352:: Server's proxy desig pub key: 
+04 01 EE EE 49 25 5C D7 32 1A 99 65 D0 AB 75 C0 
+FF 25 00 63 4A DF 5D D5 23 C7 95 AE CB 40 FB 39 
+A0 20 D4 A7 B4 14 81 D1 9B A8 3C 3C E1 5A 79 40 
+24 8F A0 AF D9 A1 9B 83 D9 D6 77 53 CE 7B 8C 25 
+71 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:372:: Server get Client's proxy desig pub key: 
+04 DB EB 05 CC 9A A2 5B D0 B0 6D 90 03 99 DD 3D 
+32 29 33 2A 78 D2 98 82 F4 97 B7 D8 C6 AE 57 D2 
+47 82 8F D3 A5 FB 35 98 59 77 D2 73 47 C5 D3 FF 
+9E E5 0A 8A 99 3C B4 F3 BE C1 27 A3 DB D3 C0 B3 
+1E 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:388:: Server get MB's proxy desig pub key: 
+04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 A8 7E 
+FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 11 59 
+67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 77 E2 
+81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E F7 4F 
+84 
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:834:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1636::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1792:: Server's SH ext data is : 
+01 10 00 17 01 01 00 41 04 8C 1F 81 28 45 E5 DC 
+31 2E F4 BE 3A A6 1E C7 52 87 36 69 3B BD F0 92 
+9F 35 E3 5F 8C 40 F7 CA CD FB E9 BB D5 06 AB 23 
+0F 64 98 25 6A 5E 42 59 D2 59 26 F9 FB C0 2B 03 
+5C 0C DC 92 29 EC 1C D3 80 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1809:: Server's proxy desig pub key is : 
+04 01 EE EE 49 25 5C D7 32 1A 99 65 D0 AB 75 C0 
+FF 25 00 63 4A DF 5D D5 23 C7 95 AE CB 40 FB 39 
+A0 20 D4 A7 B4 14 81 D1 9B A8 3C 3C E1 5A 79 40 
+24 8F A0 AF D9 A1 9B 83 D9 D6 77 53 CE 7B 8C 25 
+71 
+plain text in hash_sha256:: 
+51 73 49 44 6D 62 51 6D 62 57 61 72 72 61 6E 74 
+hash length:: 32
+hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+copied hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+binary data of hash in proxy_delegation::: 
+ 2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+====>>>> @@@ ecdsa_sign.c > ECDSA_sign_setup() 
+====>>>> @@@ ecdsa_ossl.c > ecdsa_sign_setup() 
+0 k :: 
+before do-while process :::
+dgst is null
+after do-while process in do-while :::
+ED65015F12685C3230A0033656DBC0E980F3D5945AF4C931E29DE819320C10BC k-2:: 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > success get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > can sign with ec_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > start sign with ec_key 
+F937114046E79D3C439AB06432C14C21152D2CDCB0B7969459245F811567CBCD ::x_Y_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1832:: 
+F937114046E79D3C439AB06432C14C21152D2CDCB0B7969459245F811567CBCD ::sig_r_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1834:: 
+109FB2FB401DFBCA1F3F3B5216636917188C3389789EBB5986F033EC1AB0D3CB ::sig_s_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1836:: 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1841:: sig_r_d_hex is F937114046E79D3C439AB06432C14C21152D2CDCB0B7969459245F811567CBCD 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1842:: sig_s_d_hex is 109FB2FB401DFBCA1F3F3B5216636917188C3389789EBB5986F033EC1AB0D3CB 
+[TIME] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1853: Proxy desig Execution Time 88 µs
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1868:: SH Final data: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 10 00 17 01 01 00 41 04 8C 1F 81 28 45 E5 DC 
+31 2E F4 BE 3A A6 1E C7 52 87 36 69 3B BD F0 92 
+9F 35 E3 5F 8C 40 F7 CA CD FB E9 BB D5 06 AB 23 
+0F 64 98 25 6A 5E 42 59 D2 59 26 F9 FB C0 2B 03 
+5C 0C DC 92 29 EC 1C D3 80 00 41 04 01 EE EE 49 
+25 5C D7 32 1A 99 65 D0 AB 75 C0 FF 25 00 63 4A 
+DF 5D D5 23 C7 95 AE CB 40 FB 39 A0 20 D4 A7 B4 
+14 81 D1 9B A8 3C 3C E1 5A 79 40 24 8F A0 AF D9 
+A1 9B 83 D9 D6 77 53 CE 7B 8C 25 71 00 40 46 39 
+33 37 31 31 34 30 34 36 45 37 39 44 33 43 34 33 
+39 41 42 30 36 34 33 32 43 31 34 43 32 31 31 35 
+32 44 32 43 44 43 42 30 42 37 39 36 39 34 35 39 
+32 34 35 46 38 31 31 35 36 37 43 42 43 44 00 40 
+31 30 39 46 42 32 46 42 34 30 31 44 46 42 43 41 
+31 46 33 46 33 42 35 32 31 36 36 33 36 39 31 37 
+31 38 38 43 33 33 38 39 37 38 39 45 42 42 35 39 
+38 36 46 30 33 33 45 43 31 41 42 30 44 33 43 42 
+
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4483:: SERVER'S CERTIFICATE in HEX data: 
+30 82 03 E9 30 82 02 D1 A0 03 02 01 02 02 09 00
+D9 29 CB 9B 45 A3 BB 94 30 0D 06 09 2A 86 48 86
+F7 0D 01 01 0B 05 00 30 81 9F 31 0B 30 09 06 03
+55 04 06 13 02 55 53 31 13 30 11 06 03 55 04 08
+0C 0A 43 61 6C 69 66 6F 72 6E 69 61 31 13 30 11
+06 03 55 04 07 0C 0A 43 61 6C 69 66 6F 72 6E 69
+61 31 16 30 14 06 03 55 04 0A 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 16 30 14 06 03 55
+04 0B 0C 0D 41 6C 69 63 65 20 43 41 20 4C 74 64
+2E 31 16 30 14 06 03 55 04 03 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 1E 30 1C 06 09 2A
+86 48 86 F7 0D 01 09 01 16 0F 63 61 40 63 61 5F
+61 6C 69 63 65 2E 63 6F 6D 30 1E 17 0D 31 38 30
+34 32 35 30 36 35 34 33 32 5A 17 0D 31 39 30 34
+32 35 30 36 35 34 33 32 5A 30 81 93 31 0B 30 09
+06 03 55 04 06 13 02 4B 52 31 0E 30 0C 06 03 55
+04 08 0C 05 53 65 6F 75 6C 31 0E 30 0C 06 03 55
+04 07 0C 05 53 65 6F 75 6C 31 1C 30 1A 06 03 55
+04 0A 0C 13 4D 69 64 64 6C 65 62 6F 78 2D 61 77
+61 72 65 20 54 4C 53 31 0C 30 0A 06 03 55 04 0B
+0C 03 53 4E 55 31 18 30 16 06 03 55 04 03 0C 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 31
+1E 30 1C 06 09 2A 86 48 86 F7 0D 01 09 01 16 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 30
+82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01 01
+05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01 00
+D0 8B 41 23 FD 32 78 F8 78 39 CE 06 92 F8 ED 80
+35 BE 02 3E 56 4F 10 72 46 9E 53 F7 07 BC 86 C8
+DC 79 3D 25 96 DA 28 DC A0 78 1A F2 EC 95 6C A6
+73 C8 23 E4 14 9B FF 6A F4 A4 93 EF DA 0A 2A DE
+D4 16 3E 83 40 61 A6 22 3E 26 EE F8 95 85 25 BB
+27 AC 2F 65 82 D2 59 39 52 7B F0 A3 DD 17 8A 32
+06 88 1A 57 D0 83 F6 73 8F 07 DE A0 15 6E DE 54
+D6 68 CB 5B 4C 12 7D 87 37 EE 44 6E B8 84 B6 E8
+83 64 22 62 AE D2 D9 A9 D9 05 A5 D2 1E FF 19 3A
+1E 51 8F 10 00 44 46 56 21 C9 2E 52 61 3E BF 6D
+1E 3A C5 9D 14 43 F4 17 DF DD 7F 56 83 F0 F9 BC
+D8 A6 19 4B 41 8D 36 ED 69 1F EA E2 21 84 50 A0
+4B E0 D4 A0 A8 34 1A A9 D0 A8 3C 52 98 6C 6E D5
+AD B0 13 E3 3B AA 5C C4 21 9E 92 97 83 2C 32 29
+91 0C 1C 8D 10 DC 64 7A 1F F6 78 99 86 34 ED 4D
+37 72 DF 53 A3 6D 4D CF 17 3C 7D 75 DE 63 81 05
+02 03 01 00 01 A3 32 30 30 30 09 06 03 55 1D 13
+04 02 30 00 30 0B 06 03 55 1D 0F 04 04 03 02 05
+E0 30 16 06 03 55 1D 11 04 0F 30 0D 82 0B 2A 2E
+6D 61 74 6C 73 2E 63 6F 6D 30 0D 06 09 2A 86 48
+86 F7 0D 01 01 0B 05 00 03 82 01 01 00 17 68 CF
+75 15 BD 78 B7 DF EE C8 7E 04 4E 67 EA 69 D8 E3
+D3 6F D2 E7 B8 76 B6 93 60 7A 48 0A BA BD 4C 00
+AC E3 4A 61 DD 57 93 45 C2 81 A7 E4 33 C6 80 EB
+D9 CB E9 9B 97 37 D9 08 4E 03 B9 7D 13 CD B3 18
+81 88 0C EB 2B DF 37 73 83 7B 9E 67 05 6D 95 7E
+F9 B1 B6 DD CB BE 2A AF 4E 13 F5 E0 F1 CD 17 C7
+88 8D 95 60 62 4F 32 AA D5 BA E5 66 3E 84 5E A9
+17 EE 81 37 58 4F 97 41 9D 84 46 15 C5 E6 A7 D3
+A9 FD 0C 60 C1 5A F1 69 3A 24 B9 67 D3 04 0B C3
+DA B8 D4 7E 48 6C A6 9F 91 09 CB 9A 14 D0 81 17
+19 F3 B4 8C AB 0B E9 12 D8 B8 D9 38 EE F6 95 57
+95 74 1A 2B F6 ED C6 10 77 B4 E0 CE 46 20 1A B1
+27 4B 1D 90 30 30 84 7A CC C6 51 E6 5C 64 3A D7
+F8 85 56 1A 18 6E 39 60 6B F3 22 0C E9 D6 56 05
+B1 CA A4 2C 2B 97 57 98 3F B8 1D 57 BD 46 E8 6E
+CC AB 30 DC 71 FB CB D5 C6 7D 0A 2C 82 
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4509:: Not Middlebox 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2773:: Server Random 
+04 8C 1F 81 28 45 E5 DC 31 2E F4 BE 3A A6 1E C7 52 87 36 69 3B BD F0 92 9F 35 E3 5F 8C 40 F7 CA CD FB E9 BB D5 06 AB 23 0F 64 98 25 6A 5E 42 59 D2 59 26 F9 FB C0 2B 03 5C 0C DC 92 29 EC 1C D3 80 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2779:: Client Random 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 3D 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [0] 
+6B 7E A2 86 C7 A3 19 CA 19 8E 92 7F 55 E3 48 8C 0F 10 4A 8D 3C 42 68 1E A7 91 BB 80 DB 20 74 3E 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [0] 
+37 30 1B 4F BC D6 E5 E2 17 42 14 43 61 65 7F FB 15 35 B7 F6 26 2C 96 02 B8 42 00 B3 FB E2 1C 88 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [1] 
+CB E4 F3 E0 F5 DC EE 2F 79 D4 C6 03 8A 25 4E DA CC B5 46 43 58 AA 35 5C 2C 47 FD A8 28 CB 00 DD 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [1] 
+E0 B5 47 A6 35 B1 80 AA 61 E0 27 A3 00 74 B4 F8 09 26 80 12 A6 51 BE 65 67 14 98 85 75 5A 24 88 
+[DEBUG] server.c:main:271:
+[mdtls] server.c:main:274: Msg from Middlebox: GET / HTTP/1.2
+Host: www.mdtls_thyun.com
+
+
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:915: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5947: Set SSL mb_info struct 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5973: Set SSL proxy_info struct 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:6007: make proxy desig key pair 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[TIME] ssl/ssl_lib.c:SSL_enable_mb:6075: Proxy dkey Execution Time 27 µs
+[DEBUG] server.c:main:266: ssl pointer :: 0x557128f794e0
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1949:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:188::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:281:: Server Received CH Ext Data : 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 13 00 17 02 01 00 41 04 40 0D 3E B2 B2 51 95 
+8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 
+A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 
+07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 
+90 43 F7 3F 85 F3 3A 90 3D 00 41 04 DB EB 05 CC 
+9A A2 5B D0 B0 6D 90 03 99 DD 3D 32 29 33 2A 78 
+D2 98 82 F4 97 B7 D8 C6 AE 57 D2 47 82 8F D3 A5 
+FB 35 98 59 77 D2 73 47 C5 D3 FF 9E E5 0A 8A 99 
+3C B4 F3 BE C1 27 A3 DB D3 C0 B3 1E 02 00 41 04 
+D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 2B 
+0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 47 
+2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 62 
+48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 0A 
+00 41 04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 
+A8 7E FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 
+11 59 67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 
+77 E2 81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E 
+F7 4F 84 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:293:: Server Received nk is 2 : 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:324:: Server saved Client pub key : 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 
+A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 
+F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 
+4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 
+3D 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:333:: Server saved MB pub key : 
+04 D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 
+2B 0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 
+47 2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 
+62 48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 
+0A 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:352:: Server's proxy desig pub key: 
+04 8D 2A AF A8 76 A3 46 F8 BE 20 FA 9B 94 0B F0 
+DC B5 7A 11 8F FE DE 91 3C 5E BE 2F 45 E6 E8 10 
+D5 94 0C DF 45 4E 2C 52 B0 97 FA 5E 3E BF BB 56 
+DD 8B 83 1B A7 FE 31 4D 0A 5E 56 78 C7 67 27 ED 
+09 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:372:: Server get Client's proxy desig pub key: 
+04 DB EB 05 CC 9A A2 5B D0 B0 6D 90 03 99 DD 3D 
+32 29 33 2A 78 D2 98 82 F4 97 B7 D8 C6 AE 57 D2 
+47 82 8F D3 A5 FB 35 98 59 77 D2 73 47 C5 D3 FF 
+9E E5 0A 8A 99 3C B4 F3 BE C1 27 A3 DB D3 C0 B3 
+1E 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:388:: Server get MB's proxy desig pub key: 
+04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 A8 7E 
+FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 11 59 
+67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 77 E2 
+81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E F7 4F 
+84 
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:834:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1636::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1792:: Server's SH ext data is : 
+01 10 00 17 01 01 00 41 04 A1 1D C8 34 ED 93 EC 
+E8 D2 94 51 75 52 B8 57 D3 34 8D 6B 35 B4 D4 25 
+1C D1 98 36 87 67 96 4C 03 73 AF A6 16 A0 49 97 
+3D 2C FF 53 69 8C D5 BE 2B 59 25 D6 33 51 15 8C 
+8B BC 18 7A D9 DB E9 CE 51 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1809:: Server's proxy desig pub key is : 
+04 8D 2A AF A8 76 A3 46 F8 BE 20 FA 9B 94 0B F0 
+DC B5 7A 11 8F FE DE 91 3C 5E BE 2F 45 E6 E8 10 
+D5 94 0C DF 45 4E 2C 52 B0 97 FA 5E 3E BF BB 56 
+DD 8B 83 1B A7 FE 31 4D 0A 5E 56 78 C7 67 27 ED 
+09 
+plain text in hash_sha256:: 
+51 73 49 44 6D 62 51 6D 62 57 61 72 72 61 6E 74 
+hash length:: 32
+hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+copied hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+binary data of hash in proxy_delegation::: 
+ 2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+====>>>> @@@ ecdsa_sign.c > ECDSA_sign_setup() 
+====>>>> @@@ ecdsa_ossl.c > ecdsa_sign_setup() 
+0 k :: 
+before do-while process :::
+dgst is null
+after do-while process in do-while :::
+32CE70832A18CDC1171FE08DEBAFE3D65644ABD50BCFA27FD6C26FD1DFBCF1F1 k-2:: 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > success get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > can sign with ec_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > start sign with ec_key 
+F6A1F36E999C227BB41373A0A62D732BB6F3264ADBDF166BCE8D6DB20DE88657 ::x_Y_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1832:: 
+F6A1F36E999C227BB41373A0A62D732BB6F3264ADBDF166BCE8D6DB20DE88657 ::sig_r_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1834:: 
+85F0AC32610CD7A28EA762D9B53856F636E3B6C85835797D283C34D46ACD86CE ::sig_s_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1836:: 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1841:: sig_r_d_hex is F6A1F36E999C227BB41373A0A62D732BB6F3264ADBDF166BCE8D6DB20DE88657 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1842:: sig_s_d_hex is 85F0AC32610CD7A28EA762D9B53856F636E3B6C85835797D283C34D46ACD86CE 
+[TIME] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1853: Proxy desig Execution Time 92 µs
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1868:: SH Final data: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 10 00 17 01 01 00 41 04 A1 1D C8 34 ED 93 EC 
+E8 D2 94 51 75 52 B8 57 D3 34 8D 6B 35 B4 D4 25 
+1C D1 98 36 87 67 96 4C 03 73 AF A6 16 A0 49 97 
+3D 2C FF 53 69 8C D5 BE 2B 59 25 D6 33 51 15 8C 
+8B BC 18 7A D9 DB E9 CE 51 00 41 04 8D 2A AF A8 
+76 A3 46 F8 BE 20 FA 9B 94 0B F0 DC B5 7A 11 8F 
+FE DE 91 3C 5E BE 2F 45 E6 E8 10 D5 94 0C DF 45 
+4E 2C 52 B0 97 FA 5E 3E BF BB 56 DD 8B 83 1B A7 
+FE 31 4D 0A 5E 56 78 C7 67 27 ED 09 00 40 46 36 
+41 31 46 33 36 45 39 39 39 43 32 32 37 42 42 34 
+31 33 37 33 41 30 41 36 32 44 37 33 32 42 42 36 
+46 33 32 36 34 41 44 42 44 46 31 36 36 42 43 45 
+38 44 36 44 42 32 30 44 45 38 38 36 35 37 00 40 
+38 35 46 30 41 43 33 32 36 31 30 43 44 37 41 32 
+38 45 41 37 36 32 44 39 42 35 33 38 35 36 46 36 
+33 36 45 33 42 36 43 38 35 38 33 35 37 39 37 44 
+32 38 33 43 33 34 44 34 36 41 43 44 38 36 43 45 
+
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4483:: SERVER'S CERTIFICATE in HEX data: 
+30 82 03 E9 30 82 02 D1 A0 03 02 01 02 02 09 00
+D9 29 CB 9B 45 A3 BB 94 30 0D 06 09 2A 86 48 86
+F7 0D 01 01 0B 05 00 30 81 9F 31 0B 30 09 06 03
+55 04 06 13 02 55 53 31 13 30 11 06 03 55 04 08
+0C 0A 43 61 6C 69 66 6F 72 6E 69 61 31 13 30 11
+06 03 55 04 07 0C 0A 43 61 6C 69 66 6F 72 6E 69
+61 31 16 30 14 06 03 55 04 0A 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 16 30 14 06 03 55
+04 0B 0C 0D 41 6C 69 63 65 20 43 41 20 4C 74 64
+2E 31 16 30 14 06 03 55 04 03 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 1E 30 1C 06 09 2A
+86 48 86 F7 0D 01 09 01 16 0F 63 61 40 63 61 5F
+61 6C 69 63 65 2E 63 6F 6D 30 1E 17 0D 31 38 30
+34 32 35 30 36 35 34 33 32 5A 17 0D 31 39 30 34
+32 35 30 36 35 34 33 32 5A 30 81 93 31 0B 30 09
+06 03 55 04 06 13 02 4B 52 31 0E 30 0C 06 03 55
+04 08 0C 05 53 65 6F 75 6C 31 0E 30 0C 06 03 55
+04 07 0C 05 53 65 6F 75 6C 31 1C 30 1A 06 03 55
+04 0A 0C 13 4D 69 64 64 6C 65 62 6F 78 2D 61 77
+61 72 65 20 54 4C 53 31 0C 30 0A 06 03 55 04 0B
+0C 03 53 4E 55 31 18 30 16 06 03 55 04 03 0C 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 31
+1E 30 1C 06 09 2A 86 48 86 F7 0D 01 09 01 16 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 30
+82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01 01
+05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01 00
+D0 8B 41 23 FD 32 78 F8 78 39 CE 06 92 F8 ED 80
+35 BE 02 3E 56 4F 10 72 46 9E 53 F7 07 BC 86 C8
+DC 79 3D 25 96 DA 28 DC A0 78 1A F2 EC 95 6C A6
+73 C8 23 E4 14 9B FF 6A F4 A4 93 EF DA 0A 2A DE
+D4 16 3E 83 40 61 A6 22 3E 26 EE F8 95 85 25 BB
+27 AC 2F 65 82 D2 59 39 52 7B F0 A3 DD 17 8A 32
+06 88 1A 57 D0 83 F6 73 8F 07 DE A0 15 6E DE 54
+D6 68 CB 5B 4C 12 7D 87 37 EE 44 6E B8 84 B6 E8
+83 64 22 62 AE D2 D9 A9 D9 05 A5 D2 1E FF 19 3A
+1E 51 8F 10 00 44 46 56 21 C9 2E 52 61 3E BF 6D
+1E 3A C5 9D 14 43 F4 17 DF DD 7F 56 83 F0 F9 BC
+D8 A6 19 4B 41 8D 36 ED 69 1F EA E2 21 84 50 A0
+4B E0 D4 A0 A8 34 1A A9 D0 A8 3C 52 98 6C 6E D5
+AD B0 13 E3 3B AA 5C C4 21 9E 92 97 83 2C 32 29
+91 0C 1C 8D 10 DC 64 7A 1F F6 78 99 86 34 ED 4D
+37 72 DF 53 A3 6D 4D CF 17 3C 7D 75 DE 63 81 05
+02 03 01 00 01 A3 32 30 30 30 09 06 03 55 1D 13
+04 02 30 00 30 0B 06 03 55 1D 0F 04 04 03 02 05
+E0 30 16 06 03 55 1D 11 04 0F 30 0D 82 0B 2A 2E
+6D 61 74 6C 73 2E 63 6F 6D 30 0D 06 09 2A 86 48
+86 F7 0D 01 01 0B 05 00 03 82 01 01 00 17 68 CF
+75 15 BD 78 B7 DF EE C8 7E 04 4E 67 EA 69 D8 E3
+D3 6F D2 E7 B8 76 B6 93 60 7A 48 0A BA BD 4C 00
+AC E3 4A 61 DD 57 93 45 C2 81 A7 E4 33 C6 80 EB
+D9 CB E9 9B 97 37 D9 08 4E 03 B9 7D 13 CD B3 18
+81 88 0C EB 2B DF 37 73 83 7B 9E 67 05 6D 95 7E
+F9 B1 B6 DD CB BE 2A AF 4E 13 F5 E0 F1 CD 17 C7
+88 8D 95 60 62 4F 32 AA D5 BA E5 66 3E 84 5E A9
+17 EE 81 37 58 4F 97 41 9D 84 46 15 C5 E6 A7 D3
+A9 FD 0C 60 C1 5A F1 69 3A 24 B9 67 D3 04 0B C3
+DA B8 D4 7E 48 6C A6 9F 91 09 CB 9A 14 D0 81 17
+19 F3 B4 8C AB 0B E9 12 D8 B8 D9 38 EE F6 95 57
+95 74 1A 2B F6 ED C6 10 77 B4 E0 CE 46 20 1A B1
+27 4B 1D 90 30 30 84 7A CC C6 51 E6 5C 64 3A D7
+F8 85 56 1A 18 6E 39 60 6B F3 22 0C E9 D6 56 05
+B1 CA A4 2C 2B 97 57 98 3F B8 1D 57 BD 46 E8 6E
+CC AB 30 DC 71 FB CB D5 C6 7D 0A 2C 82 
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4509:: Not Middlebox 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2773:: Server Random 
+04 A1 1D C8 34 ED 93 EC E8 D2 94 51 75 52 B8 57 D3 34 8D 6B 35 B4 D4 25 1C D1 98 36 87 67 96 4C 03 73 AF A6 16 A0 49 97 3D 2C FF 53 69 8C D5 BE 2B 59 25 D6 33 51 15 8C 8B BC 18 7A D9 DB E9 CE 51 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2779:: Client Random 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 3D 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [0] 
+52 2E 9B 5D 90 42 61 62 15 01 3B C4 13 99 DD 5F 6B 05 42 B7 FD E8 D4 0F 0A FF 2B 94 1F 76 61 A3 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [0] 
+23 83 ED 56 A3 01 1D FF 49 E5 AE 51 15 8B 2E 1F 50 99 D8 93 28 CA 09 03 7B A5 2A 73 C3 3B 49 26 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [1] 
+62 3B C4 10 22 13 B8 01 81 28 FE 9A 6A F9 59 98 9F 25 D5 D8 C5 C8 F5 32 E5 64 E4 75 43 34 7E 76 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [1] 
+13 5B D8 57 59 A5 2E 56 D5 25 1A 3C 7A D1 C9 C3 F1 D8 AF F4 F7 CD A3 7B F0 EA 44 37 67 4E 8D D2 
+[DEBUG] server.c:main:271:
+[mdtls] server.c:main:274: Msg from Middlebox: GET / HTTP/1.2
+Host: www.mdtls_thyun.com
+
+
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:915: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5947: Set SSL mb_info struct 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5973: Set SSL proxy_info struct 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:6007: make proxy desig key pair 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[TIME] ssl/ssl_lib.c:SSL_enable_mb:6075: Proxy dkey Execution Time 26 µs
+[DEBUG] server.c:main:266: ssl pointer :: 0x557128f794e0
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1949:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:188::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:281:: Server Received CH Ext Data : 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 13 00 17 02 01 00 41 04 40 0D 3E B2 B2 51 95 
+8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 
+A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 
+07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 
+90 43 F7 3F 85 F3 3A 90 3D 00 41 04 DB EB 05 CC 
+9A A2 5B D0 B0 6D 90 03 99 DD 3D 32 29 33 2A 78 
+D2 98 82 F4 97 B7 D8 C6 AE 57 D2 47 82 8F D3 A5 
+FB 35 98 59 77 D2 73 47 C5 D3 FF 9E E5 0A 8A 99 
+3C B4 F3 BE C1 27 A3 DB D3 C0 B3 1E 02 00 41 04 
+D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 2B 
+0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 47 
+2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 62 
+48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 0A 
+00 41 04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 
+A8 7E FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 
+11 59 67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 
+77 E2 81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E 
+F7 4F 84 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:293:: Server Received nk is 2 : 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:324:: Server saved Client pub key : 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 
+A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 
+F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 
+4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 
+3D 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:333:: Server saved MB pub key : 
+04 D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 
+2B 0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 
+47 2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 
+62 48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 
+0A 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:352:: Server's proxy desig pub key: 
+04 58 5B 5C 2B F3 53 4B 6E 6A B1 EE 29 61 0F B0 
+7B 31 AE FF 64 12 4F 43 B3 27 D1 BB CC 22 4D 21 
+2D 41 55 42 73 0B 30 A3 FE 95 BD 4C 2C A1 51 24 
+6E 17 C6 58 47 63 45 57 17 AD 76 4C 98 E0 08 47 
+19 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:372:: Server get Client's proxy desig pub key: 
+04 DB EB 05 CC 9A A2 5B D0 B0 6D 90 03 99 DD 3D 
+32 29 33 2A 78 D2 98 82 F4 97 B7 D8 C6 AE 57 D2 
+47 82 8F D3 A5 FB 35 98 59 77 D2 73 47 C5 D3 FF 
+9E E5 0A 8A 99 3C B4 F3 BE C1 27 A3 DB D3 C0 B3 
+1E 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:388:: Server get MB's proxy desig pub key: 
+04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 A8 7E 
+FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 11 59 
+67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 77 E2 
+81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E F7 4F 
+84 
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:834:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1636::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1792:: Server's SH ext data is : 
+01 10 00 17 01 01 00 41 04 CC E4 CD DF DB EB 06 
+59 02 A5 62 A0 EB 43 76 91 05 E7 AE EC FD A4 83 
+04 3C F3 5C AE 60 26 03 67 53 C8 42 FC E0 05 16 
+C6 A5 F6 99 7C 2E B1 D8 4D 1B 1E 52 C7 CC 33 77 
+E5 EA AE E7 02 CD 80 A3 B8 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1809:: Server's proxy desig pub key is : 
+04 58 5B 5C 2B F3 53 4B 6E 6A B1 EE 29 61 0F B0 
+7B 31 AE FF 64 12 4F 43 B3 27 D1 BB CC 22 4D 21 
+2D 41 55 42 73 0B 30 A3 FE 95 BD 4C 2C A1 51 24 
+6E 17 C6 58 47 63 45 57 17 AD 76 4C 98 E0 08 47 
+19 
+plain text in hash_sha256:: 
+51 73 49 44 6D 62 51 6D 62 57 61 72 72 61 6E 74 
+hash length:: 32
+hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+copied hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+binary data of hash in proxy_delegation::: 
+ 2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+====>>>> @@@ ecdsa_sign.c > ECDSA_sign_setup() 
+====>>>> @@@ ecdsa_ossl.c > ecdsa_sign_setup() 
+0 k :: 
+before do-while process :::
+dgst is null
+after do-while process in do-while :::
+31D31AF8D3121374B1B969B8C596B134790D1948EC143C4088771CE8A63C2E07 k-2:: 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > success get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > can sign with ec_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > start sign with ec_key 
+3980C900E1A199F6DDDF25957C9276BB53EEA7F2689F9153E2B199A7F763073B ::x_Y_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1832:: 
+3980C900E1A199F6DDDF25957C9276BB53EEA7F2689F9153E2B199A7F763073B ::sig_r_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1834:: 
+91A4C5530E460CE090465E0C9DB8A07ECA40EF920C04368CA0D51EDA4CFB6761 ::sig_s_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1836:: 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1841:: sig_r_d_hex is 3980C900E1A199F6DDDF25957C9276BB53EEA7F2689F9153E2B199A7F763073B 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1842:: sig_s_d_hex is 91A4C5530E460CE090465E0C9DB8A07ECA40EF920C04368CA0D51EDA4CFB6761 
+[TIME] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1853: Proxy desig Execution Time 104 µs
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1868:: SH Final data: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 10 00 17 01 01 00 41 04 CC E4 CD DF DB EB 06 
+59 02 A5 62 A0 EB 43 76 91 05 E7 AE EC FD A4 83 
+04 3C F3 5C AE 60 26 03 67 53 C8 42 FC E0 05 16 
+C6 A5 F6 99 7C 2E B1 D8 4D 1B 1E 52 C7 CC 33 77 
+E5 EA AE E7 02 CD 80 A3 B8 00 41 04 58 5B 5C 2B 
+F3 53 4B 6E 6A B1 EE 29 61 0F B0 7B 31 AE FF 64 
+12 4F 43 B3 27 D1 BB CC 22 4D 21 2D 41 55 42 73 
+0B 30 A3 FE 95 BD 4C 2C A1 51 24 6E 17 C6 58 47 
+63 45 57 17 AD 76 4C 98 E0 08 47 19 00 40 33 39 
+38 30 43 39 30 30 45 31 41 31 39 39 46 36 44 44 
+44 46 32 35 39 35 37 43 39 32 37 36 42 42 35 33 
+45 45 41 37 46 32 36 38 39 46 39 31 35 33 45 32 
+42 31 39 39 41 37 46 37 36 33 30 37 33 42 00 40 
+39 31 41 34 43 35 35 33 30 45 34 36 30 43 45 30 
+39 30 34 36 35 45 30 43 39 44 42 38 41 30 37 45 
+43 41 34 30 45 46 39 32 30 43 30 34 33 36 38 43 
+41 30 44 35 31 45 44 41 34 43 46 42 36 37 36 31 
+
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4483:: SERVER'S CERTIFICATE in HEX data: 
+30 82 03 E9 30 82 02 D1 A0 03 02 01 02 02 09 00
+D9 29 CB 9B 45 A3 BB 94 30 0D 06 09 2A 86 48 86
+F7 0D 01 01 0B 05 00 30 81 9F 31 0B 30 09 06 03
+55 04 06 13 02 55 53 31 13 30 11 06 03 55 04 08
+0C 0A 43 61 6C 69 66 6F 72 6E 69 61 31 13 30 11
+06 03 55 04 07 0C 0A 43 61 6C 69 66 6F 72 6E 69
+61 31 16 30 14 06 03 55 04 0A 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 16 30 14 06 03 55
+04 0B 0C 0D 41 6C 69 63 65 20 43 41 20 4C 74 64
+2E 31 16 30 14 06 03 55 04 03 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 1E 30 1C 06 09 2A
+86 48 86 F7 0D 01 09 01 16 0F 63 61 40 63 61 5F
+61 6C 69 63 65 2E 63 6F 6D 30 1E 17 0D 31 38 30
+34 32 35 30 36 35 34 33 32 5A 17 0D 31 39 30 34
+32 35 30 36 35 34 33 32 5A 30 81 93 31 0B 30 09
+06 03 55 04 06 13 02 4B 52 31 0E 30 0C 06 03 55
+04 08 0C 05 53 65 6F 75 6C 31 0E 30 0C 06 03 55
+04 07 0C 05 53 65 6F 75 6C 31 1C 30 1A 06 03 55
+04 0A 0C 13 4D 69 64 64 6C 65 62 6F 78 2D 61 77
+61 72 65 20 54 4C 53 31 0C 30 0A 06 03 55 04 0B
+0C 03 53 4E 55 31 18 30 16 06 03 55 04 03 0C 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 31
+1E 30 1C 06 09 2A 86 48 86 F7 0D 01 09 01 16 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 30
+82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01 01
+05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01 00
+D0 8B 41 23 FD 32 78 F8 78 39 CE 06 92 F8 ED 80
+35 BE 02 3E 56 4F 10 72 46 9E 53 F7 07 BC 86 C8
+DC 79 3D 25 96 DA 28 DC A0 78 1A F2 EC 95 6C A6
+73 C8 23 E4 14 9B FF 6A F4 A4 93 EF DA 0A 2A DE
+D4 16 3E 83 40 61 A6 22 3E 26 EE F8 95 85 25 BB
+27 AC 2F 65 82 D2 59 39 52 7B F0 A3 DD 17 8A 32
+06 88 1A 57 D0 83 F6 73 8F 07 DE A0 15 6E DE 54
+D6 68 CB 5B 4C 12 7D 87 37 EE 44 6E B8 84 B6 E8
+83 64 22 62 AE D2 D9 A9 D9 05 A5 D2 1E FF 19 3A
+1E 51 8F 10 00 44 46 56 21 C9 2E 52 61 3E BF 6D
+1E 3A C5 9D 14 43 F4 17 DF DD 7F 56 83 F0 F9 BC
+D8 A6 19 4B 41 8D 36 ED 69 1F EA E2 21 84 50 A0
+4B E0 D4 A0 A8 34 1A A9 D0 A8 3C 52 98 6C 6E D5
+AD B0 13 E3 3B AA 5C C4 21 9E 92 97 83 2C 32 29
+91 0C 1C 8D 10 DC 64 7A 1F F6 78 99 86 34 ED 4D
+37 72 DF 53 A3 6D 4D CF 17 3C 7D 75 DE 63 81 05
+02 03 01 00 01 A3 32 30 30 30 09 06 03 55 1D 13
+04 02 30 00 30 0B 06 03 55 1D 0F 04 04 03 02 05
+E0 30 16 06 03 55 1D 11 04 0F 30 0D 82 0B 2A 2E
+6D 61 74 6C 73 2E 63 6F 6D 30 0D 06 09 2A 86 48
+86 F7 0D 01 01 0B 05 00 03 82 01 01 00 17 68 CF
+75 15 BD 78 B7 DF EE C8 7E 04 4E 67 EA 69 D8 E3
+D3 6F D2 E7 B8 76 B6 93 60 7A 48 0A BA BD 4C 00
+AC E3 4A 61 DD 57 93 45 C2 81 A7 E4 33 C6 80 EB
+D9 CB E9 9B 97 37 D9 08 4E 03 B9 7D 13 CD B3 18
+81 88 0C EB 2B DF 37 73 83 7B 9E 67 05 6D 95 7E
+F9 B1 B6 DD CB BE 2A AF 4E 13 F5 E0 F1 CD 17 C7
+88 8D 95 60 62 4F 32 AA D5 BA E5 66 3E 84 5E A9
+17 EE 81 37 58 4F 97 41 9D 84 46 15 C5 E6 A7 D3
+A9 FD 0C 60 C1 5A F1 69 3A 24 B9 67 D3 04 0B C3
+DA B8 D4 7E 48 6C A6 9F 91 09 CB 9A 14 D0 81 17
+19 F3 B4 8C AB 0B E9 12 D8 B8 D9 38 EE F6 95 57
+95 74 1A 2B F6 ED C6 10 77 B4 E0 CE 46 20 1A B1
+27 4B 1D 90 30 30 84 7A CC C6 51 E6 5C 64 3A D7
+F8 85 56 1A 18 6E 39 60 6B F3 22 0C E9 D6 56 05
+B1 CA A4 2C 2B 97 57 98 3F B8 1D 57 BD 46 E8 6E
+CC AB 30 DC 71 FB CB D5 C6 7D 0A 2C 82 
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4509:: Not Middlebox 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2773:: Server Random 
+04 CC E4 CD DF DB EB 06 59 02 A5 62 A0 EB 43 76 91 05 E7 AE EC FD A4 83 04 3C F3 5C AE 60 26 03 67 53 C8 42 FC E0 05 16 C6 A5 F6 99 7C 2E B1 D8 4D 1B 1E 52 C7 CC 33 77 E5 EA AE E7 02 CD 80 A3 B8 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2779:: Client Random 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 3D 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [0] 
+6B 33 F3 BB 53 CB D6 41 F9 46 1B 11 66 56 46 4D 47 F3 C7 AE 67 98 27 9D E7 3D AB 58 C3 C7 3C 02 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [0] 
+18 46 62 4F 2C 74 12 1F 55 52 66 85 37 4B F4 BD 5B B9 7A EE 2F 06 38 B9 D0 78 D9 FA 70 78 70 5A 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [1] 
+C9 B6 31 2C 3A 4B 84 11 27 43 CC 72 4A 36 F6 5A EF 8F 9A 68 08 A8 9E BA DF 4D F6 60 9B 52 C6 A8 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [1] 
+F4 20 E0 4A 23 21 02 B5 67 30 0A C6 61 3E D3 B9 2D BE E2 3D 8B 89 17 F0 6D C6 E7 A3 77 F4 1D 54 
+[DEBUG] server.c:main:271:
+[mdtls] server.c:main:274: Msg from Middlebox: GET / HTTP/1.2
+Host: www.mdtls_thyun.com
+
+
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:915: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5947: Set SSL mb_info struct 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5973: Set SSL proxy_info struct 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:6007: make proxy desig key pair 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[TIME] ssl/ssl_lib.c:SSL_enable_mb:6075: Proxy dkey Execution Time 42 µs
+[DEBUG] server.c:main:266: ssl pointer :: 0x557128f794e0
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1949:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:188::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:281:: Server Received CH Ext Data : 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 13 00 17 02 01 00 41 04 40 0D 3E B2 B2 51 95 
+8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 
+A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 
+07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 
+90 43 F7 3F 85 F3 3A 90 3D 00 41 04 DB EB 05 CC 
+9A A2 5B D0 B0 6D 90 03 99 DD 3D 32 29 33 2A 78 
+D2 98 82 F4 97 B7 D8 C6 AE 57 D2 47 82 8F D3 A5 
+FB 35 98 59 77 D2 73 47 C5 D3 FF 9E E5 0A 8A 99 
+3C B4 F3 BE C1 27 A3 DB D3 C0 B3 1E 02 00 41 04 
+D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 2B 
+0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 47 
+2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 62 
+48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 0A 
+00 41 04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 
+A8 7E FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 
+11 59 67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 
+77 E2 81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E 
+F7 4F 84 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:293:: Server Received nk is 2 : 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:324:: Server saved Client pub key : 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 
+A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 
+F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 
+4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 
+3D 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:333:: Server saved MB pub key : 
+04 D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 
+2B 0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 
+47 2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 
+62 48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 
+0A 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:352:: Server's proxy desig pub key: 
+04 99 C3 75 3A 16 23 5A AF 5B 2B 11 5E 59 CF 16 
+D3 26 6D 33 4E 9B 8B 3A 50 3C 40 68 74 FA 85 0A 
+73 49 99 22 93 ED 11 A8 62 16 55 2F A1 7C AE 60 
+22 A1 65 23 3A 40 D7 34 5D B3 71 89 0F 13 DB F3 
+FB 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:372:: Server get Client's proxy desig pub key: 
+04 DB EB 05 CC 9A A2 5B D0 B0 6D 90 03 99 DD 3D 
+32 29 33 2A 78 D2 98 82 F4 97 B7 D8 C6 AE 57 D2 
+47 82 8F D3 A5 FB 35 98 59 77 D2 73 47 C5 D3 FF 
+9E E5 0A 8A 99 3C B4 F3 BE C1 27 A3 DB D3 C0 B3 
+1E 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:388:: Server get MB's proxy desig pub key: 
+04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 A8 7E 
+FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 11 59 
+67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 77 E2 
+81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E F7 4F 
+84 
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:834:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1636::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1792:: Server's SH ext data is : 
+01 10 00 17 01 01 00 41 04 4A 94 F4 D6 8E C4 90 
+DF EA 2B F6 5B FF 34 E7 F3 A5 A3 95 8D B1 EF A0 
+9A A7 FC 74 64 CB 45 C5 C3 C4 36 B8 05 22 D7 3B 
+23 F3 7E 98 E5 0C 41 3B 8E D1 C7 21 AC 6D EB 4C 
+30 20 52 80 60 1A 33 69 3A 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1809:: Server's proxy desig pub key is : 
+04 99 C3 75 3A 16 23 5A AF 5B 2B 11 5E 59 CF 16 
+D3 26 6D 33 4E 9B 8B 3A 50 3C 40 68 74 FA 85 0A 
+73 49 99 22 93 ED 11 A8 62 16 55 2F A1 7C AE 60 
+22 A1 65 23 3A 40 D7 34 5D B3 71 89 0F 13 DB F3 
+FB 
+plain text in hash_sha256:: 
+51 73 49 44 6D 62 51 6D 62 57 61 72 72 61 6E 74 
+hash length:: 32
+hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+copied hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+binary data of hash in proxy_delegation::: 
+ 2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+====>>>> @@@ ecdsa_sign.c > ECDSA_sign_setup() 
+====>>>> @@@ ecdsa_ossl.c > ecdsa_sign_setup() 
+0 k :: 
+before do-while process :::
+dgst is null
+after do-while process in do-while :::
+B2F8447EFD226A42A3ED79B59931246FBB3F5FBE331B2687F7C6685E2C681E52 k-2:: 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > success get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > can sign with ec_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > start sign with ec_key 
+D0B9F5C3C4FC345C1567E474BFA760AAE3A056E25D0D0282D6AA0D2D32A5B77A ::x_Y_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1832:: 
+D0B9F5C3C4FC345C1567E474BFA760AAE3A056E25D0D0282D6AA0D2D32A5B77A ::sig_r_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1834:: 
+5DC0D7F25E383F0087ABF1F3393F992228EBE38E55C6BF5369476CD7370DC4B4 ::sig_s_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1836:: 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1841:: sig_r_d_hex is D0B9F5C3C4FC345C1567E474BFA760AAE3A056E25D0D0282D6AA0D2D32A5B77A 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1842:: sig_s_d_hex is 5DC0D7F25E383F0087ABF1F3393F992228EBE38E55C6BF5369476CD7370DC4B4 
+[TIME] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1853: Proxy desig Execution Time 109 µs
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1868:: SH Final data: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 10 00 17 01 01 00 41 04 4A 94 F4 D6 8E C4 90 
+DF EA 2B F6 5B FF 34 E7 F3 A5 A3 95 8D B1 EF A0 
+9A A7 FC 74 64 CB 45 C5 C3 C4 36 B8 05 22 D7 3B 
+23 F3 7E 98 E5 0C 41 3B 8E D1 C7 21 AC 6D EB 4C 
+30 20 52 80 60 1A 33 69 3A 00 41 04 99 C3 75 3A 
+16 23 5A AF 5B 2B 11 5E 59 CF 16 D3 26 6D 33 4E 
+9B 8B 3A 50 3C 40 68 74 FA 85 0A 73 49 99 22 93 
+ED 11 A8 62 16 55 2F A1 7C AE 60 22 A1 65 23 3A 
+40 D7 34 5D B3 71 89 0F 13 DB F3 FB 00 40 44 30 
+42 39 46 35 43 33 43 34 46 43 33 34 35 43 31 35 
+36 37 45 34 37 34 42 46 41 37 36 30 41 41 45 33 
+41 30 35 36 45 32 35 44 30 44 30 32 38 32 44 36 
+41 41 30 44 32 44 33 32 41 35 42 37 37 41 00 40 
+35 44 43 30 44 37 46 32 35 45 33 38 33 46 30 30 
+38 37 41 42 46 31 46 33 33 39 33 46 39 39 32 32 
+32 38 45 42 45 33 38 45 35 35 43 36 42 46 35 33 
+36 39 34 37 36 43 44 37 33 37 30 44 43 34 42 34 
+
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4483:: SERVER'S CERTIFICATE in HEX data: 
+30 82 03 E9 30 82 02 D1 A0 03 02 01 02 02 09 00
+D9 29 CB 9B 45 A3 BB 94 30 0D 06 09 2A 86 48 86
+F7 0D 01 01 0B 05 00 30 81 9F 31 0B 30 09 06 03
+55 04 06 13 02 55 53 31 13 30 11 06 03 55 04 08
+0C 0A 43 61 6C 69 66 6F 72 6E 69 61 31 13 30 11
+06 03 55 04 07 0C 0A 43 61 6C 69 66 6F 72 6E 69
+61 31 16 30 14 06 03 55 04 0A 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 16 30 14 06 03 55
+04 0B 0C 0D 41 6C 69 63 65 20 43 41 20 4C 74 64
+2E 31 16 30 14 06 03 55 04 03 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 1E 30 1C 06 09 2A
+86 48 86 F7 0D 01 09 01 16 0F 63 61 40 63 61 5F
+61 6C 69 63 65 2E 63 6F 6D 30 1E 17 0D 31 38 30
+34 32 35 30 36 35 34 33 32 5A 17 0D 31 39 30 34
+32 35 30 36 35 34 33 32 5A 30 81 93 31 0B 30 09
+06 03 55 04 06 13 02 4B 52 31 0E 30 0C 06 03 55
+04 08 0C 05 53 65 6F 75 6C 31 0E 30 0C 06 03 55
+04 07 0C 05 53 65 6F 75 6C 31 1C 30 1A 06 03 55
+04 0A 0C 13 4D 69 64 64 6C 65 62 6F 78 2D 61 77
+61 72 65 20 54 4C 53 31 0C 30 0A 06 03 55 04 0B
+0C 03 53 4E 55 31 18 30 16 06 03 55 04 03 0C 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 31
+1E 30 1C 06 09 2A 86 48 86 F7 0D 01 09 01 16 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 30
+82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01 01
+05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01 00
+D0 8B 41 23 FD 32 78 F8 78 39 CE 06 92 F8 ED 80
+35 BE 02 3E 56 4F 10 72 46 9E 53 F7 07 BC 86 C8
+DC 79 3D 25 96 DA 28 DC A0 78 1A F2 EC 95 6C A6
+73 C8 23 E4 14 9B FF 6A F4 A4 93 EF DA 0A 2A DE
+D4 16 3E 83 40 61 A6 22 3E 26 EE F8 95 85 25 BB
+27 AC 2F 65 82 D2 59 39 52 7B F0 A3 DD 17 8A 32
+06 88 1A 57 D0 83 F6 73 8F 07 DE A0 15 6E DE 54
+D6 68 CB 5B 4C 12 7D 87 37 EE 44 6E B8 84 B6 E8
+83 64 22 62 AE D2 D9 A9 D9 05 A5 D2 1E FF 19 3A
+1E 51 8F 10 00 44 46 56 21 C9 2E 52 61 3E BF 6D
+1E 3A C5 9D 14 43 F4 17 DF DD 7F 56 83 F0 F9 BC
+D8 A6 19 4B 41 8D 36 ED 69 1F EA E2 21 84 50 A0
+4B E0 D4 A0 A8 34 1A A9 D0 A8 3C 52 98 6C 6E D5
+AD B0 13 E3 3B AA 5C C4 21 9E 92 97 83 2C 32 29
+91 0C 1C 8D 10 DC 64 7A 1F F6 78 99 86 34 ED 4D
+37 72 DF 53 A3 6D 4D CF 17 3C 7D 75 DE 63 81 05
+02 03 01 00 01 A3 32 30 30 30 09 06 03 55 1D 13
+04 02 30 00 30 0B 06 03 55 1D 0F 04 04 03 02 05
+E0 30 16 06 03 55 1D 11 04 0F 30 0D 82 0B 2A 2E
+6D 61 74 6C 73 2E 63 6F 6D 30 0D 06 09 2A 86 48
+86 F7 0D 01 01 0B 05 00 03 82 01 01 00 17 68 CF
+75 15 BD 78 B7 DF EE C8 7E 04 4E 67 EA 69 D8 E3
+D3 6F D2 E7 B8 76 B6 93 60 7A 48 0A BA BD 4C 00
+AC E3 4A 61 DD 57 93 45 C2 81 A7 E4 33 C6 80 EB
+D9 CB E9 9B 97 37 D9 08 4E 03 B9 7D 13 CD B3 18
+81 88 0C EB 2B DF 37 73 83 7B 9E 67 05 6D 95 7E
+F9 B1 B6 DD CB BE 2A AF 4E 13 F5 E0 F1 CD 17 C7
+88 8D 95 60 62 4F 32 AA D5 BA E5 66 3E 84 5E A9
+17 EE 81 37 58 4F 97 41 9D 84 46 15 C5 E6 A7 D3
+A9 FD 0C 60 C1 5A F1 69 3A 24 B9 67 D3 04 0B C3
+DA B8 D4 7E 48 6C A6 9F 91 09 CB 9A 14 D0 81 17
+19 F3 B4 8C AB 0B E9 12 D8 B8 D9 38 EE F6 95 57
+95 74 1A 2B F6 ED C6 10 77 B4 E0 CE 46 20 1A B1
+27 4B 1D 90 30 30 84 7A CC C6 51 E6 5C 64 3A D7
+F8 85 56 1A 18 6E 39 60 6B F3 22 0C E9 D6 56 05
+B1 CA A4 2C 2B 97 57 98 3F B8 1D 57 BD 46 E8 6E
+CC AB 30 DC 71 FB CB D5 C6 7D 0A 2C 82 
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4509:: Not Middlebox 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2773:: Server Random 
+04 4A 94 F4 D6 8E C4 90 DF EA 2B F6 5B FF 34 E7 F3 A5 A3 95 8D B1 EF A0 9A A7 FC 74 64 CB 45 C5 C3 C4 36 B8 05 22 D7 3B 23 F3 7E 98 E5 0C 41 3B 8E D1 C7 21 AC 6D EB 4C 30 20 52 80 60 1A 33 69 3A 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2779:: Client Random 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 3D 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [0] 
+89 E5 A7 A2 11 38 A2 1E EC 91 55 AC FE AB C3 AA 4A EB 2C 83 3C DC E8 44 B9 9B 8C 62 0E 0B CF D8 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [0] 
+10 AB CF B9 53 29 8E 5A 75 D0 E4 32 87 4D 5F 57 B4 08 A4 53 D2 35 CF 42 FD 4F 9F 3E F0 74 AD 8C 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [1] 
+0C D8 5D B7 27 2C 1F 09 F0 6F 17 51 92 83 6A FE 5A F0 F8 AA 3E FE 4C B7 03 BE 64 9C 49 2D 63 5B 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [1] 
+F8 42 17 1F 7B 9F 75 14 66 BD CF E9 04 8A 79 5C 1F C0 DE 8A 42 43 BE 54 14 5B EE 76 00 00 8B CB 
+[DEBUG] server.c:main:271:
+[mdtls] server.c:main:274: Msg from Middlebox: GET / HTTP/1.2
+Host: www.mdtls_thyun.com
+
+
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:915: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5947: Set SSL mb_info struct 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5973: Set SSL proxy_info struct 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:6007: make proxy desig key pair 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[TIME] ssl/ssl_lib.c:SSL_enable_mb:6075: Proxy dkey Execution Time 35 µs
+[DEBUG] server.c:main:266: ssl pointer :: 0x557128f794e0
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1949:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:188::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:281:: Server Received CH Ext Data : 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 13 00 17 02 01 00 41 04 40 0D 3E B2 B2 51 95 
+8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 
+A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 
+07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 
+90 43 F7 3F 85 F3 3A 90 3D 00 41 04 DB EB 05 CC 
+9A A2 5B D0 B0 6D 90 03 99 DD 3D 32 29 33 2A 78 
+D2 98 82 F4 97 B7 D8 C6 AE 57 D2 47 82 8F D3 A5 
+FB 35 98 59 77 D2 73 47 C5 D3 FF 9E E5 0A 8A 99 
+3C B4 F3 BE C1 27 A3 DB D3 C0 B3 1E 02 00 41 04 
+D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 2B 
+0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 47 
+2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 62 
+48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 0A 
+00 41 04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 
+A8 7E FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 
+11 59 67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 
+77 E2 81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E 
+F7 4F 84 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:293:: Server Received nk is 2 : 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:324:: Server saved Client pub key : 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 
+A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 
+F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 
+4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 
+3D 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:333:: Server saved MB pub key : 
+04 D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 
+2B 0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 
+47 2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 
+62 48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 
+0A 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:352:: Server's proxy desig pub key: 
+04 4F 68 05 51 0F EE E0 FD C5 E4 D0 2F 79 6B 3B 
+AA 4D F0 F9 4A 37 83 11 7E 5B 43 5B 7F 3D 15 19 
+16 76 C0 FC AD 6D 52 86 FB 99 4E 89 F9 CA 85 F2 
+DA E7 C9 CB F1 64 8C 40 22 83 43 79 45 83 39 63 
+3C 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:372:: Server get Client's proxy desig pub key: 
+04 DB EB 05 CC 9A A2 5B D0 B0 6D 90 03 99 DD 3D 
+32 29 33 2A 78 D2 98 82 F4 97 B7 D8 C6 AE 57 D2 
+47 82 8F D3 A5 FB 35 98 59 77 D2 73 47 C5 D3 FF 
+9E E5 0A 8A 99 3C B4 F3 BE C1 27 A3 DB D3 C0 B3 
+1E 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:388:: Server get MB's proxy desig pub key: 
+04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 A8 7E 
+FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 11 59 
+67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 77 E2 
+81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E F7 4F 
+84 
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:834:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1636::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1792:: Server's SH ext data is : 
+01 10 00 17 01 01 00 41 04 70 19 DD CC 26 AC C2 
+F1 A7 01 84 8D B1 E3 35 CD FD A1 6E 9E C4 E6 4F 
+24 F2 5F 4B 99 2B C4 46 BB D9 3B 2D 40 DF 66 31 
+ED 97 BE AD 7C D4 62 CC 79 ED ED 4F 6C 8A 70 6B 
+96 7C 37 93 01 2C 6A DC 04 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1809:: Server's proxy desig pub key is : 
+04 4F 68 05 51 0F EE E0 FD C5 E4 D0 2F 79 6B 3B 
+AA 4D F0 F9 4A 37 83 11 7E 5B 43 5B 7F 3D 15 19 
+16 76 C0 FC AD 6D 52 86 FB 99 4E 89 F9 CA 85 F2 
+DA E7 C9 CB F1 64 8C 40 22 83 43 79 45 83 39 63 
+3C 
+plain text in hash_sha256:: 
+51 73 49 44 6D 62 51 6D 62 57 61 72 72 61 6E 74 
+hash length:: 32
+hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+copied hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+binary data of hash in proxy_delegation::: 
+ 2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+====>>>> @@@ ecdsa_sign.c > ECDSA_sign_setup() 
+====>>>> @@@ ecdsa_ossl.c > ecdsa_sign_setup() 
+0 k :: 
+before do-while process :::
+dgst is null
+after do-while process in do-while :::
+B355DADC2F25397DD7B864AB621D81A2D0033998C1C0DFD87B6B58D51397FCFC k-2:: 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > success get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > can sign with ec_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > start sign with ec_key 
+A22F9738D5BFE541EAEB31DACA558697D8C83A6B1308D6AADE989E478F730659 ::x_Y_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1832:: 
+A22F9738D5BFE541EAEB31DACA558697D8C83A6B1308D6AADE989E478F730659 ::sig_r_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1834:: 
+A37988F01204748C1A49695D7F030707F20998B77D7D1593D7BDC8AEA99EBC79 ::sig_s_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1836:: 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1841:: sig_r_d_hex is A22F9738D5BFE541EAEB31DACA558697D8C83A6B1308D6AADE989E478F730659 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1842:: sig_s_d_hex is A37988F01204748C1A49695D7F030707F20998B77D7D1593D7BDC8AEA99EBC79 
+[TIME] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1853: Proxy desig Execution Time 186 µs
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1868:: SH Final data: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 10 00 17 01 01 00 41 04 70 19 DD CC 26 AC C2 
+F1 A7 01 84 8D B1 E3 35 CD FD A1 6E 9E C4 E6 4F 
+24 F2 5F 4B 99 2B C4 46 BB D9 3B 2D 40 DF 66 31 
+ED 97 BE AD 7C D4 62 CC 79 ED ED 4F 6C 8A 70 6B 
+96 7C 37 93 01 2C 6A DC 04 00 41 04 4F 68 05 51 
+0F EE E0 FD C5 E4 D0 2F 79 6B 3B AA 4D F0 F9 4A 
+37 83 11 7E 5B 43 5B 7F 3D 15 19 16 76 C0 FC AD 
+6D 52 86 FB 99 4E 89 F9 CA 85 F2 DA E7 C9 CB F1 
+64 8C 40 22 83 43 79 45 83 39 63 3C 00 40 41 32 
+32 46 39 37 33 38 44 35 42 46 45 35 34 31 45 41 
+45 42 33 31 44 41 43 41 35 35 38 36 39 37 44 38 
+43 38 33 41 36 42 31 33 30 38 44 36 41 41 44 45 
+39 38 39 45 34 37 38 46 37 33 30 36 35 39 00 40 
+41 33 37 39 38 38 46 30 31 32 30 34 37 34 38 43 
+31 41 34 39 36 39 35 44 37 46 30 33 30 37 30 37 
+46 32 30 39 39 38 42 37 37 44 37 44 31 35 39 33 
+44 37 42 44 43 38 41 45 41 39 39 45 42 43 37 39 
+
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4483:: SERVER'S CERTIFICATE in HEX data: 
+30 82 03 E9 30 82 02 D1 A0 03 02 01 02 02 09 00
+D9 29 CB 9B 45 A3 BB 94 30 0D 06 09 2A 86 48 86
+F7 0D 01 01 0B 05 00 30 81 9F 31 0B 30 09 06 03
+55 04 06 13 02 55 53 31 13 30 11 06 03 55 04 08
+0C 0A 43 61 6C 69 66 6F 72 6E 69 61 31 13 30 11
+06 03 55 04 07 0C 0A 43 61 6C 69 66 6F 72 6E 69
+61 31 16 30 14 06 03 55 04 0A 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 16 30 14 06 03 55
+04 0B 0C 0D 41 6C 69 63 65 20 43 41 20 4C 74 64
+2E 31 16 30 14 06 03 55 04 03 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 1E 30 1C 06 09 2A
+86 48 86 F7 0D 01 09 01 16 0F 63 61 40 63 61 5F
+61 6C 69 63 65 2E 63 6F 6D 30 1E 17 0D 31 38 30
+34 32 35 30 36 35 34 33 32 5A 17 0D 31 39 30 34
+32 35 30 36 35 34 33 32 5A 30 81 93 31 0B 30 09
+06 03 55 04 06 13 02 4B 52 31 0E 30 0C 06 03 55
+04 08 0C 05 53 65 6F 75 6C 31 0E 30 0C 06 03 55
+04 07 0C 05 53 65 6F 75 6C 31 1C 30 1A 06 03 55
+04 0A 0C 13 4D 69 64 64 6C 65 62 6F 78 2D 61 77
+61 72 65 20 54 4C 53 31 0C 30 0A 06 03 55 04 0B
+0C 03 53 4E 55 31 18 30 16 06 03 55 04 03 0C 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 31
+1E 30 1C 06 09 2A 86 48 86 F7 0D 01 09 01 16 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 30
+82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01 01
+05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01 00
+D0 8B 41 23 FD 32 78 F8 78 39 CE 06 92 F8 ED 80
+35 BE 02 3E 56 4F 10 72 46 9E 53 F7 07 BC 86 C8
+DC 79 3D 25 96 DA 28 DC A0 78 1A F2 EC 95 6C A6
+73 C8 23 E4 14 9B FF 6A F4 A4 93 EF DA 0A 2A DE
+D4 16 3E 83 40 61 A6 22 3E 26 EE F8 95 85 25 BB
+27 AC 2F 65 82 D2 59 39 52 7B F0 A3 DD 17 8A 32
+06 88 1A 57 D0 83 F6 73 8F 07 DE A0 15 6E DE 54
+D6 68 CB 5B 4C 12 7D 87 37 EE 44 6E B8 84 B6 E8
+83 64 22 62 AE D2 D9 A9 D9 05 A5 D2 1E FF 19 3A
+1E 51 8F 10 00 44 46 56 21 C9 2E 52 61 3E BF 6D
+1E 3A C5 9D 14 43 F4 17 DF DD 7F 56 83 F0 F9 BC
+D8 A6 19 4B 41 8D 36 ED 69 1F EA E2 21 84 50 A0
+4B E0 D4 A0 A8 34 1A A9 D0 A8 3C 52 98 6C 6E D5
+AD B0 13 E3 3B AA 5C C4 21 9E 92 97 83 2C 32 29
+91 0C 1C 8D 10 DC 64 7A 1F F6 78 99 86 34 ED 4D
+37 72 DF 53 A3 6D 4D CF 17 3C 7D 75 DE 63 81 05
+02 03 01 00 01 A3 32 30 30 30 09 06 03 55 1D 13
+04 02 30 00 30 0B 06 03 55 1D 0F 04 04 03 02 05
+E0 30 16 06 03 55 1D 11 04 0F 30 0D 82 0B 2A 2E
+6D 61 74 6C 73 2E 63 6F 6D 30 0D 06 09 2A 86 48
+86 F7 0D 01 01 0B 05 00 03 82 01 01 00 17 68 CF
+75 15 BD 78 B7 DF EE C8 7E 04 4E 67 EA 69 D8 E3
+D3 6F D2 E7 B8 76 B6 93 60 7A 48 0A BA BD 4C 00
+AC E3 4A 61 DD 57 93 45 C2 81 A7 E4 33 C6 80 EB
+D9 CB E9 9B 97 37 D9 08 4E 03 B9 7D 13 CD B3 18
+81 88 0C EB 2B DF 37 73 83 7B 9E 67 05 6D 95 7E
+F9 B1 B6 DD CB BE 2A AF 4E 13 F5 E0 F1 CD 17 C7
+88 8D 95 60 62 4F 32 AA D5 BA E5 66 3E 84 5E A9
+17 EE 81 37 58 4F 97 41 9D 84 46 15 C5 E6 A7 D3
+A9 FD 0C 60 C1 5A F1 69 3A 24 B9 67 D3 04 0B C3
+DA B8 D4 7E 48 6C A6 9F 91 09 CB 9A 14 D0 81 17
+19 F3 B4 8C AB 0B E9 12 D8 B8 D9 38 EE F6 95 57
+95 74 1A 2B F6 ED C6 10 77 B4 E0 CE 46 20 1A B1
+27 4B 1D 90 30 30 84 7A CC C6 51 E6 5C 64 3A D7
+F8 85 56 1A 18 6E 39 60 6B F3 22 0C E9 D6 56 05
+B1 CA A4 2C 2B 97 57 98 3F B8 1D 57 BD 46 E8 6E
+CC AB 30 DC 71 FB CB D5 C6 7D 0A 2C 82 
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4509:: Not Middlebox 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2773:: Server Random 
+04 70 19 DD CC 26 AC C2 F1 A7 01 84 8D B1 E3 35 CD FD A1 6E 9E C4 E6 4F 24 F2 5F 4B 99 2B C4 46 BB D9 3B 2D 40 DF 66 31 ED 97 BE AD 7C D4 62 CC 79 ED ED 4F 6C 8A 70 6B 96 7C 37 93 01 2C 6A DC 04 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2779:: Client Random 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 3D 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [0] 
+B0 FF 33 A1 07 9D 3D 36 18 1E 6A 73 69 54 0A 33 52 33 B7 F6 17 B6 B4 88 63 79 EC F0 AB 35 81 9D 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [0] 
+5D 7A D4 E9 40 8A 6B 9E 2A 8A 9D 9E FD 72 5E EA EF 70 46 A5 58 21 41 26 7E 49 F8 2D 3D 13 19 92 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [1] 
+FC CF 17 DC 74 50 EC C6 EF CA 42 C5 9D 68 11 84 E2 8C A9 63 66 A6 BD E0 DA 5F 63 DD 86 40 4C 59 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [1] 
+6F 83 32 BA DE 2B 9C 57 BF 18 32 30 6D A3 D9 AE 59 9C F9 DA CC 56 2F FC 4E 5A 08 06 7C 10 87 4E 
+[DEBUG] server.c:main:271:
+[mdtls] server.c:main:274: Msg from Middlebox: GET / HTTP/1.2
+Host: www.mdtls_thyun.com
+
+
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:915: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5947: Set SSL mb_info struct 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5973: Set SSL proxy_info struct 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:6007: make proxy desig key pair 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[TIME] ssl/ssl_lib.c:SSL_enable_mb:6075: Proxy dkey Execution Time 37 µs
+[DEBUG] server.c:main:266: ssl pointer :: 0x557128f794e0
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1949:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:188::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:281:: Server Received CH Ext Data : 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 13 00 17 02 01 00 41 04 40 0D 3E B2 B2 51 95 
+8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 
+A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 
+07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 
+90 43 F7 3F 85 F3 3A 90 3D 00 41 04 DB EB 05 CC 
+9A A2 5B D0 B0 6D 90 03 99 DD 3D 32 29 33 2A 78 
+D2 98 82 F4 97 B7 D8 C6 AE 57 D2 47 82 8F D3 A5 
+FB 35 98 59 77 D2 73 47 C5 D3 FF 9E E5 0A 8A 99 
+3C B4 F3 BE C1 27 A3 DB D3 C0 B3 1E 02 00 41 04 
+D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 2B 
+0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 47 
+2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 62 
+48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 0A 
+00 41 04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 
+A8 7E FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 
+11 59 67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 
+77 E2 81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E 
+F7 4F 84 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:293:: Server Received nk is 2 : 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:324:: Server saved Client pub key : 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 
+A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 
+F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 
+4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 
+3D 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:333:: Server saved MB pub key : 
+04 D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 
+2B 0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 
+47 2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 
+62 48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 
+0A 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:352:: Server's proxy desig pub key: 
+04 4D 76 EC 94 3F C5 3E A8 F6 0A C3 56 DB 68 FA 
+DE B7 53 89 DE 17 0F CB 89 DC C8 FA 2B 36 54 7D 
+2C EB 46 AF 5F 07 15 FA 5F BB C0 51 C9 1F 9F DD 
+B0 F8 7D 55 C6 5E 3C 8B 50 F5 E7 47 3F 6F C4 96 
+ED 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:372:: Server get Client's proxy desig pub key: 
+04 DB EB 05 CC 9A A2 5B D0 B0 6D 90 03 99 DD 3D 
+32 29 33 2A 78 D2 98 82 F4 97 B7 D8 C6 AE 57 D2 
+47 82 8F D3 A5 FB 35 98 59 77 D2 73 47 C5 D3 FF 
+9E E5 0A 8A 99 3C B4 F3 BE C1 27 A3 DB D3 C0 B3 
+1E 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:388:: Server get MB's proxy desig pub key: 
+04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 A8 7E 
+FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 11 59 
+67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 77 E2 
+81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E F7 4F 
+84 
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:834:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1636::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1792:: Server's SH ext data is : 
+01 10 00 17 01 01 00 41 04 2F 86 0E 79 4E 46 29 
+42 CE 3D 20 58 27 BE 64 63 65 AD EC A5 0F 7D 08 
+1F 57 A1 35 5F 80 C0 7B 42 DA BA A6 E5 45 51 DB 
+E0 8E D3 1C CE 24 DD BD B0 A7 67 CB 62 25 C6 DB 
+8D 7A DC E5 4A 79 4B 82 D7 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1809:: Server's proxy desig pub key is : 
+04 4D 76 EC 94 3F C5 3E A8 F6 0A C3 56 DB 68 FA 
+DE B7 53 89 DE 17 0F CB 89 DC C8 FA 2B 36 54 7D 
+2C EB 46 AF 5F 07 15 FA 5F BB C0 51 C9 1F 9F DD 
+B0 F8 7D 55 C6 5E 3C 8B 50 F5 E7 47 3F 6F C4 96 
+ED 
+plain text in hash_sha256:: 
+51 73 49 44 6D 62 51 6D 62 57 61 72 72 61 6E 74 
+hash length:: 32
+hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+copied hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+binary data of hash in proxy_delegation::: 
+ 2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+====>>>> @@@ ecdsa_sign.c > ECDSA_sign_setup() 
+====>>>> @@@ ecdsa_ossl.c > ecdsa_sign_setup() 
+0 k :: 
+before do-while process :::
+dgst is null
+after do-while process in do-while :::
+4DFA659C899C107BC920E1FC47892FA96FE36901A317A6E3A17976A3276C96F k-2:: 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > success get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > can sign with ec_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > start sign with ec_key 
+B8172E6ED3AC9B45849D0BB8E177695DC0F4DEFD6C812CE2BC8D60D0548C32D2 ::x_Y_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1832:: 
+B8172E6ED3AC9B45849D0BB8E177695DC0F4DEFD6C812CE2BC8D60D0548C32D2 ::sig_r_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1834:: 
+AECCCAD9B05C95266E979E757D8799A39D01684F42AD63444C0A0C4BE409E982 ::sig_s_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1836:: 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1841:: sig_r_d_hex is B8172E6ED3AC9B45849D0BB8E177695DC0F4DEFD6C812CE2BC8D60D0548C32D2 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1842:: sig_s_d_hex is AECCCAD9B05C95266E979E757D8799A39D01684F42AD63444C0A0C4BE409E982 
+[TIME] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1853: Proxy desig Execution Time 99 µs
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1868:: SH Final data: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 10 00 17 01 01 00 41 04 2F 86 0E 79 4E 46 29 
+42 CE 3D 20 58 27 BE 64 63 65 AD EC A5 0F 7D 08 
+1F 57 A1 35 5F 80 C0 7B 42 DA BA A6 E5 45 51 DB 
+E0 8E D3 1C CE 24 DD BD B0 A7 67 CB 62 25 C6 DB 
+8D 7A DC E5 4A 79 4B 82 D7 00 41 04 4D 76 EC 94 
+3F C5 3E A8 F6 0A C3 56 DB 68 FA DE B7 53 89 DE 
+17 0F CB 89 DC C8 FA 2B 36 54 7D 2C EB 46 AF 5F 
+07 15 FA 5F BB C0 51 C9 1F 9F DD B0 F8 7D 55 C6 
+5E 3C 8B 50 F5 E7 47 3F 6F C4 96 ED 00 40 42 38 
+31 37 32 45 36 45 44 33 41 43 39 42 34 35 38 34 
+39 44 30 42 42 38 45 31 37 37 36 39 35 44 43 30 
+46 34 44 45 46 44 36 43 38 31 32 43 45 32 42 43 
+38 44 36 30 44 30 35 34 38 43 33 32 44 32 00 40 
+41 45 43 43 43 41 44 39 42 30 35 43 39 35 32 36 
+36 45 39 37 39 45 37 35 37 44 38 37 39 39 41 33 
+39 44 30 31 36 38 34 46 34 32 41 44 36 33 34 34 
+34 43 30 41 30 43 34 42 45 34 30 39 45 39 38 32 
+
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4483:: SERVER'S CERTIFICATE in HEX data: 
+30 82 03 E9 30 82 02 D1 A0 03 02 01 02 02 09 00
+D9 29 CB 9B 45 A3 BB 94 30 0D 06 09 2A 86 48 86
+F7 0D 01 01 0B 05 00 30 81 9F 31 0B 30 09 06 03
+55 04 06 13 02 55 53 31 13 30 11 06 03 55 04 08
+0C 0A 43 61 6C 69 66 6F 72 6E 69 61 31 13 30 11
+06 03 55 04 07 0C 0A 43 61 6C 69 66 6F 72 6E 69
+61 31 16 30 14 06 03 55 04 0A 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 16 30 14 06 03 55
+04 0B 0C 0D 41 6C 69 63 65 20 43 41 20 4C 74 64
+2E 31 16 30 14 06 03 55 04 03 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 1E 30 1C 06 09 2A
+86 48 86 F7 0D 01 09 01 16 0F 63 61 40 63 61 5F
+61 6C 69 63 65 2E 63 6F 6D 30 1E 17 0D 31 38 30
+34 32 35 30 36 35 34 33 32 5A 17 0D 31 39 30 34
+32 35 30 36 35 34 33 32 5A 30 81 93 31 0B 30 09
+06 03 55 04 06 13 02 4B 52 31 0E 30 0C 06 03 55
+04 08 0C 05 53 65 6F 75 6C 31 0E 30 0C 06 03 55
+04 07 0C 05 53 65 6F 75 6C 31 1C 30 1A 06 03 55
+04 0A 0C 13 4D 69 64 64 6C 65 62 6F 78 2D 61 77
+61 72 65 20 54 4C 53 31 0C 30 0A 06 03 55 04 0B
+0C 03 53 4E 55 31 18 30 16 06 03 55 04 03 0C 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 31
+1E 30 1C 06 09 2A 86 48 86 F7 0D 01 09 01 16 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 30
+82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01 01
+05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01 00
+D0 8B 41 23 FD 32 78 F8 78 39 CE 06 92 F8 ED 80
+35 BE 02 3E 56 4F 10 72 46 9E 53 F7 07 BC 86 C8
+DC 79 3D 25 96 DA 28 DC A0 78 1A F2 EC 95 6C A6
+73 C8 23 E4 14 9B FF 6A F4 A4 93 EF DA 0A 2A DE
+D4 16 3E 83 40 61 A6 22 3E 26 EE F8 95 85 25 BB
+27 AC 2F 65 82 D2 59 39 52 7B F0 A3 DD 17 8A 32
+06 88 1A 57 D0 83 F6 73 8F 07 DE A0 15 6E DE 54
+D6 68 CB 5B 4C 12 7D 87 37 EE 44 6E B8 84 B6 E8
+83 64 22 62 AE D2 D9 A9 D9 05 A5 D2 1E FF 19 3A
+1E 51 8F 10 00 44 46 56 21 C9 2E 52 61 3E BF 6D
+1E 3A C5 9D 14 43 F4 17 DF DD 7F 56 83 F0 F9 BC
+D8 A6 19 4B 41 8D 36 ED 69 1F EA E2 21 84 50 A0
+4B E0 D4 A0 A8 34 1A A9 D0 A8 3C 52 98 6C 6E D5
+AD B0 13 E3 3B AA 5C C4 21 9E 92 97 83 2C 32 29
+91 0C 1C 8D 10 DC 64 7A 1F F6 78 99 86 34 ED 4D
+37 72 DF 53 A3 6D 4D CF 17 3C 7D 75 DE 63 81 05
+02 03 01 00 01 A3 32 30 30 30 09 06 03 55 1D 13
+04 02 30 00 30 0B 06 03 55 1D 0F 04 04 03 02 05
+E0 30 16 06 03 55 1D 11 04 0F 30 0D 82 0B 2A 2E
+6D 61 74 6C 73 2E 63 6F 6D 30 0D 06 09 2A 86 48
+86 F7 0D 01 01 0B 05 00 03 82 01 01 00 17 68 CF
+75 15 BD 78 B7 DF EE C8 7E 04 4E 67 EA 69 D8 E3
+D3 6F D2 E7 B8 76 B6 93 60 7A 48 0A BA BD 4C 00
+AC E3 4A 61 DD 57 93 45 C2 81 A7 E4 33 C6 80 EB
+D9 CB E9 9B 97 37 D9 08 4E 03 B9 7D 13 CD B3 18
+81 88 0C EB 2B DF 37 73 83 7B 9E 67 05 6D 95 7E
+F9 B1 B6 DD CB BE 2A AF 4E 13 F5 E0 F1 CD 17 C7
+88 8D 95 60 62 4F 32 AA D5 BA E5 66 3E 84 5E A9
+17 EE 81 37 58 4F 97 41 9D 84 46 15 C5 E6 A7 D3
+A9 FD 0C 60 C1 5A F1 69 3A 24 B9 67 D3 04 0B C3
+DA B8 D4 7E 48 6C A6 9F 91 09 CB 9A 14 D0 81 17
+19 F3 B4 8C AB 0B E9 12 D8 B8 D9 38 EE F6 95 57
+95 74 1A 2B F6 ED C6 10 77 B4 E0 CE 46 20 1A B1
+27 4B 1D 90 30 30 84 7A CC C6 51 E6 5C 64 3A D7
+F8 85 56 1A 18 6E 39 60 6B F3 22 0C E9 D6 56 05
+B1 CA A4 2C 2B 97 57 98 3F B8 1D 57 BD 46 E8 6E
+CC AB 30 DC 71 FB CB D5 C6 7D 0A 2C 82 
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4509:: Not Middlebox 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2773:: Server Random 
+04 2F 86 0E 79 4E 46 29 42 CE 3D 20 58 27 BE 64 63 65 AD EC A5 0F 7D 08 1F 57 A1 35 5F 80 C0 7B 42 DA BA A6 E5 45 51 DB E0 8E D3 1C CE 24 DD BD B0 A7 67 CB 62 25 C6 DB 8D 7A DC E5 4A 79 4B 82 D7 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2779:: Client Random 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 3D 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [0] 
+4B 88 0D E9 4D 31 F1 08 C5 0A 25 AE 95 E5 00 75 D7 D6 40 E7 9B 89 B1 D1 9B E8 08 E3 93 58 55 1A 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [0] 
+5B 0B 4E 17 D1 F1 AD 00 F0 C3 63 74 46 E4 B1 92 2A 5F B7 CE 76 54 1A 29 3F 67 90 2B DF 4B 8B 40 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [1] 
+8C ED 04 CD 1A AC 23 54 FD 09 FF 44 D6 FF 76 82 6F DD 3C C9 21 8E AF B6 C3 BD 1B 86 88 C8 FE 7A 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [1] 
+92 1B C2 10 33 CB 1F 0D C4 40 85 F8 C7 6C 7D DE 11 B4 74 D0 8D 17 2F 48 90 99 50 4B D7 23 B9 C5 
+[DEBUG] server.c:main:271:
+[mdtls] server.c:main:274: Msg from Middlebox: GET / HTTP/1.2
+Host: www.mdtls_thyun.com
+
+
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:915: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5947: Set SSL mb_info struct 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5973: Set SSL proxy_info struct 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:6007: make proxy desig key pair 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[TIME] ssl/ssl_lib.c:SSL_enable_mb:6075: Proxy dkey Execution Time 42 µs
+[DEBUG] server.c:main:266: ssl pointer :: 0x557128f794e0
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1949:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:188::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:281:: Server Received CH Ext Data : 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 13 00 17 02 01 00 41 04 40 0D 3E B2 B2 51 95 
+8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 
+A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 
+07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 
+90 43 F7 3F 85 F3 3A 90 3D 00 41 04 DB EB 05 CC 
+9A A2 5B D0 B0 6D 90 03 99 DD 3D 32 29 33 2A 78 
+D2 98 82 F4 97 B7 D8 C6 AE 57 D2 47 82 8F D3 A5 
+FB 35 98 59 77 D2 73 47 C5 D3 FF 9E E5 0A 8A 99 
+3C B4 F3 BE C1 27 A3 DB D3 C0 B3 1E 02 00 41 04 
+D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 2B 
+0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 47 
+2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 62 
+48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 0A 
+00 41 04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 
+A8 7E FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 
+11 59 67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 
+77 E2 81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E 
+F7 4F 84 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:293:: Server Received nk is 2 : 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:324:: Server saved Client pub key : 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 
+A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 
+F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 
+4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 
+3D 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:333:: Server saved MB pub key : 
+04 D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 
+2B 0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 
+47 2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 
+62 48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 
+0A 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:352:: Server's proxy desig pub key: 
+04 97 BB 9F 25 5F 71 E0 AD 76 3D 74 CF 4F C7 99 
+AD F6 2F F1 4F 9D B9 DC 36 78 9D E1 60 30 1B D3 
+FA 3E 19 55 C6 E4 0D 66 F6 AB 8C B7 F1 BF B1 A9 
+A8 45 4F 2A 01 86 A8 B3 FA 47 6E C2 29 B4 6D 85 
+B3 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:372:: Server get Client's proxy desig pub key: 
+04 DB EB 05 CC 9A A2 5B D0 B0 6D 90 03 99 DD 3D 
+32 29 33 2A 78 D2 98 82 F4 97 B7 D8 C6 AE 57 D2 
+47 82 8F D3 A5 FB 35 98 59 77 D2 73 47 C5 D3 FF 
+9E E5 0A 8A 99 3C B4 F3 BE C1 27 A3 DB D3 C0 B3 
+1E 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:388:: Server get MB's proxy desig pub key: 
+04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 A8 7E 
+FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 11 59 
+67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 77 E2 
+81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E F7 4F 
+84 
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:834:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1636::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1792:: Server's SH ext data is : 
+01 10 00 17 01 01 00 41 04 4D 04 73 B4 23 6E D2 
+90 83 84 9C 77 67 55 11 61 6D CA 7B BE F4 0A A0 
+7C C6 7D C2 44 A6 21 E4 00 0C E6 55 C3 F5 2C 65 
+6F 6B FC F6 5A F8 78 34 07 17 DB E2 74 E1 40 57 
+FB C3 96 09 F3 0B D2 A3 EF 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1809:: Server's proxy desig pub key is : 
+04 97 BB 9F 25 5F 71 E0 AD 76 3D 74 CF 4F C7 99 
+AD F6 2F F1 4F 9D B9 DC 36 78 9D E1 60 30 1B D3 
+FA 3E 19 55 C6 E4 0D 66 F6 AB 8C B7 F1 BF B1 A9 
+A8 45 4F 2A 01 86 A8 B3 FA 47 6E C2 29 B4 6D 85 
+B3 
+plain text in hash_sha256:: 
+51 73 49 44 6D 62 51 6D 62 57 61 72 72 61 6E 74 
+hash length:: 32
+hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+copied hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+binary data of hash in proxy_delegation::: 
+ 2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+====>>>> @@@ ecdsa_sign.c > ECDSA_sign_setup() 
+====>>>> @@@ ecdsa_ossl.c > ecdsa_sign_setup() 
+0 k :: 
+before do-while process :::
+dgst is null
+after do-while process in do-while :::
+2AAF761E2BDDA8ACF803A264279C1DEC751DD67639F8C7F2207A2C54423E6BA1 k-2:: 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > success get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > can sign with ec_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > start sign with ec_key 
+85F6EC3FEEFC9633DFC75961D337DA83A8CF586FB73F45949D28B2C3E847C931 ::x_Y_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1832:: 
+85F6EC3FEEFC9633DFC75961D337DA83A8CF586FB73F45949D28B2C3E847C931 ::sig_r_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1834:: 
+3E7749A2E8787970A6906E35AF797EF558F51EF641DA27E33A02065B1BDCDD2D ::sig_s_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1836:: 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1841:: sig_r_d_hex is 85F6EC3FEEFC9633DFC75961D337DA83A8CF586FB73F45949D28B2C3E847C931 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1842:: sig_s_d_hex is 3E7749A2E8787970A6906E35AF797EF558F51EF641DA27E33A02065B1BDCDD2D 
+[TIME] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1853: Proxy desig Execution Time 110 µs
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1868:: SH Final data: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 10 00 17 01 01 00 41 04 4D 04 73 B4 23 6E D2 
+90 83 84 9C 77 67 55 11 61 6D CA 7B BE F4 0A A0 
+7C C6 7D C2 44 A6 21 E4 00 0C E6 55 C3 F5 2C 65 
+6F 6B FC F6 5A F8 78 34 07 17 DB E2 74 E1 40 57 
+FB C3 96 09 F3 0B D2 A3 EF 00 41 04 97 BB 9F 25 
+5F 71 E0 AD 76 3D 74 CF 4F C7 99 AD F6 2F F1 4F 
+9D B9 DC 36 78 9D E1 60 30 1B D3 FA 3E 19 55 C6 
+E4 0D 66 F6 AB 8C B7 F1 BF B1 A9 A8 45 4F 2A 01 
+86 A8 B3 FA 47 6E C2 29 B4 6D 85 B3 00 40 38 35 
+46 36 45 43 33 46 45 45 46 43 39 36 33 33 44 46 
+43 37 35 39 36 31 44 33 33 37 44 41 38 33 41 38 
+43 46 35 38 36 46 42 37 33 46 34 35 39 34 39 44 
+32 38 42 32 43 33 45 38 34 37 43 39 33 31 00 40 
+33 45 37 37 34 39 41 32 45 38 37 38 37 39 37 30 
+41 36 39 30 36 45 33 35 41 46 37 39 37 45 46 35 
+35 38 46 35 31 45 46 36 34 31 44 41 32 37 45 33 
+33 41 30 32 30 36 35 42 31 42 44 43 44 44 32 44 
+
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4483:: SERVER'S CERTIFICATE in HEX data: 
+30 82 03 E9 30 82 02 D1 A0 03 02 01 02 02 09 00
+D9 29 CB 9B 45 A3 BB 94 30 0D 06 09 2A 86 48 86
+F7 0D 01 01 0B 05 00 30 81 9F 31 0B 30 09 06 03
+55 04 06 13 02 55 53 31 13 30 11 06 03 55 04 08
+0C 0A 43 61 6C 69 66 6F 72 6E 69 61 31 13 30 11
+06 03 55 04 07 0C 0A 43 61 6C 69 66 6F 72 6E 69
+61 31 16 30 14 06 03 55 04 0A 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 16 30 14 06 03 55
+04 0B 0C 0D 41 6C 69 63 65 20 43 41 20 4C 74 64
+2E 31 16 30 14 06 03 55 04 03 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 1E 30 1C 06 09 2A
+86 48 86 F7 0D 01 09 01 16 0F 63 61 40 63 61 5F
+61 6C 69 63 65 2E 63 6F 6D 30 1E 17 0D 31 38 30
+34 32 35 30 36 35 34 33 32 5A 17 0D 31 39 30 34
+32 35 30 36 35 34 33 32 5A 30 81 93 31 0B 30 09
+06 03 55 04 06 13 02 4B 52 31 0E 30 0C 06 03 55
+04 08 0C 05 53 65 6F 75 6C 31 0E 30 0C 06 03 55
+04 07 0C 05 53 65 6F 75 6C 31 1C 30 1A 06 03 55
+04 0A 0C 13 4D 69 64 64 6C 65 62 6F 78 2D 61 77
+61 72 65 20 54 4C 53 31 0C 30 0A 06 03 55 04 0B
+0C 03 53 4E 55 31 18 30 16 06 03 55 04 03 0C 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 31
+1E 30 1C 06 09 2A 86 48 86 F7 0D 01 09 01 16 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 30
+82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01 01
+05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01 00
+D0 8B 41 23 FD 32 78 F8 78 39 CE 06 92 F8 ED 80
+35 BE 02 3E 56 4F 10 72 46 9E 53 F7 07 BC 86 C8
+DC 79 3D 25 96 DA 28 DC A0 78 1A F2 EC 95 6C A6
+73 C8 23 E4 14 9B FF 6A F4 A4 93 EF DA 0A 2A DE
+D4 16 3E 83 40 61 A6 22 3E 26 EE F8 95 85 25 BB
+27 AC 2F 65 82 D2 59 39 52 7B F0 A3 DD 17 8A 32
+06 88 1A 57 D0 83 F6 73 8F 07 DE A0 15 6E DE 54
+D6 68 CB 5B 4C 12 7D 87 37 EE 44 6E B8 84 B6 E8
+83 64 22 62 AE D2 D9 A9 D9 05 A5 D2 1E FF 19 3A
+1E 51 8F 10 00 44 46 56 21 C9 2E 52 61 3E BF 6D
+1E 3A C5 9D 14 43 F4 17 DF DD 7F 56 83 F0 F9 BC
+D8 A6 19 4B 41 8D 36 ED 69 1F EA E2 21 84 50 A0
+4B E0 D4 A0 A8 34 1A A9 D0 A8 3C 52 98 6C 6E D5
+AD B0 13 E3 3B AA 5C C4 21 9E 92 97 83 2C 32 29
+91 0C 1C 8D 10 DC 64 7A 1F F6 78 99 86 34 ED 4D
+37 72 DF 53 A3 6D 4D CF 17 3C 7D 75 DE 63 81 05
+02 03 01 00 01 A3 32 30 30 30 09 06 03 55 1D 13
+04 02 30 00 30 0B 06 03 55 1D 0F 04 04 03 02 05
+E0 30 16 06 03 55 1D 11 04 0F 30 0D 82 0B 2A 2E
+6D 61 74 6C 73 2E 63 6F 6D 30 0D 06 09 2A 86 48
+86 F7 0D 01 01 0B 05 00 03 82 01 01 00 17 68 CF
+75 15 BD 78 B7 DF EE C8 7E 04 4E 67 EA 69 D8 E3
+D3 6F D2 E7 B8 76 B6 93 60 7A 48 0A BA BD 4C 00
+AC E3 4A 61 DD 57 93 45 C2 81 A7 E4 33 C6 80 EB
+D9 CB E9 9B 97 37 D9 08 4E 03 B9 7D 13 CD B3 18
+81 88 0C EB 2B DF 37 73 83 7B 9E 67 05 6D 95 7E
+F9 B1 B6 DD CB BE 2A AF 4E 13 F5 E0 F1 CD 17 C7
+88 8D 95 60 62 4F 32 AA D5 BA E5 66 3E 84 5E A9
+17 EE 81 37 58 4F 97 41 9D 84 46 15 C5 E6 A7 D3
+A9 FD 0C 60 C1 5A F1 69 3A 24 B9 67 D3 04 0B C3
+DA B8 D4 7E 48 6C A6 9F 91 09 CB 9A 14 D0 81 17
+19 F3 B4 8C AB 0B E9 12 D8 B8 D9 38 EE F6 95 57
+95 74 1A 2B F6 ED C6 10 77 B4 E0 CE 46 20 1A B1
+27 4B 1D 90 30 30 84 7A CC C6 51 E6 5C 64 3A D7
+F8 85 56 1A 18 6E 39 60 6B F3 22 0C E9 D6 56 05
+B1 CA A4 2C 2B 97 57 98 3F B8 1D 57 BD 46 E8 6E
+CC AB 30 DC 71 FB CB D5 C6 7D 0A 2C 82 
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4509:: Not Middlebox 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2773:: Server Random 
+04 4D 04 73 B4 23 6E D2 90 83 84 9C 77 67 55 11 61 6D CA 7B BE F4 0A A0 7C C6 7D C2 44 A6 21 E4 00 0C E6 55 C3 F5 2C 65 6F 6B FC F6 5A F8 78 34 07 17 DB E2 74 E1 40 57 FB C3 96 09 F3 0B D2 A3 EF 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2779:: Client Random 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 3D 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [0] 
+9F 00 4F 5C 47 21 5B 8A 41 C1 43 F9 3B B8 FA E8 D3 D9 38 FC B3 8C 6C FA BD 79 60 88 84 06 2D ED 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [0] 
+FB D7 BE 5C 17 AB 44 CE 67 E3 A0 34 C5 E2 43 A2 BD 46 24 7E 58 47 B8 72 8E 4D 28 A7 96 2E 3A 25 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [1] 
+C9 42 57 93 36 D5 E7 23 41 01 48 8C B6 D7 2E F3 AE F4 77 3A 6A AA 1D A3 24 45 58 10 94 8F A8 C5 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [1] 
+85 74 22 98 EE 86 6E 2C B6 6A 1C E0 44 40 4A 82 6B 1B 42 48 A4 EB D2 E3 80 6A 09 9E B0 95 08 D3 
+[DEBUG] server.c:main:271:
+[mdtls] server.c:main:274: Msg from Middlebox: GET / HTTP/1.2
+Host: www.mdtls_thyun.com
+
+
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:915: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5947: Set SSL mb_info struct 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5973: Set SSL proxy_info struct 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:6007: make proxy desig key pair 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[TIME] ssl/ssl_lib.c:SSL_enable_mb:6075: Proxy dkey Execution Time 42 µs
+[DEBUG] server.c:main:266: ssl pointer :: 0x557128f794e0
+[DEBUG] ssl/statem/statem_lib.c:tls_get_message_body:1949:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:188::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:281:: Server Received CH Ext Data : 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 13 00 17 02 01 00 41 04 40 0D 3E B2 B2 51 95 
+8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 
+A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 
+07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 
+90 43 F7 3F 85 F3 3A 90 3D 00 41 04 DB EB 05 CC 
+9A A2 5B D0 B0 6D 90 03 99 DD 3D 32 29 33 2A 78 
+D2 98 82 F4 97 B7 D8 C6 AE 57 D2 47 82 8F D3 A5 
+FB 35 98 59 77 D2 73 47 C5 D3 FF 9E E5 0A 8A 99 
+3C B4 F3 BE C1 27 A3 DB D3 C0 B3 1E 02 00 41 04 
+D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 2B 
+0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 47 
+2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 62 
+48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 0A 
+00 41 04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 
+A8 7E FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 
+11 59 67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 
+77 E2 81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E 
+F7 4F 84 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:293:: Server Received nk is 2 : 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:324:: Server saved Client pub key : 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 
+A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 
+F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 
+4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 
+3D 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:333:: Server saved MB pub key : 
+04 D2 4F 97 9F 52 B8 66 27 57 42 62 4B DF 92 CC 
+2B 0D CF BE 16 DF B9 B5 A8 5C DD 35 A6 44 4C CB 
+47 2D 9D F6 2F 41 DA 3B 47 F1 D9 C1 96 AF F1 92 
+62 48 F8 06 48 1E 7F D8 4A 66 F8 A0 89 5E 7D 25 
+0A 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:352:: Server's proxy desig pub key: 
+04 37 92 C6 9D 3B B4 E0 6D DB 9F CC 2B EE 89 51 
+1D 38 B0 65 DF 2C 7D 6C F2 EA AE D2 0D D1 B9 6E 
+C3 4A 5E 9E 49 CC 7A D6 25 67 47 E2 EF 45 FA 40 
+D6 51 C0 0F 69 7E 74 95 52 F5 6E 48 DE BC 7B 94 
+61 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:372:: Server get Client's proxy desig pub key: 
+04 DB EB 05 CC 9A A2 5B D0 B0 6D 90 03 99 DD 3D 
+32 29 33 2A 78 D2 98 82 F4 97 B7 D8 C6 AE 57 D2 
+47 82 8F D3 A5 FB 35 98 59 77 D2 73 47 C5 D3 FF 
+9E E5 0A 8A 99 3C B4 F3 BE C1 27 A3 DB D3 C0 B3 
+1E 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_parse_ctos_test_for_mdtls:388:: Server get MB's proxy desig pub key: 
+04 46 EA 4A 6A 18 D4 50 30 EA 26 B9 0E 39 A8 7E 
+FC F0 E8 A8 5A 51 BA 8B 0D 65 24 83 EB B2 11 59 
+67 E1 22 C6 AE 45 19 DC 5A 56 F4 43 95 6F 77 E2 
+81 AA EF 37 A8 7E 97 D9 1E C5 E2 FC DA 8E F7 4F 
+84 
+[DEBUG] ssl/statem/extensions.c:tls_construct_extensions:834:
+[DEBUG] ssl/statem/extensions_cust.c:custom_ext_add:177:
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1636::  
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1792:: Server's SH ext data is : 
+01 10 00 17 01 01 00 41 04 DB 02 06 41 7F DF 7B 
+FC F3 B4 B3 68 B5 BF EB 1C C9 B5 E9 ED 6E C6 36 
+9A 20 AB 09 A1 1D 74 AA 99 B3 48 0F F3 67 45 47 
+8F C9 0B 7B ED BF D0 0F 7D 4F 92 3B 99 2F 2B B3 
+23 B6 E1 E8 E5 D3 3B E5 CD 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1809:: Server's proxy desig pub key is : 
+04 37 92 C6 9D 3B B4 E0 6D DB 9F CC 2B EE 89 51 
+1D 38 B0 65 DF 2C 7D 6C F2 EA AE D2 0D D1 B9 6E 
+C3 4A 5E 9E 49 CC 7A D6 25 67 47 E2 EF 45 FA 40 
+D6 51 C0 0F 69 7E 74 95 52 F5 6E 48 DE BC 7B 94 
+61 
+plain text in hash_sha256:: 
+51 73 49 44 6D 62 51 6D 62 57 61 72 72 61 6E 74 
+hash length:: 32
+hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+copied hash value in hash_sha256:: 
+2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+binary data of hash in proxy_delegation::: 
+ 2E 67 E8 28 82 88 E8 C8 D2 2E 07 DF CF 15 12 37 28 86 2A 41 65 3E F6 A5 4B DB 79 39 A5 CA 09 65 
+====>>>> @@@ ecdsa_sign.c > ECDSA_sign_setup() 
+====>>>> @@@ ecdsa_ossl.c > ecdsa_sign_setup() 
+0 k :: 
+before do-while process :::
+dgst is null
+after do-while process in do-while :::
+2212BA401D00E3118A067747712460C3AB5F78BBA6902B050DC3DAB48C536A26 k-2:: 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > success get group & priv_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > can sign with ec_key 
+====>>>> @@@ ecdsa_ossl.c > ossl_ecdsa_sign_sig() > start sign with ec_key 
+C14F5EC656FB4D1AC816F7F44C748A74949F234E0600317B89113C1AD56A6C2E ::x_Y_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1832:: 
+C14F5EC656FB4D1AC816F7F44C748A74949F234E0600317B89113C1AD56A6C2E ::sig_r_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1834:: 
+83CC1CB2D51B2BDB55A0C8D9A70AD0AA0A04990D16C10AFA2FEC40608A1B2692 ::sig_s_d:: [DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1836:: 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1841:: sig_r_d_hex is C14F5EC656FB4D1AC816F7F44C748A74949F234E0600317B89113C1AD56A6C2E 
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1842:: sig_s_d_hex is 83CC1CB2D51B2BDB55A0C8D9A70AD0AA0A04990D16C10AFA2FEC40608A1B2692 
+[TIME] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1853: Proxy desig Execution Time 108 µs
+[DEBUG] ssl/statem/extensions_srvr.c:tls_construct_stoc_test_for_mdtls:1868:: SH Final data: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01 10 00 17 01 01 00 41 04 DB 02 06 41 7F DF 7B 
+FC F3 B4 B3 68 B5 BF EB 1C C9 B5 E9 ED 6E C6 36 
+9A 20 AB 09 A1 1D 74 AA 99 B3 48 0F F3 67 45 47 
+8F C9 0B 7B ED BF D0 0F 7D 4F 92 3B 99 2F 2B B3 
+23 B6 E1 E8 E5 D3 3B E5 CD 00 41 04 37 92 C6 9D 
+3B B4 E0 6D DB 9F CC 2B EE 89 51 1D 38 B0 65 DF 
+2C 7D 6C F2 EA AE D2 0D D1 B9 6E C3 4A 5E 9E 49 
+CC 7A D6 25 67 47 E2 EF 45 FA 40 D6 51 C0 0F 69 
+7E 74 95 52 F5 6E 48 DE BC 7B 94 61 00 40 43 31 
+34 46 35 45 43 36 35 36 46 42 34 44 31 41 43 38 
+31 36 46 37 46 34 34 43 37 34 38 41 37 34 39 34 
+39 46 32 33 34 45 30 36 30 30 33 31 37 42 38 39 
+31 31 33 43 31 41 44 35 36 41 36 43 32 45 00 40 
+38 33 43 43 31 43 42 32 44 35 31 42 32 42 44 42 
+35 35 41 30 43 38 44 39 41 37 30 41 44 30 41 41 
+30 41 30 34 39 39 30 44 31 36 43 31 30 41 46 41 
+32 46 45 43 34 30 36 30 38 41 31 42 32 36 39 32 
+
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4483:: SERVER'S CERTIFICATE in HEX data: 
+30 82 03 E9 30 82 02 D1 A0 03 02 01 02 02 09 00
+D9 29 CB 9B 45 A3 BB 94 30 0D 06 09 2A 86 48 86
+F7 0D 01 01 0B 05 00 30 81 9F 31 0B 30 09 06 03
+55 04 06 13 02 55 53 31 13 30 11 06 03 55 04 08
+0C 0A 43 61 6C 69 66 6F 72 6E 69 61 31 13 30 11
+06 03 55 04 07 0C 0A 43 61 6C 69 66 6F 72 6E 69
+61 31 16 30 14 06 03 55 04 0A 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 16 30 14 06 03 55
+04 0B 0C 0D 41 6C 69 63 65 20 43 41 20 4C 74 64
+2E 31 16 30 14 06 03 55 04 03 0C 0D 41 6C 69 63
+65 20 43 41 20 4C 74 64 2E 31 1E 30 1C 06 09 2A
+86 48 86 F7 0D 01 09 01 16 0F 63 61 40 63 61 5F
+61 6C 69 63 65 2E 63 6F 6D 30 1E 17 0D 31 38 30
+34 32 35 30 36 35 34 33 32 5A 17 0D 31 39 30 34
+32 35 30 36 35 34 33 32 5A 30 81 93 31 0B 30 09
+06 03 55 04 06 13 02 4B 52 31 0E 30 0C 06 03 55
+04 08 0C 05 53 65 6F 75 6C 31 0E 30 0C 06 03 55
+04 07 0C 05 53 65 6F 75 6C 31 1C 30 1A 06 03 55
+04 0A 0C 13 4D 69 64 64 6C 65 62 6F 78 2D 61 77
+61 72 65 20 54 4C 53 31 0C 30 0A 06 03 55 04 0B
+0C 03 53 4E 55 31 18 30 16 06 03 55 04 03 0C 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 31
+1E 30 1C 06 09 2A 86 48 86 F7 0D 01 09 01 16 0F
+6D 61 74 6C 73 40 6D 61 74 6C 73 2E 63 6F 6D 30
+82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01 01
+05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01 00
+D0 8B 41 23 FD 32 78 F8 78 39 CE 06 92 F8 ED 80
+35 BE 02 3E 56 4F 10 72 46 9E 53 F7 07 BC 86 C8
+DC 79 3D 25 96 DA 28 DC A0 78 1A F2 EC 95 6C A6
+73 C8 23 E4 14 9B FF 6A F4 A4 93 EF DA 0A 2A DE
+D4 16 3E 83 40 61 A6 22 3E 26 EE F8 95 85 25 BB
+27 AC 2F 65 82 D2 59 39 52 7B F0 A3 DD 17 8A 32
+06 88 1A 57 D0 83 F6 73 8F 07 DE A0 15 6E DE 54
+D6 68 CB 5B 4C 12 7D 87 37 EE 44 6E B8 84 B6 E8
+83 64 22 62 AE D2 D9 A9 D9 05 A5 D2 1E FF 19 3A
+1E 51 8F 10 00 44 46 56 21 C9 2E 52 61 3E BF 6D
+1E 3A C5 9D 14 43 F4 17 DF DD 7F 56 83 F0 F9 BC
+D8 A6 19 4B 41 8D 36 ED 69 1F EA E2 21 84 50 A0
+4B E0 D4 A0 A8 34 1A A9 D0 A8 3C 52 98 6C 6E D5
+AD B0 13 E3 3B AA 5C C4 21 9E 92 97 83 2C 32 29
+91 0C 1C 8D 10 DC 64 7A 1F F6 78 99 86 34 ED 4D
+37 72 DF 53 A3 6D 4D CF 17 3C 7D 75 DE 63 81 05
+02 03 01 00 01 A3 32 30 30 30 09 06 03 55 1D 13
+04 02 30 00 30 0B 06 03 55 1D 0F 04 04 03 02 05
+E0 30 16 06 03 55 1D 11 04 0F 30 0D 82 0B 2A 2E
+6D 61 74 6C 73 2E 63 6F 6D 30 0D 06 09 2A 86 48
+86 F7 0D 01 01 0B 05 00 03 82 01 01 00 17 68 CF
+75 15 BD 78 B7 DF EE C8 7E 04 4E 67 EA 69 D8 E3
+D3 6F D2 E7 B8 76 B6 93 60 7A 48 0A BA BD 4C 00
+AC E3 4A 61 DD 57 93 45 C2 81 A7 E4 33 C6 80 EB
+D9 CB E9 9B 97 37 D9 08 4E 03 B9 7D 13 CD B3 18
+81 88 0C EB 2B DF 37 73 83 7B 9E 67 05 6D 95 7E
+F9 B1 B6 DD CB BE 2A AF 4E 13 F5 E0 F1 CD 17 C7
+88 8D 95 60 62 4F 32 AA D5 BA E5 66 3E 84 5E A9
+17 EE 81 37 58 4F 97 41 9D 84 46 15 C5 E6 A7 D3
+A9 FD 0C 60 C1 5A F1 69 3A 24 B9 67 D3 04 0B C3
+DA B8 D4 7E 48 6C A6 9F 91 09 CB 9A 14 D0 81 17
+19 F3 B4 8C AB 0B E9 12 D8 B8 D9 38 EE F6 95 57
+95 74 1A 2B F6 ED C6 10 77 B4 E0 CE 46 20 1A B1
+27 4B 1D 90 30 30 84 7A CC C6 51 E6 5C 64 3A D7
+F8 85 56 1A 18 6E 39 60 6B F3 22 0C E9 D6 56 05
+B1 CA A4 2C 2B 97 57 98 3F B8 1D 57 BD 46 E8 6E
+CC AB 30 DC 71 FB CB D5 C6 7D 0A 2C 82 
+[DEBUG] ssl/statem/statem_srvr.c:tls_construct_server_certificate:4509:: Not Middlebox 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2773:: Server Random 
+04 DB 02 06 41 7F DF 7B FC F3 B4 B3 68 B5 BF EB 1C C9 B5 E9 ED 6E C6 36 9A 20 AB 09 A1 1D 74 AA 99 B3 48 0F F3 67 45 47 8F C9 0B 7B ED BF D0 0F 7D 4F 92 3B 99 2F 2B B3 23 B6 E1 E8 E5 D3 3B E5 CD 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2779:: Client Random 
+04 40 0D 3E B2 B2 51 95 8B 33 23 18 44 3B 16 D7 A4 8B 9E 4A 26 4B 08 60 A2 74 5F FC AD A7 3A 51 F9 57 1A BF 13 48 72 9B 07 3C E4 3E B5 A5 73 EA 4B 8A 51 DE 6F 48 5F 17 90 43 F7 3F 85 F3 3A 90 3D 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [0] 
+AF E8 AB 51 6A C4 73 E9 F1 7E CC 17 57 CD 4B 58 DE 39 4B 9E 57 B3 EF 4C D9 8C 65 D2 A7 71 24 E5 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [0] 
+2C EE 80 F0 75 11 EB 5E 0E 14 AD 47 AF 0D 8F 42 BF 06 17 6A AB 6E DD 55 A0 88 41 B4 3B F2 26 35 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2821:: SECRET OF [1] 
+61 0A BB B2 F3 AA 79 AF 4B 74 13 09 33 B7 B1 8D 28 5A B2 03 F3 09 17 84 9A 08 50 B8 79 88 FC 68 
+[INFO] ssl/statem/statem_srvr.c:generate_accountability_keys:2827:: Generated AccKey [1] 
+70 FC 0D FE 96 70 E3 BB 95 4E 95 64 FC 56 5E 53 7D 51 79 2A B4 40 35 80 E1 03 7B 2B 2F 95 F7 C5 
+[DEBUG] server.c:main:271:
+[mdtls] server.c:main:274: Msg from Middlebox: GET / HTTP/1.2
+Host: www.mdtls_thyun.com
+
+
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:915: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5947: Set SSL mb_info struct 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5973: Set SSL proxy_info struct 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:6007: make proxy desig key pair 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[TIME] ssl/ssl_lib.c:SSL_enable_mb:6075: Proxy dkey Execution Time 43 µs
+[DEBUG] server.c:main:266: ssl pointer :: 0x557128f794e0
+[DEBUG] server.c:main:271:
+[mdtls] server.c:main:274: Msg from Middlebox: GET / HTTP/1.2
+Host: www.mdtls_thyun.com
+
+
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:915: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5947: Set SSL mb_info struct 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5973: Set SSL proxy_info struct 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:6007: make proxy desig key pair 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[TIME] ssl/ssl_lib.c:SSL_enable_mb:6075: Proxy dkey Execution Time 45 µs
+[DEBUG] server.c:main:266: ssl pointer :: 0x557128f794e0
+[DEBUG] server.c:main:271:
+[mdtls] server.c:main:274: Msg from Middlebox: GET / HTTP/1.2
+Host: www.mdtls_thyun.com
+
+
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:915: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5947: Set SSL mb_info struct 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5973: Set SSL proxy_info struct 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:6007: make proxy desig key pair 
+[DEBUG] ssl/ssl_lib.c:make_keypair:5938:: Finished make keypair 
+[TIME] ssl/ssl_lib.c:SSL_enable_mb:6075: Proxy dkey Execution Time 42 µs
+[DEBUG] server.c:main:266: ssl pointer :: 0x557128f794e0
+[DEBUG] server.c:main:271:
+[mdtls] server.c:main:274: Msg from Middlebox: GET / HTTP/1.2
+Host: www.mdtls_thyun.com
+
+
+[DEBUG] ssl/ssl_lib.c:SSL_new:862: ctx->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:865: s->mb_enabled :: 1 
+[DEBUG] ssl/ssl_lib.c:SSL_new:915: Enabling Middlebox!! 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5947: Set SSL mb_info struct 
+[DEBUG] ssl/ssl_lib.c:SSL_enable_mb:5973: Set SSL proxy_info struct 
+[DEBUG] ssl/ssl_
